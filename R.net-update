@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -78,7 +78,7 @@
     {
       "Name": "VIVO/FRONT-5",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d13gzqg0mqxv9w.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
@@ -88,7 +88,7 @@
     {
       "Name": "VIVO/FRONT-6",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d13gzqg0mqxv9w.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
@@ -158,7 +158,7 @@
     {
       "Name": "CLARO-1🆕",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d13gzqg0mqxv9w.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
       "TlsIP": "108.139.143.90",
       "ProxyIP": "",
@@ -168,7 +168,7 @@
    { 
       "Name": "CLARO-2🆕",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d13gzqg0mqxv9w.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
       "TlsIP": "108.158.121.58",
       "ProxyIP": "",
@@ -178,7 +178,7 @@
     {
       "Name": "CLARO-3🆕",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d13gzqg0mqxv9w.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
       "TlsIP": "108.158.121.180",
       "ProxyIP": "",
