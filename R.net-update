@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -156,7 +156,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "CLARO-1🆕",
+      "Name": "CLARO-1",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
@@ -166,7 +166,7 @@
       "Info": "Tlsws"
     },
    { 
-      "Name": "CLARO-2🆕",
+      "Name": "CLARO-2",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
@@ -176,7 +176,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO-3🆕",
+      "Name": "CLARO-3",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
@@ -206,7 +206,7 @@
       "Info": "Ssl"
     },
    {
-      "Name": "CLARO-6🆕(FLEX)",
+      "Name": "CLARO-6(FLEX)",
       "FLAG": "claro",
       "Payload": "POST HTTP/1.1[crlf]Host:www.waze.com[crlf][crlf]",
       "SNI": "",
@@ -216,7 +216,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "CLARO-7🆕(PREZÃO)",
+      "Name": "CLARO-7(PREZÃO)",
       "FLAG": "claro",
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
