@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -129,7 +129,7 @@
     {
       "Name": "CLARO-1",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo5.r-neet.xyz;ricardo6.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo1.r-neet.xyz;ricardo2.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "45.60.199.194",
       "TlsIP": "108.139.143.90",
       "ProxyIP": "",
