@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -45,40 +45,11 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-   {
-      "Name": "VIVO/EASY-2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO/EASY-3",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.64.144.109",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
- {
-      "Name": "VIVO/EASY-4",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+
     {
-      "Name": "VIVO/FRONT-5",
+      "Name": "VIVO/FRONT-2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo1.r-neet.xyz;ricardo2.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo1.r-neet.xyz;ricardo2.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
@@ -86,9 +57,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO/FRONT-6",
+      "Name": "VIVO/FRONT-3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=doiq3t1o63z4j.cloudfront.net;ricardo1.r-neet.xyz;ricardo2.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo1.r-neet.xyz;ricardo2.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
