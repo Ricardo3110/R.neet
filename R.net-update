@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -87,7 +87,7 @@
       "Info": "Direct"
     },
  {
-      "Name": "TIM-5",
+      "Name": "TIM-2",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
       "SNI": "",
@@ -97,7 +97,7 @@
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-6",
+      "Name": "TIM-3",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
       "SNI": "",
