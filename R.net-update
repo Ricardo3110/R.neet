@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.14",
+  "Version": "1.0.15",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -36,7 +36,7 @@
     },
  
       {
-      "Name": "VIVO/EASY-1",
+      "Name": "VIVO/1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -45,9 +45,19 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+  {
+      "Name": "VIVO/2",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
 
     {
-      "Name": "VIVO/FRONT-2",
+      "Name": "VIVO/FRONT-3",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo9.r-neet.xyz;ricardo10.r-neet.xyz;ricardo11.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
@@ -57,7 +67,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO/FRONT-3",
+      "Name": "VIVO/FRONT-4",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo9.r-neet.xyz;ricardo10.r-neet.xyz;ricardo11.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
