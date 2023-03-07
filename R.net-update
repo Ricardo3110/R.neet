@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.19",
+  "Version": "1.0.20",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -59,7 +59,7 @@
     {
       "Name": "VIVO/FRONT-3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz;ricardo14.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
@@ -69,7 +69,7 @@
     {
       "Name": "VIVO/FRONT-4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz;ricardo14.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.7",
