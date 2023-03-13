@@ -62,7 +62,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz;ricardo14.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "18.64.207.2",
+      "ProxyIP": "18.64.207.88",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
