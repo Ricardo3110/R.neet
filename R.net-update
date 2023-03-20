@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.25",
+  "Version": "1.0.26",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -165,6 +165,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Ssl"
+    },
+{
+      "Name": "CLARO-7(FLEX)",
+      "FLAG": "claro",
+      "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "br.r-neet.xyz",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
