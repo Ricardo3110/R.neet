@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.23",
+  "Version": "1.0.24",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -133,7 +133,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.xyz",
-      "ProxyPort": "8799",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
