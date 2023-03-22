@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.26",
+  "Version": "1.0.27",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -62,7 +62,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz;ricardo14.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "18.64.207.88",
+      "ProxyIP": "65.8.248.16",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -72,7 +72,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=ricardo10.r-neet.xyz;ricardo11.r-neet.xyz;ricardo12.r-neet.xyz;ricardo13.r-neet.xyz;ricardo14.r-neet.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "18.64.207.9",
+      "ProxyIP": "18.64.207.2",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
