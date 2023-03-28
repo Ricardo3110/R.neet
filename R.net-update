@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.28",
+  "Version": "1.0.29",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -36,7 +36,7 @@
     },
  
       {
-      "Name": "VIVO-1",
+      "Name": "VIVO-1(cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -46,7 +46,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-2",
+      "Name": "VIVO-2(cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
       "SNI": "",
@@ -57,7 +57,7 @@
     },
 
     {
-      "Name": "VIVO-3",
+      "Name": "VIVO-3(cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -67,7 +67,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO-4",
+      "Name": "VIVO-4( cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
