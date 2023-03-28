@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.29",
+  "Version": "1.0.30",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -62,7 +62,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.22.26",
+      "ProxyIP": "64:ff9b::6812:171a",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
