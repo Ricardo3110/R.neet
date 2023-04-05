@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.36",
+  "Version": "1.0.37",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -92,9 +92,9 @@
       "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Proxy"
     },
  {
       "Name": "TIM-2",
