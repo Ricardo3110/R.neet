@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.38",
+  "Version": "1.0.39",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -14,8 +14,8 @@
       "Name": "BRASIL-VPN",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "209.14.70.114",
-"CheckUser": "http://209.14.70.114:9090/checkUser",
+      "ServerIP": "br.r-neet.online",
+"CheckUser": "http://br.r-neet.online:9090/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -38,7 +38,7 @@
       {
       "Name": "VIVO-1(cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -48,7 +48,7 @@
   {
       "Name": "VIVO-2(cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.53.111",
@@ -59,7 +59,7 @@
     {
       "Name": "VIVO-3(cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.23.26",
@@ -69,7 +69,7 @@
     {
       "Name": "VIVO-4( cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.23.26",
@@ -79,7 +79,7 @@
     {
       "Name": "VIVO-5(cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET- / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET- / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.31.94",
@@ -92,14 +92,14 @@
       "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
  {
       "Name": "TIM-2",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.53.111",
@@ -109,7 +109,7 @@
    {
       "Name": "TIM-3",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -119,7 +119,7 @@
    {
       "Name": "TIM-4",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: cdn.c6bank.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.xyz[lf]upgrade:w[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: cdn.c6bank.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
@@ -152,7 +152,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host:www.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br.r-neet.online",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -162,7 +162,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br.r-neet.online",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -192,7 +192,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br.r-neet.online",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
