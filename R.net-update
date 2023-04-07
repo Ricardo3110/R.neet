@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.37",
+  "Version": "1.0.38",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -79,7 +79,7 @@
     {
       "Name": "VIVO-5(cloudfront)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET- / HTTP/1.1[crlf]Host: br.r-neet.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.31.94",
