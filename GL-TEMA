@@ -1,6 +1,6 @@
 {"status": 200, "data": [
 {"user_id": 27, "value": "R.NET", "id": 37, "name": "app_name"},
-{"user_id": 27, "value": "https://telegra.ph/file/3b616316f22e5ad4bd8b6.png","id": 2163, "name": "app_background_image"},
+{"user_id": 27, "value": "https://i.imgur.com/3ziStwn.png","id": 2163, "name": "app_background_image"},
 {"user_id": 27, "value": "https://telegra.ph/file/47206b395b655f99eaee5.png", "id": 2386, "name": "app_logo"},
 {"user_id": 27, "value": "#00000000", "id": 2165, "name": "background_color"},
 {"user_id": 27, "value": "#99000000", "id": 39, "name": "card_color"},
