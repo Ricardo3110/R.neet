@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.46",
+  "Version": "1.0.47",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -64,7 +64,7 @@
       "TlsIP": "104.16.53.111",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO-4( cloudfront)",
@@ -74,7 +74,7 @@
       "TlsIP": "104.16.51.111",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO-5(EASY)",
