@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.47",
+  "Version": "1.0.48",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -60,17 +60,17 @@
       "Name": "VIVO-3(cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "support.deezer.com",
+      "SNI": "br.r-neet.online",
       "TlsIP": "104.16.53.111",
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO-4( cloudfront)",
+      "Name": "VIVO-4(cloudfront)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "Jobs.deezer.com",
+      "SNI": "br.r-neet.online",
       "TlsIP": "104.16.51.111",
       "ProxyIP": "",
       "ProxyPort": "80",
