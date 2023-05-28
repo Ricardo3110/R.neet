@@ -33,7 +33,7 @@
 "config_openvpn": "",
 "proxy_hostname": "104.16.51.111",
 "sort_order": 1,
-"id": 1,
+"id": 0,
 "proxy_port": 80,
 "category": {
 "name": "OPERADORA VIVO",
@@ -68,7 +68,7 @@
 "config_openvpn":"",
 "proxy_hostname":"104.16.51.111",
 "sort_order":"1",
-"id":"2",
+"id":"1",
 "proxy_port":"443",
 "category":{"name":"OPERADORA VIVO",
 "id":"1",
@@ -101,7 +101,7 @@
 "config_openvpn": "",
 "proxy_hostname": "99.84.31.110",
 "sort_order": 1,
-"id": 3,
+"id": 2,
 "proxy_port": 80,
 "category": {
 "name": "OPERADORA VIVO",
@@ -136,7 +136,7 @@
 "config_openvpn": "",
 "proxy_hostname": "104.16.51.111",
 "sort_order": 1,
-"id": 0,
+"id": 3,
 "proxy_port": 80,
 "category": {
 "name": "OPERADORA VIVO",
