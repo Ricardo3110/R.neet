@@ -201,7 +201,7 @@
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": "",
-"config_mode": "ssl_proxy",
+"config_mode": "ssh_proxy",
 "url_check_user": "Seu checkuser",
 "config_openvpn": "",
 "proxy_hostname": "104.16.51.111",
