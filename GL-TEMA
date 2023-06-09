@@ -1,5 +1,5 @@
 {"status": 200, "data": [
-{"user_id": 27, "value": "BEM VINDOS", "id": 37, "name": "app_name"},
+{"user_id": 27, "value": "BEM VINDOS (VERSAO:1)", "id": 37, "name": "app_name"},
 {"user_id": 27, "value": "https://i.imgur.com/3ziStwn.png","id": 2163, "name": "app_background_image"},
 {"user_id": 27, "value": "", "id": 2386, "name": "app_logo"},
 {"user_id": 27, "value": "#00000000", "id": 2165, "name": "background_color"},
