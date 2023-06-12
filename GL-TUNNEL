@@ -314,7 +314,7 @@
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": ".web.whatsapp.com",
-"config_mode": "ssl",
+"config_mode": "ssh_ssl",
 "url_check_user": "http://209.14.70.114:5000",
 "config_openvpn": "",
 "proxy_hostname": "br.r-neet.online",
