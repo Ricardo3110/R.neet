@@ -113,7 +113,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
    {
