@@ -224,7 +224,7 @@
 "server_hostname": "br.r-neet.online",
 "description": "PROXY-SOCKS",
 "username": "",
-"server_port": 8080,
+"server_port": 80,
 "icon_image": "https://i.imgur.com/bhVPnn2.png",
 "user_id": 4,
 "password": "",
@@ -242,7 +242,7 @@
 "proxy_hostname": "br.r-neet.online",
 "sort_order": 1,
 "id": 4,
-"proxy_port": 8080,
+"proxy_port": 80,
 "category": {
 "name": "OPERADORA TIM",
 "id": 2,
