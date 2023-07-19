@@ -12,8 +12,8 @@
 
 {
 "name": "🟣VIVO🟣-1",
-"SSH": "104.18.6.41",
-"server_hostname": "104.18.6.41",
+"SSH": "104.18.7.41",
+"server_hostname": "104.18.7.41",
 "description": "Web-Sercurity (NECESSARIO AGUARDA 15 SEGUNDOS)",
 "username": "",
 "server_port": 80,
@@ -31,7 +31,7 @@
 "config_mode": "ssh_proxy",
 "url_check_user": "http://209.14.70.114:5000",
 "config_openvpn": "",
-"proxy_hostname": "104.18.6.41",
+"proxy_hostname": "104.18.7.41",
 "sort_order": 1,
 "id": 0,
 "proxy_port": 80,
@@ -66,7 +66,7 @@
 "config_mode":"ssh_proxy",
 "url_check_user":"http://209.14.70.114:5000",
 "config_openvpn":"",
-"proxy_hostname":"172.64.144.109",
+"proxy_hostname":"172.64.144.109ok",
 "sort_order":"1",
 "id":"1",
 "proxy_port":"80",
