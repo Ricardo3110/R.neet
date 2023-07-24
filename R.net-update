@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.54",
+  "Version": "1.0.55",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -38,20 +38,20 @@
       {
       "Name": "VIVO-1(UPDATE)",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET wss://br.r-neet.online/ HTTP/1.1[lf]Host: br.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2f67na1xayp5c.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyIP": "108.139.95.90",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
   {
       "Name": "VIVO-2(UPDATE)",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET wss://br.r-neet.online/ HTTP/1.1[lf]Host: br.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2f67na1xayp5c.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf],
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "108.139.95.57",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
