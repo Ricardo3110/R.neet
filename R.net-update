@@ -57,14 +57,14 @@
     },
 
     {
-      "Name": "VIVO-3(cloudfront)",
+      "Name": "VIVO-3(WEBSERCURITY)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br.r-neet.online",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
+      "Payload": "[delay_split][lf]GET wss://[host]/ HTTP/1.1[lf]Host: [host]\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "br.r-neet.online",
       "ProxyPort": "80",
-      "Info": "Tlsws"
+      "Info": "Direct"
     },
     {
       "Name": "VIVO-4(cloudfront)",
