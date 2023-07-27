@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.62",
+  "Version": "1.0.63",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -87,13 +87,13 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO-6(EASY)",
+      "Name": "VIVO-5(WEBSERCURITY)",
       "FLAG": "vivo",
-      "Payload": "GET- / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.40.33",
-      "ProxyPort": "80",
+      "ProxyIP": "br.r-neet.online",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
