@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.65",
+  "Version": "1.0.66",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -89,7 +89,7 @@
 {
       "Name": "VIVO-TESTE",
       "FLAG": "vivo",
-      "Payload": "[split]POLL HTTP/1.1 Host: https://4z9giyi2c1.execute-api.us-west-2.amazonaws.com\n",
+      "Payload": "[split]POLL HTTP/1.1 Host: https://4z9giyi2c1.execute-api.us-west-2.amazonaws.com[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
