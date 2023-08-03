@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.68",
+  "Version": "1.0.69",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -63,7 +63,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
@@ -73,7 +73,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
@@ -83,7 +83,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
@@ -93,7 +93,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
    {
