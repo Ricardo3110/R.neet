@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.69",
+  "Version": "1.0.70",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -38,7 +38,7 @@
       {
       "Name": "VIVO-1(UPDATE)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3pwrth6o6y5h2.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: djqqzxg2fivy7.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.95.90",
@@ -48,7 +48,7 @@
   {
       "Name": "VIVO-2(UPDATE)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3pwrth6o6y5h2.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: djqqzxg2fivy7.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.95.57",
