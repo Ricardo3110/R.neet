@@ -115,7 +115,7 @@
 },
 {
 "name": "🟣VIVO🟣-4",
-"SSH": "108.158.122.48",
+"SSH": "52.85.213.8",
 "server_hostname": "108.158.122.48",
 "description": "CLOUDFRONT",
 "username": "",
@@ -134,7 +134,7 @@
 "config_mode": "ssh_proxy",
 "url_check_user": "http://209.14.70.114:5000",
 "config_openvpn": "",
-"proxy_hostname": "108.158.122.48",
+"proxy_hostname": "52.85.213.8",
 "sort_order": 1,
 "id": 3,
 "proxy_port": 80,
