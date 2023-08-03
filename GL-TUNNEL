@@ -151,7 +151,7 @@
 {
 "name": "🟣VIVO🟣-5",
 "SSH": "65.8.214.96",
-"server_hostname": "65.8.214.56",
+"server_hostname": "65.8.214.96",
 "description": "CLOUDFRONT",
 "username": "",
 "server_port": 80,
@@ -186,7 +186,7 @@
 {
 "name": "🟣VIVO🟣-6",
 "SSH": "",
-"server_hostname": "cdnssl.clicktale.net",
+"server_hostname": "143.204.23.6",
 "description": "CLOUDFRONT",
 "username": "",
 "server_port": 80,
@@ -204,7 +204,7 @@
 "config_mode": "ssh_proxy",
 "url_check_user": "http://209.14.70.114:5000",
 "config_openvpn": "",
-"proxy_hostname": "cdnssl.clicktale.net",
+"proxy_hostname": "143.204.23.6",
 "sort_order": 1,
 "id": 14,
 "proxy_port": 80,
