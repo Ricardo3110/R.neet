@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.75",
+  "Version": "1.0.76",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -82,8 +82,8 @@
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyIP": "sercurity.r-neet.online",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
  {
@@ -92,8 +92,8 @@
       "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
-      "ProxyPort": "8080",
+      "ProxyIP": "sercurity.r-neet.online",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
