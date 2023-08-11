@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.76",
+  "Version": "1.0.77",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -38,7 +38,7 @@
       {
       "Name": "VIVO-1",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d68wpu2eqob6k.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d20ief4cz6i6no.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "143.204.23.6",
@@ -48,7 +48,7 @@
   {
       "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d68wpu2eqob6k.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d20ief4cz6i6no.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "65.8.214.96",
@@ -59,7 +59,7 @@
     {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d68wpu2eqob6k.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d20ief4cz6i6no.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.85.213.8",
@@ -69,7 +69,7 @@
     {
       "Name": "VIVO-4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d68wpu2eqob6k.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d20ief4cz6i6no.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "99.84.31.10",
@@ -102,7 +102,7 @@
       "Payload": "[split]POLL HTTP/1.1 Host: https://4z9giyi2c1.execute-api.us-west-2.amazonaws.com[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "sercurity.r-neet.online",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
