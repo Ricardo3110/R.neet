@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.78",
+  "Version": "1.0.79",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -119,7 +119,7 @@
  {
       "Name": "TIM-2",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[lf]Host: saas-h.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.53.111",
@@ -129,7 +129,7 @@
    {
       "Name": "TIM-3",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: jobs.deezer.com[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: saas-h.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -139,7 +139,7 @@
    {
       "Name": "TIM-4",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: cdn.c6bank.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: saas-h.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.r-neet.online[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
