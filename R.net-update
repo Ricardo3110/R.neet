@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.95",
+  "Version": "1.0.96",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -127,7 +127,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9(WEBSERCURITY)",
+      "Name": "VIVO-10(WEBSERCURITY)",
       "FLAG": "vivo",
       "Payload": "[split][raw][ua] POLL / HTTP/1.1\n\r\n",
       "SNI": "",
