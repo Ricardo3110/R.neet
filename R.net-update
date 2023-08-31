@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.02",
+  "Version": "1.1.03",
   "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -34,105 +34,43 @@
       "ProxyPort": "",
       "Info": "POR FAVOR SELECIONE AQUI A SUA OPERADORA"
     },
- 
-      {
-      "Name": "VIVO-1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "108.139.113.53",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-  {
-      "Name": "VIVO-2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.227.126.39",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
     {
-      "Name": "VIVO-3",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "18.64.207.114",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO-4",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "108.139.113.28",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO-5(WEBSERCURITY)",
+      "Name": "VIVO-1(WEBSERCURITY)",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
-      "ProxyPort": "80",
+      "ProxyIP": "br.r-neet.cloud",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-6(WEBSERCURITY)",
+      "Name": "VIVO-2(WEBSERCURITY)",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO-7",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "52.84.83.91",
-      "ProxyPort": "80",
+      "ProxyIP": "br.r-neet.cloud",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-8(WEBSERCURITY)",
+      "Name": "VIVO-3(WEBSERCURITY)",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
-      "ProxyPort": "80",
+      "ProxyIP": "br.r-neet.cloud",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3eg7tk7iiahec.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "99.84.31.10",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO-10(WEBSERCURITY)",
+      "Name": "VIVO-4(WEBSERCURITY)",
       "FLAG": "vivo",
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
+      "ProxyIP": "br.r-neet.cloud",
       "ProxyPort": "80",
       "Info": "Direct"
     },
