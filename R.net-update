@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.03",
-  "ReleaseNotes": "⚠️FORAM FEITAS MELHORIAS NAS CONFIGURAÇÕES COM NOME UPDATE⚠️",
+  "Version": "1.1.04",
+  "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
   "EmailFeedback": "ricardo.guimaraes1986@gmail.com",
@@ -35,44 +35,44 @@
       "Info": "POR FAVOR SELECIONE AQUI A SUA OPERADORA"
     },
     {
-      "Name": "VIVO-1(WEBSERCURITY)",
+      "Name": "VIVO-1",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.cloud",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2(WEBSERCURITY)",
+      "Name": "VIVO-2",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.cloud",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-3(WEBSERCURITY)",
+      "Name": "VIVO-3",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.cloud",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-4(WEBSERCURITY)",
+      "Name": "VIVO-4",
       "FLAG": "vivo",
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.cloud",
-      "ProxyPort": "80",
-      "Info": "Direct"
+      "ProxyIP": "209.14.70.114",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
     },
    {
       "Name": "TIM-1(alguns ddd ✈️)",
