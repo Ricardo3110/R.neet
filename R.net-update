@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.05",
+  "Version": "1.1.06",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -60,8 +60,8 @@
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
-      "ProxyPort": "8080",
+      "ProxyIP": "149.78.185.179",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
@@ -70,8 +70,8 @@
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
-      "ProxyPort": "8080",
+      "ProxyIP": "149.78.185.179",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
    {
