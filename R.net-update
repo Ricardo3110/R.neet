@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.04",
+  "Version": "1.1.05",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -15,7 +15,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.r-neet.online",
-"CheckUser": "http://br.r-neet.online:9090/checkUser",
+"CheckUser": "http://209.14.70.114:9090/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
