@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.08",
+  "Version": "1.1.09",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -54,8 +54,18 @@
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
-  {
+{
       "Name": "VIVO-3",
+      "FLAG": "vivo",
+      "Payload": "[split][lf]POST /[lf]Host: [lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.114",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+  {
+      "Name": "VIVO-4",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
@@ -65,9 +75,19 @@
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-4",
+      "Name": "VIVO-5",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "149.78.185.179",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-6",
+      "FLAG": "vivo",
+      "Payload": "CONNECT 127.0.0.1:80[instant_split]GET www.veek.com.br HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.185.179",
