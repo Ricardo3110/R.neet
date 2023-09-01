@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.09",
+  "Version": "1.1.10",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -57,7 +57,7 @@
 {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "[split][lf]POST /[lf]Host: [lf]",
+      "Payload": "[split][lf]GET /[lf]Host: ipv4.google.com[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
@@ -87,7 +87,7 @@
 {
       "Name": "VIVO-6",
       "FLAG": "vivo",
-      "Payload": "CONNECT 127.0.0.1:80[instant_split]GET www.veek.com.br HTTP/1.1[crlf][crlf]",
+      "Payload": "[delay_split][lf]GET wss://br.r-neet.online/ HTTP/1.1[lf]Host: br.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.185.179",
