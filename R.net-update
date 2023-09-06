@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.11",
+  "Version": "1.1.12",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -70,7 +70,7 @@
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -80,7 +80,7 @@
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -90,7 +90,7 @@
       "Payload": "[delay_split][lf]GET wss://br.r-neet.online/ HTTP/1.1[lf]Host: br.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.179",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
