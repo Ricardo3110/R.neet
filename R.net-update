@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.12",
+  "Version": "1.1.13",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -91,6 +91,16 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-7( EASY)",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Upgrade: WebSocketExtensions[crlf]Connection: w[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.150.8",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
