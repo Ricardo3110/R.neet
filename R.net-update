@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.15",
+  "Version": "1.1.16",
   "ReleaseNotes": "⚠️ CONEXÃO WEBSERCURITY ⚠️",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -137,7 +137,7 @@
  {
       "Name": "TIM-2",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: r-net.conexoes.online[lf]upgrade:w[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.53.111",
@@ -147,7 +147,7 @@
    {
       "Name": "TIM-3",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: r-net.conexoes.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -157,7 +157,7 @@
    {
       "Name": "TIM-4",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: r-net.conexoes.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
@@ -167,7 +167,7 @@
  {
       "Name": "TIM-5",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: r-net.conexoes.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: mobile.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.98.70",
