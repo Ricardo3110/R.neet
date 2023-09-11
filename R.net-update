@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.20",
+  "Version": "1.1.21",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -133,6 +133,16 @@ VIVO EASY🆕
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.239.25",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-11( EASY-FRONT)",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: a94z0766h03l401c75.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "108.139.113.117",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
