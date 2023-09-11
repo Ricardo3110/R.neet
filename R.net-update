@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.24",
+  "Version": "1.1.25",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -147,7 +147,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-11( EASY-FRONT)",
+      "Name": "VIVO-12( EASY-FRONT)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: a94z0766h03l401c75.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
