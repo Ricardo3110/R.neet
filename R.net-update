@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.26",
+  "Version": "1.1.27",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -59,7 +59,7 @@ VIVO EASY🆕
 {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "[split][lf]GET /[lf]Host: ipv4.google.com[lf]",
+      "Payload": "CONNECT 127.0.0.1:80[instant_split]GET www.veek.com.br HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
