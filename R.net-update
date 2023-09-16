@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.28",
+  "Version": "1.1.29",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -16,7 +16,7 @@ VIVO EASY🆕
       "Name": "BRASIL-VPN",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br.r-neet.online",
+      "ServerIP": "br1.r-neet.cloud",
 "CheckUser": "http://209.14.70.114:9090/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
@@ -252,7 +252,7 @@ VIVO EASY🆕
       "Payload": "POST HTTP/1.1[crlf]Host:www.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -262,7 +262,7 @@ VIVO EASY🆕
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -292,7 +292,7 @@ VIVO EASY🆕
       "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -302,7 +302,7 @@ VIVO EASY🆕
       "Payload": "POST HTTP/1.1[crlf]Host:www.google.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.online",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
