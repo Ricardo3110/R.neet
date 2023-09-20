@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.30",
+  "Version": "1.1.31",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -59,7 +59,7 @@ VIVO EASY🆕
 {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "[split][lf]ACL / HTTP/1.1[crlf][crlf]",
+      "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
