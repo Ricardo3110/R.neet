@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.31",
+  "Version": "1.1.32",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -132,7 +132,7 @@ VIVO EASY🆕
       "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Upgrade: WebSocketExtensions[crlf]Connection: w[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.17.239.25",
+      "ProxyIP": "104.16.53.111",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
