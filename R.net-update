@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.33",
+  "Version": "1.1.34",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -249,7 +249,7 @@ VIVO EASY🆕
    {
       "Name": "CLARO-3(FLEX)",
       "FLAG": "claro",
-      "Payload": "POST HTTP/1.1[crlf]Host:www.waze.com[crlf][crlf]",
+      "Payload": "POST HTTP/1.1[crlf]Host:w.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "br1.r-neet.cloud",
