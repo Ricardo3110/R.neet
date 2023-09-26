@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.32",
+  "Version": "1.1.33",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -49,7 +49,7 @@ VIVO EASY🆕
  {
       "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET wss://br.r-neet.online/ HTTP/1.1[lf]Host: br.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "[split][lf]ACL / HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
