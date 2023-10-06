@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.41",
+  "Version": "1.1.42",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -49,11 +49,11 @@ VIVO EASY🆕
  {
       "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "[split][lf]ACL / HTTP/1.1 [crlf][crlf]",
+      "Payload": "[split][lf]ACL / HTTP/1.1[crlf][split]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
