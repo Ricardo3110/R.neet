@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.44",
+  "Version": "1.1.45",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -167,7 +167,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-1",
+      "Name": "TIM-1 (EXPIRADO)",
       "FLAG": "tim",
       "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
@@ -177,7 +177,7 @@ VIVO EASY🆕
       "Info": "Direct"
     },
  {
-      "Name": "TIM-2",
+      "Name": "TIM-2 (EXPIRADO)",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]",
       "SNI": "",
