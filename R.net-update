@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.51",
+  "Version": "1.1.53",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -192,14 +192,14 @@ VIVO EASY🆕
       "Payload": "ACL / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
+      "ProxyIP": "104.18.28.182",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
    {
       "Name": "TIM-4",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -209,7 +209,7 @@ VIVO EASY🆕
    {
       "Name": "TIM-5",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
@@ -219,7 +219,7 @@ VIVO EASY🆕
  {
       "Name": "TIM-6",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.98.70",
@@ -229,19 +229,40 @@ VIVO EASY🆕
 {
       "Name": "TIM-7",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host:[app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.154.143",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },{
+    },
+{
       "Name": "TIM-8",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "TIM-9",
+      "FLAG": "tim",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.33.113",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "TIM-10",
+      "FLAG": "tim",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.67.188.168",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
