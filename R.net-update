@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.55",
+  "Version": "1.1.56",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -187,7 +187,7 @@ VIVO EASY🆕
       "Info": "Direct"
     },
  {
-      "Name": "TIM-3",
+      "Name": "TIM-3 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -197,7 +197,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-4",
+      "Name": "TIM-4 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -207,7 +207,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-5",
+      "Name": "TIM-5 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -217,7 +217,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
  {
-      "Name": "TIM-6",
+      "Name": "TIM-6 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -227,7 +227,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-7",
+      "Name": "TIM-7 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -237,7 +237,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-8",
+      "Name": "TIM-8 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -247,7 +247,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-9",
+      "Name": "TIM-9 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -257,7 +257,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-10",
+      "Name": "TIM-10 (VALIDADE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
