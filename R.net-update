@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.54",
+  "Version": "1.1.55",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -262,7 +262,7 @@ VIVO EASY🆕
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.67.188.168",
+      "ProxyIP": "104.17.64.225",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
