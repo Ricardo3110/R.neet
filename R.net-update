@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.56",
+  "Version": "1.1.57",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -139,7 +139,7 @@ VIVO EASY🆕
 {
       "Name": "VIVO-11( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t35641j48b638b999f.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br2.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.113.26",
@@ -149,7 +149,7 @@ VIVO EASY🆕
 {
       "Name": "VIVO-12( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t35641j48b638b999f.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br2.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.95.2",
@@ -159,7 +159,7 @@ VIVO EASY🆕
 {
       "Name": "VIVO-13( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t35641j48b638b999f.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br2.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.9",
