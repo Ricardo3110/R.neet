@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.53",
+  "Version": "1.1.54",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -189,7 +189,7 @@ VIVO EASY🆕
  {
       "Name": "TIM-3",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: mobile.c6bank.app[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]upgrade:w[lf][lf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.28.182",
