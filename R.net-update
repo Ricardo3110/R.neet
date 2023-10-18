@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.48",
+  "Version": "1.1.49",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -235,7 +235,17 @@ VIVO EASY🆕
       "ProxyIP": "172.64.154.143",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },{
+      "Name": "TIM-8",
+      "FLAG": "tim",
+      "Payload": "ACL wss://seudominio HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
+
     {
       "Name": "CLARO-1(PREZÃO)",
       "FLAG": "claro",
