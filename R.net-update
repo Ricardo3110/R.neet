@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.57",
+  "Version": "1.1.58",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -37,7 +37,7 @@ VIVO EASY🆕
       "Info": "POR FAVOR SELECIONE AQUI A SUA OPERADORA"
     },
     {
-      "Name": "VIVO-1",
+      "Name": "VIVO-1 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
@@ -47,7 +47,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2",
+      "Name": "VIVO-2 (SERCURITY)",
       "FLAG": "vivo",
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf][split]",
       "SNI": "",
@@ -57,7 +57,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-3",
+      "Name": "VIVO-3 (SERCURITY)",
       "FLAG": "vivo",
       "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
       "SNI": "",
@@ -67,7 +67,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-4",
+      "Name": "VIVO-4 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
@@ -77,7 +77,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
   {
-      "Name": "VIVO-5",
+      "Name": "VIVO-5 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
@@ -87,7 +87,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-6",
+      "Name": "VIVO-6 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]GET wss://br1.r-neet.online/ HTTP/1.1[lf]Host: br1.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br1.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
