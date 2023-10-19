@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.58",
+  "Version": "1.1.59",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -17,7 +17,7 @@ VIVO EASY🆕
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "209.14.70.114",
-"CheckUser": "http://209.14.70.114:9090/checkUser",
+"CheckUser": "https://gdhost.space/api/br1.r-neet.cloud:9090/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
