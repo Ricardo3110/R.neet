@@ -17,7 +17,7 @@ VIVO EASY🆕
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "209.14.70.114",
-"CheckUser": "https://gdhost.space/api/br1.r-neet.cloud:9090/checkUser",
+"CheckUser": "http://gdhost.space/api/br1.r-neet.cloud:9090/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
