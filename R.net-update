@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.63",
+  "Version": "1.1.64",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -279,7 +279,7 @@ VIVO EASY🆕
 {
       "Name": "TIM-12 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: br2.r-neet.cloud[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br3.r-neet.cloud[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.137.12",
@@ -289,7 +289,7 @@ VIVO EASY🆕
 {
       "Name": "TIM-13 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: br2.r-neet.cloud[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br3.r-neet.cloud[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "18.161.200.54",
