@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.66",
+  "Version": "1.1.67",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -167,7 +167,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-14 (ngnix)",
+      "Name": "VIVO-14 (NGNIX)",
       "FLAG": "vivo",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
