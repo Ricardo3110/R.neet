@@ -304,7 +304,7 @@
 "category_id":"1",
 "v2ray_uuid":"",
 "primary_dns_server":"8.8.4.4",
-"payload":"[delay_split][lf]GET wss://https://www.vivo.com.br@https://portalrecarga.vivo.com.br/recarga/home/?/ HTTP/1.1[lf]Host: https://www.vivo.com.br@https://portalrecarga.vivo.com.br/recarga/home/?\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: https://www.vivo.com.br@https://portalrecarga.vivo.com.br/recarga/home/?[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+"payload":"ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
 "status":"ACTIVE",
 "secondary_dns_server":"8.8.8.8",
 "sni":"br.r-neet.online",
