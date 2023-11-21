@@ -320,7 +320,7 @@ VIVO EASY🆕
       "Name": "CLARO-1(PREZÃO)",
       "FLAG": "claro",
       "Payload": "",
-      "SNI": ".web.whatsapp.com",
+      "SNI": "web.whatsapp.plus",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
