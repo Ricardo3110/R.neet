@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.70",
+  "Version": "1.1.71",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -317,14 +317,14 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
    {
-      "Name": "CLARO-1(PREZÃO)",
+      "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.plus",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
+      "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
+      "ProxyIP": "br1.e-neet.cloud",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
    {
       "Name": "CLARO-2(FLEX)",
