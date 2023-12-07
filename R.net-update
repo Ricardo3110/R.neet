@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.75",
+  "Version": "1.1.76",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -384,6 +384,16 @@ VIVO EASY🆕
       "TlsIP": "",
       "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "CLARO-8 NGNIX 🆕",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host:w.waze.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf] [crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "br1.r-neet.cloud",
+      "ProxyPort": "8799",
       "Info": "Proxy"
     },
   {
