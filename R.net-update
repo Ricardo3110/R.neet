@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.74",
+  "Version": "1.1.75",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -177,12 +177,12 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-15 (NGNIX)",
+      "Name": "VIVO-15 (FLARE)",
       "FLAG": "vivo",
-      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.21.59.190",
+      "ProxyIP": "104.16.241.118",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
