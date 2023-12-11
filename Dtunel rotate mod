@@ -1,8 +1,8 @@
 [
     {
         "autenticação": {
-            "senha": "",
-            "nome de usuário": "",
+            "senha": null,
+            "nome de usuário": nulo,
             "v2ray_uuid": nulo
         },
         "categoria": {
