@@ -38,7 +38,7 @@
         },
         "server": {
             "host": "br1.r-neet.cloud",
-            "port": 80
+            "port": 8080
         },
         "sorter": 1,
         "status": "ACTIVE",
