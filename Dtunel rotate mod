@@ -1,0 +1,308 @@
+[
+    {
+        "autenticação": {
+            "senha": "",
+            "nome de usuário": "",
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#80BB1CD4",
+            "criado_em": "2023-07-24 16:38:13",
+            "id": 5467,
+            "nome": "CATEGORIA 1 EXEMPLO MOD",
+            "classificador": 3,
+            "status": "ATIVO",
+            "atualizado_em": "2023-07-24 16:38:13",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5467,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Conexão: Atualização[crlf]Atualização: Websocket[crlf][crlf]",
+            "sni": "gedoc.vivo.com.br#www.alura.com.br#support.deezer.com#fitality.gr"
+        },
+        "config_v2ray": nulo,
+        "criado_em": "2023-07-24 18:20:49",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/MkwFH27/DTphgswir8.png",
+        "id": 67073,
+        "modo": "SSH_PROXY",
+        "nome": "VIVO 1 ➜ CONFIG 1 ➜ EASY",
+        "proxy": {
+            "host": "104.17.74.206#104.17.72.206#104.17.71.206#104.17.70.206#104.19.241.93#104.18.28.182#104.19.239.25#104.18.33.113#172.6 4.154.143#104.18.99.70#104.16.53.111#172.67 .188.168#104.17.64.225",
+            "porta": 80
+        },
+        "servidor": {
+            "host": "br1.r-neet.cloud",
+            "porta": 80
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.2",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:05:46",
+        "url_check_user": "http://br:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    },
+    {
+        "autenticação": {
+            "senha": nulo,
+            "nome de usuário": nulo,
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#80BB1CD4",
+            "criado_em": "2023-07-24 16:38:13",
+            "id": 5467,
+            "nome": "CATEGORIA 1 EXEMPLO MOD",
+            "classificador": 3,
+            "status": "ATIVO",
+            "atualizado_em": "2023-07-24 16:38:13",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5467,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "payload": "GET wss://henriquex.com.br/ HTTP/1.1[lf]Host: henriquex.com.br[lf] Conexão: Upgrade[lf]Upgrade: ws[lf][lf]",
+            "sni": "henriquex.com.br"
+        },
+        "config_v2ray": nulo,
+        "criado_em": "2023-07-24 18:20:54",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/MkwFH27/DTphgswir8.png",
+        "id": 67074,
+        "modo": "SSL_PROXY",
+        "nome": "VIVO 2 ➜ CONFIG 2 ➜ EASY",
+        "proxy": {
+            "host": "104.18.7.41",
+            "porta": 443
+        },
+        "servidor": {
+            "host": "104.18.7.41",
+            "porta": 443
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.3",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:06:06",
+        "url_check_user": "http://186.233.118.151:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    },
+    {
+        "autenticação": {
+            "senha": nulo,
+            "nome de usuário": nulo,
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#80FF0000",
+            "criado_em": "2023-07-24 18:41:51",
+            "id": 5470,
+            "nome": "CATEGORIA 2 EXEMPLO MOD",
+            "classificador": 7,
+            "status": "ATIVO",
+            "atualizado_em": "30/07/2023 17:48:50",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5470,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "carga útil": nulo,
+            "sni": "media.whatsapp.net"
+        },
+        "config_v2ray": nulo,
+        "criado_em": "2023/07/24 18:43:27",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/mCfrFfD/DT44ag1icq.png",
+        "id": 67091,
+        "modo": "SSL_DIRECT",
+        "nome": "CLARO 1 ➜ CONFIG 1 ➜ PREZÃO",
+        "proxy": {
+            "host": nulo,
+            "porta": nulo
+        },
+        "servidor": {
+            "host": "henriquex.com.br",
+            "porta": 443
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.3",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:13:49",
+        "url_check_user": "http://186.233.118.151:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    },
+    {
+        "autenticação": {
+            "senha": nulo,
+            "nome de usuário": nulo,
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#80FF0000",
+            "criado_em": "2023-07-24 18:41:51",
+            "id": 5470,
+            "nome": "CATEGORIA 2 EXEMPLO MOD",
+            "classificador": 7,
+            "status": "ATIVO",
+            "atualizado_em": "30/07/2023 17:48:50",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5470,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "carga útil": nulo,
+            "sni": ".web.whatsapp.com"
+        },
+        "config_v2ray": nulo,
+        "criado_em": "2023-07-24 18:44:14",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/mCfrFfD/DT44ag1icq.png",
+        "id": 67093,
+        "modo": "SSL_DIRECT",
+        "nome": "CLARO 2 ➜ CONFIG 2 ➜ PREZÃO",
+        "proxy": {
+            "host": nulo,
+            "porta": nulo
+        },
+        "servidor": {
+            "host": "henriquex.com.br",
+            "porta": 443
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.3",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:14:06",
+        "url_check_user": "http://186.233.118.151:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    },
+    {
+        "autenticação": {
+            "senha": nulo,
+            "nome de usuário": nulo,
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#800022FF",
+            "criado_em": "30/07/2023 17:49:04",
+            "id": 5608,
+            "nome": "CATEGORIA 3 EXEMPLO MOD",
+            "classificador": 5,
+            "status": "ATIVO",
+            "atualizado_em": "30/07/2023 17:49:18",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5608,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "carga útil": "HTTP/ [crlf][crlf]|",
+            "sni": nulo
+        },
+        "config_v2ray": nulo,
+        "criado_em": "30/07/2023 17:51:58",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/zR5Cv2R/DTel1q-06m.png",
+        "id": 69757,
+        "modo": "SSH_DIRECT",
+        "nome": "TIM 1 ➜ CONFIG 1 ➜ EXP",
+        "proxy": {
+            "host": nulo,
+            "porta": nulo
+        },
+        "servidor": {
+            "host": "henriquex.com.br",
+            "porta": 80
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.2",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:21:14",
+        "url_check_user": "http://186.233.118.151:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    },
+    {
+        "autenticação": {
+            "senha": nulo,
+            "nome de usuário": nulo,
+            "v2ray_uuid": nulo
+        },
+        "categoria": {
+            "cor": "#800022FF",
+            "criado_em": "30/07/2023 17:49:04",
+            "id": 5608,
+            "nome": "CATEGORIA 3 EXEMPLO MOD",
+            "classificador": 5,
+            "status": "ATIVO",
+            "atualizado_em": "30/07/2023 17:49:18",
+            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+        },
+        "categoria_id": 5608,
+        "config_openvpn": nulo,
+        "config_payload": {
+            "carga útil": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace .com;mobile.google.com;1.0.0.5[crlf]",
+            "sni": nulo
+        },
+        "config_v2ray": nulo,
+        "criado_em": "30/07/2023 17:55:21",
+        "description": "Config exemplo mod",
+        "Servidor dns": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "ícone": "https://i.ibb.co/zR5Cv2R/DTel1q-06m.png",
+        "id": 69759,
+        "modo": "SSH_DIRECT",
+        "nome": "TIM 2 ➜ CONFIG 2 ➜ EXP",
+        "proxy": {
+            "host": nulo,
+            "porta": nulo
+        },
+        "servidor": {
+            "host": "http://186.233.118.151:5000",
+            "porta": 80
+        },
+        "classificador": 1,
+        "status": "ATIVO",
+        "tls_versão": "TLSv1.2",
+        "udp_portas": [
+            7300
+        ],
+        "atualizado_em": "28/08/2023 16:12:22",
+        "url_check_user": "http://186.233.118.151:5000",
+        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
+    }
+]
