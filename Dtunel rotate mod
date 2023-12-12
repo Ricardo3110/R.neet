@@ -69,16 +69,16 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: aws.amazon.com[lf]"
+            "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n"
         },
         "config_v2ray": null,
         "created_at": "2023-07-24 18:20:54",
-        "description": "SECURITY SSH",
+        "description": "NGNIX",
         "dns_server": {
             "dns1": "8.8.8.8",
             "dns2": "8.8.4.4"
         },
-        "icon": "https://i.imgur.com/enI2gKd.png",
+        "icon": "https://i.imgur.com/ZViCWrc.png",
         "id": 67075,
         "mode": "SSH_DIRECT",
         "name": "VIVO 2",
