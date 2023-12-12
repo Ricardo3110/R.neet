@@ -47,7 +47,7 @@
             7300
         ],
         "updated_at": "2023-08-28 16:05:46",
-        "url_check_user": "http://gdhost.space/api/br1.r-neet.cloud:5000",
+        "url_check_user": "http://gdhost.space/api/br1.r-neet.cloud:5001/checkUser",
         "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
     },
     {
