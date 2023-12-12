@@ -31,7 +31,7 @@
         "icon": "https://i.imgur.com/ZViCWrc.png",
         "id": 67073,
         "mode": "SSH_DIRECT",
-        "name": "VIVO 01",
+        "name": "VIVO 1",
         "proxy": {
             "host": "br1.r-neet.cloud",
             "port": 8080
