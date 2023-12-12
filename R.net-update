@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.79",
+  "Version": "1.1.80",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -102,7 +102,7 @@ VIVO EASY🆕
       "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br1.r-neet.cloud",
+      "ProxyIP": "209.14.70.114",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
