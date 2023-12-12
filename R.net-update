@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.77",
+  "Version": "1.1.78",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -97,7 +97,17 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-7( EASY)",
+      "Name": "VIVO-7 (SERCURITY-15 SEGUNDOS)",
+      "FLAG": "vivo",
+      "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.114",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-8( EASY)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -107,7 +117,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-8( EASY)",
+      "Name": "VIVO-9( EASY)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -117,7 +127,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9( EASY)",
+      "Name": "VIVO-10( EASY)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -127,7 +137,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-10( EASY)",
+      "Name": "VIVO-11( EASY)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -137,7 +147,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-11( EASY-FRONT)",
+      "Name": "VIVO-12( EASY-FRONT)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -147,7 +157,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-12( EASY-FRONT)",
+      "Name": "VIVO-13( EASY-FRONT)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -157,7 +167,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-13( EASY-FRONT)",
+      "Name": "VIVO-14( EASY-FRONT)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -167,7 +177,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-14 (NGNIX)",
+      "Name": "VIVO-15(NGNIX)",
       "FLAG": "vivo",
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -177,7 +187,7 @@ VIVO EASY🆕
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-15 (FLARE)",
+      "Name": "VIVO-16 (FLARE)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
