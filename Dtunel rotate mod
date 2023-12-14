@@ -33,11 +33,11 @@
         "mode": "SSH_DIRECT",
         "name": "VIVO 1",
         "proxy": {
-            "host": "br1.r-neet.cloud",
+            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
             "port": 8080
         },
         "server": {
-            "host": "br1.r-neet.cloud",
+            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
             "port": 8080
         },
         "sorter": 1,
