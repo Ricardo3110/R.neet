@@ -21,7 +21,7 @@
         "id": 12848,
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": null,
+        "value": "https://i.imgur.com/3ziStwn.png",
         "type": "IMAGE",
         "status": "ACTIVE",
         "user_id": "0f7b3cb2-605d-4e2b-a68e-d3c886f154fb"
