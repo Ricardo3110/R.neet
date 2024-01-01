@@ -20,8 +20,8 @@
     {
         "id": 22787,
         "label": "Imagem de fundo",
-        "name": "APP_BACKGROUND_IMAGE",
-        "value": null,
+        "name": "https://i.imgur.com/3ziStwn.png",
+        "value": ,
         "type": "IMAGE",
         "status": "ACTIVE",
         "user_id": "61bbd323-c32b-487a-9db8-c30344e72c05"
