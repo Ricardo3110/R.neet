@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.82",
+  "Version": "1.1.83",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -53,7 +53,7 @@ VIVO EASY🆕
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
@@ -79,7 +79,7 @@ VIVO EASY🆕
   {
       "Name": "VIVO-5 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
-      "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
+      "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: 209.14.70.114:8080[crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.114",
