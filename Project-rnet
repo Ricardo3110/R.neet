@@ -8,15 +8,15 @@
     {
       "Name": "Proxy",
       "FLAG": "https://telegra.ph/file/02b0f511eaaaa1d2d467a.png",
-      "ServerIP": "endleszx.online",
-      "ServerPort": "80",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][delay_split]ACL / HTTP/1.1[crlf]Host: endleszx.online[crlf][crlf][delay_split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@canaldotl[crlf][crlf]",
-      "ProxyIP": "104.16.239.166",
-      "ProxyPort": "80",
+      "ServerIP": "br1.r-neet.cloud",
+      "ServerPort": "8080",
+      "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
+      "ProxyIP": "br1.r-neet.cloud",
+      "ProxyPort": "8080",
       "SNI": "",
       "USER": "",
       "PASS": "",
-      "CheckUser": "http://endleszx.online:5000/checkUser",
+      "CheckUser": "http://br1.r-neet.cloud:9090/checkUser",
       "Info": "Proxy"
     },
   {
