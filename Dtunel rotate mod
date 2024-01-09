@@ -18,7 +18,7 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]",
+            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#",
             "sni": ""
         },
         "config_v2ray": null,
