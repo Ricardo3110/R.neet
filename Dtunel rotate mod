@@ -18,7 +18,7 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#",
+            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]#ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]",
             "sni": ""
         },
         "config_v2ray": null,
@@ -33,11 +33,11 @@
         "mode": "SSH_DIRECT",
         "name": "VIVO 1",
         "proxy": {
-            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
+            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
             "port": 8080
         },
         "server": {
-            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
+            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
             "port": 8080
         },
         "sorter": 1,
@@ -69,11 +69,11 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]"
+            "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n"
         },
         "config_v2ray": null,
         "created_at": "2023-07-24 18:20:54",
-        "description": "NGNIX",
+        "description": "SERCURITY",
         "dns_server": {
             "dns1": "8.8.8.8",
             "dns2": "8.8.4.4"
@@ -83,11 +83,11 @@
         "mode": "SSH_DIRECT",
         "name": "VIVO 2",
         "proxy": {
-            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
+            "host": "209.14.70.114#209.14.70.114#209.14.70.114",
             "port": 80
         },
         "server": {
-            "host": "br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud#br1.r-neet.cloud",
+            "host": "209.14.70.114#209.14.70.114#209.14.70.114",
             "port": 80
         },
         "sorter": 1,
