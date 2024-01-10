@@ -1,5 +1,5 @@
 {
-  "Version": "3",
+  "Version": "4",
   "Update": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/Project-rnet",
   "UdpPort": "7300;7200",
   "Contato": "https://t.me/pudim",
@@ -16,7 +16,7 @@
       "SNI": "",
       "USER": "",
       "PASS": "",
-      "CheckUser": "http://br1.r-neet.cloud:9090/checkUser",
+      "CheckUser": "http://br1.r-neet.cloud:5001/checkUser",
       "Info": "Proxy"
     },
   {
