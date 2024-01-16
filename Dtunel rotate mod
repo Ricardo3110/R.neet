@@ -128,10 +128,10 @@
             "dns1": "8.8.8.8",
             "dns2": "8.8.4.4"
         },
-        "icon": "https://i.imgur.com/enI2gKd.png",
+        "icon": "https://i.imgur.com/ZViCWrc.png",
         "id": 67076,
-        "mode": "SSH_PROXY",
-        "name": "PROMOÇÃO",
+        "mode": "SSH_DIRECT",
+        "name": "VIVO 3",
         "proxy": {
             "host": "104.16.51.111#104.18.6.80#104.16.19.94#104.16.56.6",
             "port": 8080
