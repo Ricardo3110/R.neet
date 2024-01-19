@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.84",
+  "Version": "1.1.85",
   "ReleaseNotes": "WEBSERCURITY 🆗
 VIVO EASY🆕
 ",
@@ -220,6 +220,16 @@ VIVO EASY🆕
       "Name": "TIM-2 (EXPIRADO)",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+ {
+      "Name": "TIM-  (EXPIRADO DDD 71)",
+      "FLAG": "tim",
+      "Payload": "ACL HTTP/ [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
