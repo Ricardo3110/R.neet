@@ -12,8 +12,8 @@
 
 {
 "name": "🟣VIVO🟣-1",
-"SSH": "104.16.51.111",
-"server_hostname": "104.16.51.111",
+"SSH": "104.16.50.111",
+"server_hostname": "104.16.50.111",
 "description": "NGNIX",
 "username": "",
 "server_port": 80,
@@ -31,7 +31,7 @@
 "config_mode": "ssh_proxy",
 "url_check_user": "http://gdhost.space/api/br1.r-neet.cloud:5001/checkUser",
 "config_openvpn": "",
-"proxy_hostname": "104.16.51.111",
+"proxy_hostname": "104.16.50.111",
 "sort_order": 1,
 "id": 0,
 "proxy_port": 80,
