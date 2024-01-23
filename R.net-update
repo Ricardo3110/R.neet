@@ -236,6 +236,16 @@ VIVO EASY🆕
       "ProxyPort": "80",
       "Info": "Direct"
     },
+{
+      "Name": "TIM-  (EXPIRADO DDD 71)",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.1[crlf]Host:br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
  {
       "Name": "TIM-3 (VALIDADE)",
       "FLAG": "tim",
