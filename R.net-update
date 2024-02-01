@@ -16,7 +16,7 @@ VIVO EASY🆕
       "Name": "BRASIL-VPN",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "209.14.70.114",
+      "ServerIP": "br1.r-neet.cloud",
 "CheckUser": "http://br1.r-neet.cloud:5001/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
@@ -42,7 +42,7 @@ VIVO EASY🆕
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -52,7 +52,7 @@ VIVO EASY🆕
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf][split]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -62,7 +62,7 @@ VIVO EASY🆕
       "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -72,7 +72,7 @@ VIVO EASY🆕
       "Payload": "[delay_split][lf]GET / 55",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -82,7 +82,7 @@ VIVO EASY🆕
       "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: 209.14.70.114:8080[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -92,7 +92,7 @@ VIVO EASY🆕
       "Payload": "[delay_split][lf]GET wss://br1.r-neet.online/ HTTP/1.1[lf]Host: br1.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br1.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -102,7 +102,7 @@ VIVO EASY🆕
       "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -112,7 +112,7 @@ VIVO EASY🆕
       "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.114",
+      "ProxyIP": "br1.r-neet.cloud",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
