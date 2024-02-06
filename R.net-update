@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.91",
+  "Version": "1.1.92",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,7 +48,7 @@
  {
       "Name": "VIVO-2 (SERCURITY)",
       "FLAG": "vivo",
-      "Payload": "[split][lf]ACL / HTTP/1.1[crlf][split]",
+      "Payload": "[split]ACL / HTTP/1.1[lf]HTTP/1.0[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
