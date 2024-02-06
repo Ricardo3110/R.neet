@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.92",
+  "Version": "1.1.93",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -16,7 +16,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "149.78.186.180",
-"CheckUser": "http://br1.r-neet.cloud:5001/checkUser",
+"CheckUser": "https://69c90ff9e9.dtunnel.cloud:2053",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
