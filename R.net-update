@@ -1,7 +1,6 @@
 {
-  "Version": "1.1.90",
-  "ReleaseNotes": "WEBSERCURITY 🆗
-VIVO EASY🆕
+  "Version": "1.1.91",
+  "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
@@ -10,7 +9,7 @@ VIVO EASY🆕
   "UrlTermos": "http://painel.r-neet.xyz/",
 "CheckUser": "true",
   "FormatCheck": "ddmmyyyy",
-  "UdpPort": "7300;7400;7500;7600;7700;7100;7200;7800;7900",
+  "UdpPort": "7100;7200;7300;7400;7500;7600;7700;7800;7900",
   "Servers": [
       {
       "Name": "BRASIL-VPN",
