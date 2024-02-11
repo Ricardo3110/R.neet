@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.95",
+  "Version": "1.1.96",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -354,6 +354,16 @@
       "ProxyIP": "18.161.200.54",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+{
+      "Name": "TIM-14 (AZION)",
+      "FLAG": "tim",
+      "Payload": "GET wss://planoscontrole.tim.com.br HTTP/1.1[crlf]Host:xf5hfoi4g7.map.azionedge.net[crlf]Upgrade: websocket[lf][lf]",
+      "SNI": "planoscontrole.tim.com.br",
+      "TlsIP": "planoscontrole.tim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
    {
       "Name": "CLARO-1 NGNIX 🆕",
