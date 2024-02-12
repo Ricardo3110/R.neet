@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.97",
+  "Version": "1.1.98",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,7 +48,7 @@
  {
       "Name": "VIVO-2 (SERCURITY)",
       "FLAG": "vivo",
-      "Payload": "CONNECT 127.0.0.1:8080 HTTP/1.1[crlf]Host: tiktok.com[crlf]X-Online-Host: tiktok.com[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "CONNECT127.0.0.1:8080 HTTP/1.1[crlf]Host: tiktok.com[crlf]X-Online-Host: tiktok.com[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
