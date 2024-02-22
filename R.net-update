@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.99",
+  "Version": "1.1.100",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -78,11 +78,11 @@
   {
       "Name": "VIVO-5 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
-      "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: 209.14.70.114:8080[crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
+      "ProxyIP": "81.28.14.14",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
