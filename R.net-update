@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.104",
+  "Version": "1.1.105",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -78,7 +78,7 @@
   {
       "Name": "VIVO-5 (GCORE-NOVO)✅",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "81.28.12.12",
