@@ -7,7 +7,7 @@
   "Servers": [
     {
       "Name": "VIVO-1 / G-CORE",
-      "FLAG": "https://telegra.ph/file/02b0f511eaaaa1d2d467a.png",
+      "FLAG": "https://i.imgur.com/ZViCWrc.png",
       "ServerIP": "81.28.12.12",
       "ServerPort": "80",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
