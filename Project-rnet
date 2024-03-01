@@ -1,5 +1,5 @@
 {
-  "Version": "6",
+  "Version": "7",
   "Update": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/Project-rnet",
   "UdpPort": "7300;7200",
   "Contato": "https://t.me/pudim",
@@ -20,11 +20,11 @@
       "Info": "Proxy"
     },
   {
-      "Name": "direct",
-      "FLAG": "https://telegra.ph/file/3c676316d18d082d2af0f.png",
-      "ServerIP": "104.18.33.113",
-      "ServerPort": "443",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL // HTTP/1.1[crlf]Host: endleszx.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Name": "VIVO-2 / SERCURITY",
+      "FLAG": "https://i.imgur.com/ZViCWrc.png",
+      "ServerIP": "149.78.186.180",
+      "ServerPort": "8080",
+      "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "ProxyIP": "",
       "ProxyPort": "",
       "SNI": "",
