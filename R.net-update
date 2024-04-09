@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.105",
+  "Version": "1.1.106",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -376,7 +376,17 @@
       "Info": "Proxy"
     },
    {
-      "Name": "CLARO-2(FLEX)",
+      "Name": "CLARO-2(PREZÃO)",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": ".w.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+   {
+      "Name": "CLARO-3(FLEX)",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "w.waze.com",
@@ -386,7 +396,7 @@
       "Info": "Ssl"
     },
    {
-      "Name": "CLARO-3(FLEX)",
+      "Name": "CLARO-4(FLEX)",
       "FLAG": "claro",
       "Payload": "POST HTTP/1.1[crlf]Host:w.waze.com[crlf][crlf]",
       "SNI": "",
@@ -396,7 +406,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "CLARO-4(PREZÃO)",
+      "Name": "CLARO-5(PREZÃO)",
       "FLAG": "claro",
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
@@ -406,7 +416,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "CLARO-5(MUSIC)",
+      "Name": "CLARO-6(MUSIC)",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "claromusicacdn0-a.claromusica.com",
@@ -416,7 +426,7 @@
       "Info": "Ssl"
     },
 {
-      "Name": "CLARO-6(PREZÃO)",
+      "Name": "CLARO-7(PREZÃO)",
       "FLAG": "claro",
       "Payload": "",
       "SNI": ".wa.me",
@@ -426,7 +436,7 @@
       "Info": "Ssl"
     },
 {
-      "Name": "CLARO-7(FLEX)",
+      "Name": "CLARO-8(FLEX)",
       "FLAG": "claro",
       "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
@@ -436,7 +446,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "CLARO-8 NGNIX 🆕",
+      "Name": "CLARO-9 NGNIX 🆕",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host:w.waze.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
