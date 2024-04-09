@@ -18,7 +18,7 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
+            "payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf][",
             "sni": ""
         },
         "config_v2ray": null,
