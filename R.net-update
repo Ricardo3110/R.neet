@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.109",
+  "Version": "1.1.110",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,7 +48,7 @@
  {
       "Name": "VIVO-2 (SERCURITY)",
       "FLAG": "vivo",
-      "Payload": "ACL [instant_split][crlf] HTTP/1.1 [lf]Host:cê/,*netvivo[lf][lf][",
+      "Payload": "HEAD HTTP/1.1[lf]Host: [lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
