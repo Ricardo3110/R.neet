@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/novo%20rnet",
   "Sms": "",
@@ -33,7 +33,7 @@
        "TlsIP": "",
        "ProxyIP": "br1.r-neet.cloud",
        "ProxyPort": "8080",
-       "Info": "Direct"
+       "Info": "Proxy"
     },
 {
        "Name": "TIM-1",
@@ -41,8 +41,8 @@
        "Payload": "ACL HTTP/ [crlf][crlf]",
        "SNI": "",
        "TlsIP": "",
-       "ProxyIP": "br1.r-neet.cloud",
-       "ProxyPort": "80",
+       "ProxyIP": "",
+       "ProxyPort": "",
        "Info": "Direct"
     }
   ]
