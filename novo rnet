@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.1.1",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/novo%20rnet",
   "Sms": "",
@@ -26,6 +26,16 @@
   ],
   "Networks": [
     {
+       "Name": "VIVO-1",
+        "FLAG": "vi.png",
+       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "br1.r-neet.cloud",
+       "ProxyPort": "8080",
+       "Info": "Direct"
+    },
+{
        "Name": "TIM-1",
         "FLAG": "ti.png",
        "Payload": "ACL HTTP/ [crlf][crlf]",
