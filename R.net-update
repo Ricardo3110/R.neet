@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.114",
+  "Version": "1.1.115",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -338,7 +338,7 @@
 {
       "Name": "TIM-12 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: xt61126627q7594vm0.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: 4789s346111ax75c6v.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.137.12",
@@ -348,7 +348,7 @@
 {
       "Name": "TIM-13 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: xt61126627q7594vm0.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: 4789s346111ax75c6v.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "18.161.200.54",
