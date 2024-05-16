@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.115",
+  "Version": "1.1.116",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -46,9 +46,9 @@
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2 (SERCURITY)",
+      "Name": "VIVO-2 (PROXY-SOCKS)",
       "FLAG": "vivo",
-      "Payload": "PATCH /HTTP/1.1[lf]Host:ipv4.google.com[lf][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host:ipv4.google.com[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
