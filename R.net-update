@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.116",
+  "Version": "1.1.117",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -158,7 +158,7 @@
 {
       "Name": "VIVO-13( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xt61126627q7594vm0.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: 4789s346111ax75c6v.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.113.26",
@@ -168,7 +168,7 @@
 {
       "Name": "VIVO-14( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xt61126627q7594vm0.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: 4789s346111ax75c6v.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.95.2",
@@ -178,7 +178,7 @@
 {
       "Name": "VIVO-15( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xt61126627q7594vm0.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: 4789s346111ax75c6v.speedup.mobi[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.9",
