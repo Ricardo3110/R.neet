@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.118",
+  "Version": "1.1.119",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -75,28 +75,8 @@
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
-  {
-      "Name": "VIVO-5 (GCORE-NOVO)✅",
-      "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "81.28.12.12",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO-6 (SERCURITY-15 SEGUNDOS)",
-      "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET wss://br1.r-neet.online/ HTTP/1.1[lf]Host: br1.r-neet.online\\n\\n\\n \\n#ACL / HTTP/1.1[crlf]Host: br1.r-neet.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO-7 (SERCURITY-15 SEGUNDOS)",
+ {
+      "Name": "VIVO-5 (SERCURITY-15 SEGUNDOS)",
       "FLAG": "vivo",
       "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "SNI": "",
@@ -106,13 +86,33 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-8 (SERCURITY-15 SEGUNDOS)",
+      "Name": "VIVO-6 (GCORE-NOVO)✅",
       "FLAG": "vivo",
-      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br1.r-neet.cloud[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
+      "ProxyIP": "81.28.12.12",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-7 (SEM PROMOÇÃO)",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.38.64",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO-8 (SEM PROMOÇÃO)",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.36.19",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
