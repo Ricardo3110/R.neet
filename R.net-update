@@ -16,7 +16,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "149.78.186.180",
-"CheckUser": "http://gdhost.space/api/149.78.186.180:5001/checkUser",
+"CheckUser": "http://149.78.186.180:5001/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
