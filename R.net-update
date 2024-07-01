@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.123",
+  "Version": "1.1.124",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -457,7 +457,7 @@
     },
 {
       "Name": "CLARO-10 (FRONT)",
-      "FLAG": "tim",
+      "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[lf]Host: d3rwg84uv2g0fz.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf] [lf]",
       "SNI": "",
       "TlsIP": "",
