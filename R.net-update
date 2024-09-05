@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.126",
+  "Version": "1.1.127",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -88,7 +88,7 @@
 {
       "Name": "VIVO-6 (GCORE-NOVO)✅",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "81.28.12.12",
@@ -98,7 +98,7 @@
 {
       "Name": "VIVO-7 (SEM PROMOÇÃO)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.38.64",
@@ -108,7 +108,7 @@
 {
       "Name": "VIVO-8 (SEM PROMOÇÃO)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.36.19",
@@ -118,7 +118,7 @@
 {
       "Name": "VIVO-9( EASY)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.37.248",
@@ -128,7 +128,7 @@
 {
       "Name": "VIVO-10( EASY)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.41",
@@ -138,7 +138,7 @@
 {
       "Name": "VIVO-11(CONTROLE)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "141.193.213.11",
@@ -148,7 +148,7 @@
 {
       "Name": "VIVO-12(CONTROLE)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.71.206",
@@ -188,7 +188,7 @@
 {
       "Name": "VIVO-16(NGNIX)",
       "FLAG": "vivo",
-      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br.r-neet.loja [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: br.r-neet.shop [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.50.111",
@@ -198,7 +198,7 @@
 {
       "Name": "VIVO-17 (FLARE)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.loja[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.241.118",
@@ -238,7 +238,7 @@
 {
       "Name": "TIM-  (EXPIRADO DDD 71)",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[crlf]Host:br.r-neet.loja[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
@@ -248,7 +248,7 @@
  {
       "Name": "TIM-3 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.28.182",
@@ -258,7 +258,7 @@
    {
       "Name": "TIM-4 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -268,7 +268,7 @@
    {
       "Name": "TIM-5 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
@@ -278,7 +278,7 @@
  {
       "Name": "TIM-6 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.98.70",
@@ -288,7 +288,7 @@
 {
       "Name": "TIM-7 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.154.143",
@@ -298,7 +298,7 @@
 {
       "Name": "TIM-8 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.241.93",
@@ -308,7 +308,7 @@
 {
       "Name": "TIM-9 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.33.113",
@@ -318,7 +318,7 @@
 {
       "Name": "TIM-10 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.64.225",
@@ -328,7 +328,7 @@
 {
       "Name": "TIM-11 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.loja HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.239.166",
@@ -368,10 +368,10 @@
    {
       "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br1.r-neet.cloud[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -401,7 +401,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host:w.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -411,7 +411,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -441,7 +441,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -451,7 +451,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host:w.waze.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "8799",
       "Info": "Proxy"
     },
@@ -471,7 +471,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host:www.google.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.loja",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
