@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.130",
+  "Version": "1.1.131",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -388,7 +388,7 @@
       "Name": "CLARO-2(PREZÃO)",
       "FLAG": "claro",
       "Payload": "",
-      "SNI": ".w.whatsapp.com",
+      "SNI": "dns.whatsapp.org",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
