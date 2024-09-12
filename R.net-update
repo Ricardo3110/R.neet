@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.129",
+  "Version": "1.1.130",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -380,7 +380,7 @@
       "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -410,7 +410,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host:w.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -420,7 +420,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: c.whatsapp.net\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -450,7 +450,7 @@
       "Payload": "POST /chat HTTP/1.1\r\nHost: twitter.com\r\nUser-Agent: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)\r\nTransfer-Encoding: chunked\r\n\r\[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -460,7 +460,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host:w.waze.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "8799",
       "Info": "Proxy"
     },
@@ -480,7 +480,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host:www.google.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
