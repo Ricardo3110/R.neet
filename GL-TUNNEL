@@ -24,7 +24,7 @@
 "category_id": 1,
 "v2ray_uuid": "",
 "primary_dns_server": "8.8.8.8",
-"payload": "ACL wss://br1.r-neet.shop HTTP/1.1[lf]Host: br1.r-neet.cloud [lf]Upgrade: Websocket[lf][split][lf]",
+"payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: br.r-neet.shop [lf]Upgrade: Websocket[lf][split][lf]",
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": "",
