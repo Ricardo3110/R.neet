@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.136",
+  "Version": "1.1.137",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -57,11 +57,11 @@
     },{
       "Name": "VIVO-(ESPERE ATE CONECTAR)",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host:ipv4.google.com[lf]",
+      "Payload": "ACL",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
