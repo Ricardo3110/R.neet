@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.137",
+  "Version": "1.1.138",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -55,12 +55,12 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },{
-      "Name": "VIVO-(ESPERE ATE CONECTAR)",
+      "Name": "VIVO-NOVO(BARCKEND)",
       "FLAG": "vivo",
-      "Payload": "ACL",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=firezfalcon.nxtgen.pp.ua;firewallfalcon.theroms.573357.xyz][crlf]Backend: app720924[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
+      "ProxyIP": "162.159.135.63",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
