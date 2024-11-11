@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.139",
+  "Version": "1.1.140",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -365,14 +365,14 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-14 (AZION)",
+      "Name": "TIM-14 NOVO(BARCKEND)",
       "FLAG": "tim",
-      "Payload": "GET wss://planoscontrole.tim.com.br HTTP/1.1[crlf]Host:xf5hfoi4g7.map.azionedge.net[crlf]Upgrade: websocket[lf][lf]",
-      "SNI": "planoscontrole.tim.com.br",
-      "TlsIP": "planoscontrole.tim.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app720924[lf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "1.1.1.1",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
    {
       "Name": "CLARO-1 NGNIX 🆕",
