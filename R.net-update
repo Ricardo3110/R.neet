@@ -367,7 +367,7 @@
 {
       "Name": "TIM-14 NOVO(BARCKEND)",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app720924[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: firezfalcon.nxtgen.pp.ua[crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "1.1.1.1",
