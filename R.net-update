@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.146",
+  "Version": "1.1.147",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -237,7 +237,7 @@
 {
       "Name": "TIM- (NOVO)",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: br.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: br.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.66.0.157",
@@ -277,7 +277,7 @@
    {
       "Name": "TIM-4 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: br.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
