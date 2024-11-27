@@ -521,7 +521,7 @@
 "config_openvpn": "",
 "proxy_hostname": "br.r-neet.online",
 "sort_order": 7,
-"id": 7,
+"id": 30,
 "proxy_port":80 ,
 "category": {
 "name": "OPERADORA CLARO",
@@ -556,7 +556,7 @@
 "config_openvpn": "",
 "proxy_hostname": "149.78.186.180",
 "sort_order": 7,
-"id": 8,
+"id": 31,
 "proxy_port" :80,
 "category": {
 "name": "OPERADORA CLARO",
