@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.150",
+  "Version": "1.1.151",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -57,7 +57,7 @@
     },{
       "Name": "VIVO-NOVO(BARCKEND)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: v8.thur.store[crlf]Backend: app720924[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=v8.thur.store;firewallfalcon.theroms.573357.xyz;firewallfalcon.0h.573357.xyz][crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
