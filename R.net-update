@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.153",
+  "Version": "1.1.154",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -36,7 +36,7 @@
       "Info": "POR FAVOR SELECIONE AQUI A SUA OPERADORA"
     },
     {
-      "Name": "VIVO-1 (SERCURITY-15 SEGUNDOS)",
+      "Name": "VIVO-1 (Rede 3G/H+ ✈️)",
       "FLAG": "vivo",
       "Payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n",
       "SNI": "",
@@ -46,16 +46,17 @@
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2 (PROXY-SOCKS)",
+      "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host:ipv4.google.com[lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=firewallfalcon.theroms.573357.xyz;v8.thur.store;firewallfalcon.0h.573357.xyz][crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },{
-      "Name": "VIVO-NOVO(BARCKEND)",
+    },
+{
+      "Name": "VIVO-3",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=v8.thur.store;firewallfalcon.theroms.573357.xyz;firewallfalcon.0h.573357.xyz][crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
       "SNI": "",
@@ -64,36 +65,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-{
-      "Name": "VIVO-3 (SERCURITY)",
-      "FLAG": "vivo",
-      "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
-  {
-      "Name": "VIVO-4 (SERCURITY-15 SEGUNDOS)",
-      "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET / 55",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
- {
-      "Name": "VIVO-5 (SERCURITY-15 SEGUNDOS)",
-      "FLAG": "vivo",
-      "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
+
 {
       "Name": "VIVO-6 (GCORE-NOVO)✅",
       "FLAG": "vivo",
