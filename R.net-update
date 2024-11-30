@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.158",
+  "Version": "1.1.159",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -74,6 +74,16 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+{
+      "Name": "VIVO-5 (ultra)",
+      "FLAG": "vivo",
+      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
 
 {
