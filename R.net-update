@@ -48,7 +48,7 @@
  {
       "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
@@ -58,7 +58,7 @@
 {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
@@ -68,7 +68,7 @@
 {
       "Name": "VIVO-4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "Rnet.centraldacdn.com",
       "TlsIP": "162.159.135.63",
       "ProxyIP": "",
@@ -78,7 +78,7 @@
 {
       "Name": "VIVO-5 (ultra)",
       "FLAG": "vivo",
-      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
@@ -369,7 +369,7 @@
 {
       "Name": "TIM-14 NOVO(BARCKEND)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: [rotate=v8.thur.store;firewallfalcon.theroms.573357.xyz;firewallfalcon.0h.573357.xyz][crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "1.1.1.1",
