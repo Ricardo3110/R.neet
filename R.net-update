@@ -1,9 +1,11 @@
 {
-  "Version": "1.1.160",
+  "Version": "1.1.161",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
   "Sms": "https://raw.githubusercontent.com/Ricardo3110/r.net-update/main/SMS%20update",
+"LogoLink": "https:\/\/i.imgur.com\/Knw9k6I.png",
+  "BackgroundLink": "https:\/\/i.imgur.com\/B2WcMBk.jpg",
   "EmailFeedback": "ricardo.guimaraes1986@gmail.com",
   "UrlContato": "https://pluto.tv",
   "UrlTermos": "http://painel.r-neet.xyz/",
