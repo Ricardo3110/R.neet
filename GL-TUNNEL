@@ -48,7 +48,7 @@
 {
 "name": "🟣VIVO🟣-2",
 "SSH": "",
-"server_hostname": "br.r-neet.shop",
+"server_hostname": "149.78.186.180",
 "description": "3G/H+ ✈️",
 "username": "",
 "server_port": 8080,
@@ -66,7 +66,7 @@
 "config_mode": "ssh_direct",
 "url_check_user": "http://149.78.185.179:5000",
 "config_openvpn": "",
-"proxy_hostname": "br.r-neet.shop",
+"proxy_hostname": "149.78.186.180",
 "sort_order": 1,
 "id": 18,
 "proxy_port": 8080,
