@@ -1,5 +1,5 @@
 {
-  "Version": "7",
+  "Version": "8",
   "Update": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/Project-rnet",
   "UdpPort": "7300;7200",
   "Contato": "https://t.me/pudim",
@@ -10,7 +10,7 @@
       "FLAG": "https://i.imgur.com/ZViCWrc.png",
       "ServerIP": "81.28.12.12",
       "ServerPort": "80",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br7.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br.r-neet.cloud[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "ProxyIP": "81.28.12.12",
       "ProxyPort": "80",
       "SNI": "",
