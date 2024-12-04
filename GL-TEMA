@@ -32,5 +32,5 @@
 {"user_id": 27, "value": "", "id": 5141, "name": "app_message_text"},
 {"user_id": 27, "value": "1", "id": 5142, "name": "app_message_type"},
 {"user_id": 27, "value": "https://i.ibb.co/R9ycgpR/icon-6-launcher-round.png", "id": 5130, "name": "app_qsTileIcon"},
-{"user_id": 27, "value": "https://t.me/userrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr", "id": 2224, "name": "app_contaact_link"},
-{"user_id": 27, "value": "https://i.ibb.co/R9ycgpR/icon-6-launcher-round.png", "id": 7732, "name": "app_contaact_icon"}]}
+{"user_id": 27, "value": "https://t.me/userrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr", "id": 2224, "name": "app_contct_icon"},
+{"user_id": 27, "value": "https://i.ibb.co/R9ycgpR/icon-6-launcher-round.png", "id": 7732, "name": "app_contct_icon"}]}
