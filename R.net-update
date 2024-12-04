@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.162",
+  "Version": "1.1.163",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -371,7 +371,7 @@
 {
       "Name": "TIM-14 NOVO(BARCKEND)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Backend: app720924[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "1.1.1.1",
