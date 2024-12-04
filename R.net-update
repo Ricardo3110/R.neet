@@ -71,7 +71,7 @@
       "Name": "VIVO-4",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
-      "SNI": "vivo.com.br",
+      "SNI": "br0.r-neet.shop",
       "TlsIP": "162.159.135.63",
       "ProxyIP": "",
       "ProxyPort": "443",
