@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.165",
+  "Version": "1.1.166",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,9 +48,9 @@
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2",
+      "Name": "VIVO-2 (Rede 3G/H+ ✈️)",
       "FLAG": "vivo",
-      "Payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf][!!!!",
+      "Payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
