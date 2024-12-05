@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.164",
+  "Version": "1.1.165",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -53,7 +53,7 @@
       "Payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf][!!!!",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "162.159.135.63",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
