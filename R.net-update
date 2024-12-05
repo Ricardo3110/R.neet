@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.163",
+  "Version": "1.1.164",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,7 +50,7 @@
  {
       "Name": "VIVO-2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf][!!!!",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
