@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.167",
+  "Version": "1.1.168",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -60,7 +60,7 @@
 {
       "Name": "VIVO-3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
@@ -101,7 +101,7 @@
 {
       "Name": "VIVO-7 (SEM PROMOÇÃO)",
       "FLAG": "vivo",
-      "Payload": "ACL /[split] HTTP/1.1 [crlf]Host: apf.maisvantagenstim.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
