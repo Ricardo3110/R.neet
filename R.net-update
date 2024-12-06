@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.168",
+  "Version": "1.1.169",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -70,7 +70,7 @@
 {
       "Name": "VIVO-4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "br0.r-neet.shop",
       "TlsIP": "162.159.135.63",
       "ProxyIP": "",
@@ -80,7 +80,7 @@
 {
       "Name": "VIVO-5 (ultra)",
       "FLAG": "vivo",
-      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "GET- /[instant_split] HTTP/1.1 [lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
@@ -111,7 +111,7 @@
 {
       "Name": "VIVO-8 (SEM PROMOÇÃO)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.36.19",
@@ -121,7 +121,7 @@
 {
       "Name": "VIVO-9( EASY)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.37.248",
@@ -131,7 +131,7 @@
 {
       "Name": "VIVO-10( EASY)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.41",
@@ -141,7 +141,7 @@
 {
       "Name": "VIVO-11(CONTROLE)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "141.193.213.11",
@@ -151,7 +151,7 @@
 {
       "Name": "VIVO-12(CONTROLE)",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.71.206",
@@ -161,7 +161,7 @@
 {
       "Name": "VIVO-13( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.113.26",
@@ -171,7 +171,7 @@
 {
       "Name": "VIVO-14( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.95.2",
@@ -181,7 +181,7 @@
 {
       "Name": "VIVO-15( EASY-FRONT)",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.9",
@@ -191,7 +191,7 @@
 {
       "Name": "VIVO-16(NGNIX)",
       "FLAG": "vivo",
-      "Payload": "ACL wss://br1.r-neet.shop HTTP/1.1[lf]Host: Rnet.centraldacdn.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br1.r-neet.shop HTTP/1.1[lf]Host: br0.r-neet.shop [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.50.111",
@@ -201,7 +201,7 @@
 {
       "Name": "VIVO-17 (FLARE)",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.241.118",
@@ -231,7 +231,7 @@
 {
       "Name": "TIM- (NOVO)",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: apf.maisvantagenstim.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: apf.maisvantagenstim.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.66.0.157",
@@ -251,7 +251,7 @@
 {
       "Name": "TIM-  (EXPIRADO DDD 71)",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[crlf]Host:Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host:br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
@@ -261,7 +261,7 @@
  {
       "Name": "TIM-3 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.28.182",
@@ -271,7 +271,7 @@
    {
       "Name": "TIM-4 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.111",
@@ -281,7 +281,7 @@
    {
       "Name": "TIM-5 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
@@ -291,7 +291,7 @@
  {
       "Name": "TIM-6 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.98.70",
@@ -301,7 +301,7 @@
 {
       "Name": "TIM-7 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.154.143",
@@ -311,7 +311,7 @@
 {
       "Name": "TIM-8 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.241.93",
@@ -321,7 +321,7 @@
 {
       "Name": "TIM-9 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.33.113",
@@ -331,7 +331,7 @@
 {
       "Name": "TIM-10 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.64.225",
@@ -341,7 +341,7 @@
 {
       "Name": "TIM-11 (VALIDADE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://Rnet.centraldacdn.com HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.239.166",
@@ -351,7 +351,7 @@
 {
       "Name": "TIM-12 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.137.12",
@@ -361,7 +361,7 @@
 {
       "Name": "TIM-13 (FRONT)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: Rnet.centraldacdn.com[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "18.161.200.54",
@@ -371,7 +371,7 @@
 {
       "Name": "TIM-14 NOVO(BARCKEND)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "1.1.1.1",
@@ -381,7 +381,7 @@
    {
       "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: Rnet.centraldacdn.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
