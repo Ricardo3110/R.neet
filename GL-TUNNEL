@@ -13,7 +13,7 @@
 {
 "name": "🟣VIVO🟣-1",
 "SSH": "",
-"server_hostname": "162.159.136.63",
+"server_hostname": "1.1.1.1",
 "description": "CDN",
 "username": "",
 "server_port": 80,
