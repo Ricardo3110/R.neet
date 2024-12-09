@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.171",
+  "Version": "1.1.172",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,7 +50,7 @@
  {
       "Name": "VIVO-2 (Rede 3G/H+ ✈️)",
       "FLAG": "vivo",
-      "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
+      "Payload": "ACL /[split] HTTP/1.1[lf]Host: tbr-sdgw.datami.net[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
