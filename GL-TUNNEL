@@ -164,7 +164,7 @@
 "category_id": 1,
 "v2ray_uuid": "",
 "primary_dns_server": "1.1.1.1",
-"payload": "HTTP/1.0 [lf]Host: www.waze.com[lf][lf]",
+"payload": "HTTP/1.0 [lf]Host: vivo.com.br[lf][lf]",
 "status": "ACTIVE",
 "secondary_dns_server": "1.0.0.1",
 "sni": "",
