@@ -171,10 +171,10 @@
 "config_mode": "ssh_direct",
 "url_check_user": "http://149.78.185.179:5000",
 "config_openvpn": "",
-"proxy_hostname": "",
+"proxy_hostname": "149.78.186.180",
 "sort_order": 1,
 "id": 20,
-"proxy_port": ,
+"proxy_port": 80,
 "category": {
 "name": "OPERADORA VIVO",
 "id": 1,
