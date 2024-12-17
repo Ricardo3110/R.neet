@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.174",
+  "Version": "1.1.175",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,9 +48,9 @@
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2 (Rede 3G/H+ ✈️)",
+      "Name": "VIVO-2 (Proxy-Socks)",
       "FLAG": "vivo",
-      "Payload": "ACL /[split] HTTP/1.1[lf]Host: tbr-sdgw.datami.net[lf]Upgrade: websocket[lf][lf]",
+      "Payload": "HTTP/1.0 [lf]Host: vivo.com.br[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
@@ -59,7 +59,7 @@
     },
 
 {
-      "Name": "VIVO-3 (GCORE-NOVO)✅",
+      "Name": "VIVO-3 (CDN-GCORE)",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
@@ -69,7 +69,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-4 (SEM PROMOÇÃO)",
+      "Name": "VIVO-4 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "ACL /[split] HTTP/1.1 [lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -79,7 +79,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-5 (SEM PROMOÇÃO)",
+      "Name": "VIVO-5 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -89,7 +89,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-6 (EASY)",
+      "Name": "VIVO-6 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -99,7 +99,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-7 (EASY)",
+      "Name": "VIVO-7 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -109,7 +109,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-8 (CONTROLE)",
+      "Name": "VIVO-8 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -119,7 +119,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9 (CONTROLE)",
+      "Name": "VIVO-9 (CDN-FLARE)",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -129,7 +129,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-10 (EASY-FRONT)",
+      "Name": "VIVO-10 (CDN-FRONT)",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -139,7 +139,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-11 (EASY-FRONT)",
+      "Name": "VIVO-11 (CDN-FRONT)",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -149,7 +149,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-12 (EASY-FRONT)",
+      "Name": "VIVO-12 (CDN-FRONT)",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -158,28 +158,9 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-{
-      "Name": "VIVO-13 (NGNIX)",
-      "FLAG": "vivo",
-      "Payload": "ACL wss://br1.r-neet.shop HTTP/1.1[lf]Host: br0.r-neet.shop [lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.50.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "VIVO-14 (FLARE)",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.241.118",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+
    {
-      "Name": "TIM-1 (EXPIRADO)",
+      "Name": "TIM-1 (Proxy-Socks)",
       "FLAG": "tim",
       "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
@@ -189,7 +170,7 @@
       "Info": "Direct"
     },
  {
-      "Name": "TIM-2 (EXPIRADO)",
+      "Name": "TIM-2 (Proxy-Socks)",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]",
       "SNI": "",
@@ -197,19 +178,9 @@
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Direct"
-    },
+   }, 
 {
-      "Name": "TIM-3 (NOVO)",
-      "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
- {
-      "Name": "TIM-4  (EXPIRADO DDD 71)",
+      "Name": "TIM-3 (Proxy-Socks)",
       "FLAG": "tim",
       "Payload": "ACL HTTP/ [crlf][crlf]",
       "SNI": "",
@@ -218,8 +189,9 @@
       "ProxyPort": "80",
       "Info": "Direct"
     },
+
 {
-      "Name": "TIM-5  (EXPIRADO DDD 71)",
+      "Name": "TIM-4 (Proxy-Socks)",
       "FLAG": "tim",
       "Payload": "ACL / HTTP/1.1[crlf]Host:br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -228,8 +200,19 @@
       "ProxyPort": "80",
       "Info": "Direct"
     },
+{
+      "Name": "TIM-5 (CDN-FLARE)",
+      "FLAG": "tim",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.4.18",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+ 
  {
-      "Name": "TIM-6 (VALIDADE)",
+      "Name": "TIM-6 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -239,7 +222,7 @@
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-7 (VALIDADE)",
+      "Name": "TIM-7 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]ACL / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
@@ -249,7 +232,7 @@
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-8 (VALIDADE)",
+      "Name": "TIM-8 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -259,7 +242,7 @@
       "Info": "Proxy"
     },
  {
-      "Name": "TIM-9 (VALIDADE)",
+      "Name": "TIM-9 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -269,7 +252,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-10 (VALIDADE)",
+      "Name": "TIM-10 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -279,7 +262,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-11 (VALIDADE)",
+      "Name": "TIM-11 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -289,7 +272,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-12 (VALIDADE)",
+      "Name": "TIM-12 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -299,7 +282,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-13 (VALIDADE)",
+      "Name": "TIM-13 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -309,7 +292,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-14 (VALIDADE)",
+      "Name": "TIM-14 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -320,7 +303,7 @@
     },
 
 {
-      "Name": "TIM-15 (BARCKEND)",
+      "Name": "TIM-15 (CDN-SAAS)",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -329,7 +312,18 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-   {
+  {
+      "Name": "TIM-16 (CDN-GCORE)",
+      "FLAG": "vivo",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "81.28.12.12",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+
+ {
       "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
       "Payload": "ACL / HTTP/1.1[crlf]Host: w.waze.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
