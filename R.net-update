@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.175",
+  "Version": "1.1.176",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -314,7 +314,7 @@
     },
   {
       "Name": "TIM-16 (CDN-GCORE)",
-      "FLAG": "vivo",
+      "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
