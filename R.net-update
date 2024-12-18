@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.177",
+  "Version": "1.1.178",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -214,10 +214,10 @@
  {
       "Name": "TIM-6 (CDN-FLARE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.28.182",
+      "ProxyIP": "141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
