@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.178",
+  "Version": "1.1.179",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -71,10 +71,10 @@
 {
       "Name": "VIVO-4 (CDN-FLARE)",
       "FLAG": "vivo",
-      "Payload": "ACL /[split] HTTP/1.1 [lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "ACL /cdn-cgi/trace/[split] HTTP/1.1 [lf]Host: mms.vivo.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.51.111",
+      "ProxyIP": "104.18.4.18",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
