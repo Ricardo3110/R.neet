@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.181",
+  "Version": "1.1.183",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -48,7 +48,7 @@
       "Info": "Proxy"
     },
  {
-      "Name": "VIVO-2 (Proxy-Socks)",
+      "Name": "VIVO-2 (Websocket)",
       "FLAG": "vivo",
       "Payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
@@ -69,9 +69,9 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-4 (CDN-FLARE)",
+      "Name": "VIVO-4 (Teste)",
       "FLAG": "vivo",
-      "Payload": "ACL /cdn-cgi/trace/[split] HTTP/1.1 [lf]Host: mms.vivo.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.4.18",
