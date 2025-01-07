@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.180",
+  "Version": "1.1.181",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,11 +50,11 @@
  {
       "Name": "VIVO-2 (Proxy-Socks)",
       "FLAG": "vivo",
-      "Payload": "C [split] [protocol]HTTP/CONNECT [crlf]Host m.bradesco.com[crlf]",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 
