@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.183",
+  "Version": "1.1.184",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -71,10 +71,10 @@
 {
       "Name": "VIVO-4 (Teste)",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host:ipv4.google.com[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
