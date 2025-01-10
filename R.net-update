@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.185",
+  "Version": "1.1.186",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -76,7 +76,7 @@
       "TlsIP": "",
       "ProxyIP": "172.233.20.46",
       "ProxyPort": "8080",
-      "Info": "Direct"
+      "Info": "Proxy"
     },
 {
       "Name": "VIVO-5 (CDN-FLARE)",
