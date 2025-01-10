@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.184",
+  "Version": "1.1.185",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -71,12 +71,12 @@
 {
       "Name": "VIVO-4 (Teste)",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host:ipv4.google.com[lf]",
+      "Payload": "CONNECT 127.0.0.1:22[split][lf] HTTP/1.0 [lf]Host: http://www.itv.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyIP": "172.233.20.46",
+      "ProxyPort": "8080",
+      "Info": "Direct"
     },
 {
       "Name": "VIVO-5 (CDN-FLARE)",
