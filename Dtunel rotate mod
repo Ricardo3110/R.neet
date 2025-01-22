@@ -219,7 +219,7 @@
         "category_id": 5469,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][delay_split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][delay_split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: DOMÍNIO[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@tommyvps[crlf][crlf]"
+            "payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]"
         },
         "config_v2ray": null,
         "created_at": "2023-07-24 18:20:54",
@@ -237,7 +237,7 @@
             "port": 80
         },
         "server": {
-            "host": "104.19.239.25",
+            "host": "104.19.239.25#104.16.53.111",
             "port": 80
         },
         "sorter": 3,
@@ -247,7 +247,7 @@
             7300
         ],
         "updated_at": "2023-08-28 16:06:06",
-        "url_check_user": "http://IPVPS:5000/checkUser",
+        "url_check_user": "http://IPVPS:5001/checkUser",
         "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
 }, 
  {
