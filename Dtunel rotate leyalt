@@ -1,163 +1,969 @@
-[
-  {
-    "name": "APP_BACKGROUND_TYPE",
-    "value": {
-      "options": [
-        {
-          "value": "IMAGE"
-        },
-        {
-          "value": "COLOR"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>213259300 - @FredBarbosa</title>
+
+  <style>
+    :root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+
+      --space-status-bar: 10px;
+      --space-nav-bar: 33px;
+
+      --default-background-color: linear-gradient(135deg,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf,
+          #76fcfc,
+          #7f47cb,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf);
+      --connected-background-color: linear-gradient(135deg,
+          #05b76d,
+          #01ac66,
+          #008e52,
+          #30704b,
+          #00ff00,
+          #29ab87,
+          #00a86b,
+          #2e8b57,
+          #3f7046,
+          #3f7,
+          #008e52,
+          #30704b,
+          #00ff00,
+          #29ab87,
+          #00a86b,
+          #2e8b57,
+          #3f7046,
+          #3f7);
+      --connecting-background-color: linear-gradient(135deg,
+          #ffc823,
+          #f4b007,
+          #fff14a,
+          #eaa700,
+          #fc9200,
+          #ffcb05,
+          #feb308,
+          #ecc218,
+          #ffc823,
+          #f4b007,
+          #fff14a,
+          #eaa700,
+          #fc9200,
+          #ffcb05,
+          #feb308,
+          #ecc218);
+      --error-background-color: linear-gradient(135deg,
+          #e20807,
+          #d40000,
+          #9a001a,
+          #65100d,
+          #e20807,
+          #d40000,
+          #9a001a,
+          #65100d,
+          #e20807,
+          #d40000,
+          #9a001a,
+          #65100d,
+          #000000,
+          #ff0000,
+          #9a001a,
+          #e20807,
+          #65100d);
+    }
+
+    @keyframes ButtonStartVpnAnimation {
+      0% {
+        background-position: 0;
+      }
+
+      100% {
+        background-position: 300%;
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      background: #051d40;
+      padding-bottom: var(--space-nav-bar);
+    }
+
+    main {
+      width: auto;
+      height: 89%;
+
+      display: flex;
+
+      position: relative;
+
+      padding: 0 0 0 0;
+
+      overflow: hidden;
+    }
+
+    section.home {
+      width: 100vw;
+      min-width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      opacity: 0;
+      transform: translateX(100%);
+
+      transition: opacity 0.3s ease, transform 0.3s ease;
+
+      overflow: hidden;
+    }
+
+    section.home header {
+      width: 100%;
+      height: 20%;
+      max-height: 135px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: var(--space-status-bar) 10px 0 10px;
+
+      background-image: url();
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    section.home header img {
+      width: 80%;
+    }
+
+    section.container-carrier-selector-button {
+      width: 100%;
+      height: 10%;
+      max-height: 60px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 10% 0 0 0;
+    }
+
+    section.container-carrier-selector-button button {
+      width: 90%;
+      height: 65%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+
+      position: relative;
+
+      border: 0px;
+      border-radius: 20px;
+
+      background: radial-gradient(circle, #0bb1d3, #9f2fff 85%);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+    }
+
+    section.container-carrier-selector-button button svg {
+      color: #ffffff;
+    }
+
+    section.container-carrier-selector-button button span {
+      color: #ffffff;
+      font-size: 12px;
+    }
+
+    section.container-button-start-stop-vpn {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 20% 0 0 0;
+    }
+
+    section.container-button-start-stop-vpn button {
+      width: 150px;
+      height: 150px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: relative;
+
+      border: 0;
+      border-radius: 50%;
+
+      background: linear-gradient(to top left, #0bb1d3, #9f2fff 85%);
+    }
+
+    section.container-button-start-stop-vpn button svg {
+      width: 50%;
+      height: 50%;
+
+      color: #ffffff;
+    }
+
+    section.container-button-start-stop-vpn button::before,
+    section.container-button-start-stop-vpn button::after {
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+
+      content: "";
+
+      position: absolute;
+      z-index: -1;
+
+      border-radius: 50%;
+
+      background: var(--default-background-color);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+    }
+
+    section.container-button-start-stop-vpn button::after {
+      filter: blur(30px);
+    }
+
+    section.container-status-connection,
+    section.container-version,
+    section.container-local-ip {
+      width: 100%;
+      height: auto;
+
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      margin: auto 0 auto 0;
+    }
+
+    section.container-status-connection.active,
+    section.container-version.active,
+    section.container-local-ip.active {
+      display: flex;
+    }
+
+    section.container-status-connection button,
+    section.container-version button,
+    section.container-local-ip button {
+      padding: 2.5% 10%;
+
+      border: 0;
+      border-radius: 60px;
+
+      background: radial-gradient(circle, #0bb1d3, #9f2fff 85%);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+    }
+
+    section.container-status-connection button span,
+    section.container-version button span,
+    section.container-local-ip button span {
+      color: #ffffff;
+    }
+
+    @media only screen and (max-width: 375px) {
+      section.container-button-start-stop-vpn button {
+        width: 110px;
+        height: 110px;
+      }
+
+      section.container-status-connection {
+        margin-top: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 280px) {
+      section.container-button-start-stop-vpn {
+        margin-top: 15%;
+      }
+
+      section.container-button-start-stop-vpn button {
+        width: 90px;
+        height: 90px;
+      }
+
+      section.container-status-connection {
+        margin-top: 20% !important;
+      }
+    }
+
+    @media only screen and (max-width: 250px) {
+      section.container-button-start-stop-vpn {
+        margin-top: 5%;
+      }
+
+      section.container-button-start-stop-vpn button {
+        width: 90px;
+        height: 90px;
+      }
+
+      section.container-status-connection {
+        margin-top: 10% !important;
+      }
+    }
+
+    section.profile,
+    section.carrier-list,
+    section.container-tools,
+    section.container-error {
+      width: 100%;
+      min-width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      padding: var(--space-status-bar) 0 0 0;
+
+      opacity: 0;
+
+      transform: translateX(100%);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    section.carrier-list {
+      height: 97%;
+    }
+
+    section.container-tools {
+      gap: 1px;
+    }
+
+    section.loading,
+    section.checkuser,
+    section.clean-data-app,
+    section.hotspot-container,
+    section.terms-container,
+    section.logs-container,
+    section.renew-alert {
+      width: 100%;
+      min-width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999999999;
+
+      padding-top: 15%;
+
+      background: rgba(0, 0, 0, 0.3);
+
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: center;
+
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    section.hotspot-container {
+      padding-top: 0;
+    }
+
+    section.loading.active,
+    section.checkuser.active,
+    section.clean-data-app.active,
+    section.hotspot-container.active,
+    section.terms-container.active,
+    section.logs-container.active,
+    section.renew-alert.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    section.loading section,
+    section.checkuser section,
+    section.clean-data-app section,
+    section.hotspot-container section,
+    section.terms-container section,
+    section.logs-container section,
+    section.renew-alert section {
+      width: 80%;
+      height: auto;
+      min-height: 50%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      border-radius: 10px;
+
+      background: #051d40;
+
+      overflow: hidden;
+    }
+
+    section.renew-alert section {
+      position: relative;
+
+      overflow: initial;
+    }
+
+    section.renew-alert.active section::before,
+    section.renew-alert.active section::after {
+      width: calc(100% + 2px);
+      height: calc(100% + 2px);
+
+      content: "";
+      position: absolute;
+      left: -1px;
+      right: 0;
+      bottom: -1px;
+      z-index: -1;
+
+      border-radius: 10px;
+
+      background: linear-gradient(135deg, #9f2fff, #0bb1d3, #7f47cb, #00ffff, #7a2cec, #4adfdf, #76fcfc, #7f47cb, #9f2fff, #0bb1d3, #7f47cb, #00ffff, #7a2cec, #4adfdf);
+      background-size: 300%;
+      animation: 4s infinite alternate-reverse ButtonStartVpnAnimation;
+    }
+
+    section.renew-alert section::after {
+      filter: blur(7px);
+    }
+
+    section.logs-container section {
+      width: 90%;
+      min-height: 0;
+
+      margin-top: 25%;
+      padding-bottom: 0.8rem;
+    }
+
+    section.renew-alert section {
+      width: 90%;
+
+      padding-bottom: 1rem;
+    }
+
+    section.loading section header,
+    section.checkuser section header,
+    section.clean-data-app section header,
+    section.hotspot-container section header,
+    section.terms-container section header,
+    section.logs-container section header,
+    section.renew-alert section header {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: relative;
+
+      padding: 4% 2% 4% 2%;
+
+      border-bottom: 2px solid #03142d;
+    }
+
+    section.loading section header h1,
+    section.checkuser section header h1,
+    section.clean-data-app section header h1,
+    section.hotspot-container section header h1,
+    section.terms-container section header h1,
+    section.logs-container section header h1,
+    section.renew-alert section header h1 {
+      margin-left: auto;
+
+      color: #ffffff;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 280px) {
+      section.clean-data-app section header h1 {
+        font-size: 0.7rem;
+      }
+    }
+
+    section.loading section header svg,
+    section.checkuser section header svg,
+    section.clean-data-app section header svg,
+    section.hotspot-container section header svg,
+    section.terms-container section header svg,
+    section.logs-container section header svg,
+    section.renew-alert section header svg {
+      margin-left: auto;
+
+      color: #ffffff;
+    }
+
+    section.terms-container section p {
+      width: 95%;
+      height: auto;
+      max-height: 350px;
+
+      padding: 5% 0;
+
+      color: #ffffff;
+      text-align: center;
+
+      overflow: auto;
+    }
+
+    section.loading section div.loading {
+      width: 150px;
+      height: 150px;
+
+      margin-top: auto;
+      margin-bottom: auto;
+
+      border-top: 4px solid #ffffff;
+      border-right: 4px solid #ffffff;
+      border-bottom: 4px solid #ffffff;
+      border-left: 4px solid transparent;
+      border-radius: 50%;
+
+      background-color: transparent;
+
+      animation: spin 1s linear infinite;
+    }
+
+    section.checkuser section section {
+      width: 100%;
+      height: auto;
+      min-height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: auto 0 auto 0;
+      padding: 3% 0;
+
+      border-radius: 0;
+    }
+
+    section.checkuser section section div:first-child {
+      margin: 0;
+    }
+
+    section.checkuser section section div {
+      width: 90%;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      margin: 5% 0 0 0;
+      padding: 3% 3%;
+
+      border-radius: 10px;
+
+      background: radial-gradient(circle, #0bb1d3, #9f2fff 85%);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+    }
+
+    section.checkuser section section div svg,
+    section.checkuser section section div span {
+      color: #ffffff;
+    }
+
+    section.checkuser section section div span {
+      font-size: 0.8rem;
+    }
+
+    section.clean-data-app section section,
+    section.hotspot-container section section {
+      width: 100%;
+      height: auto;
+      min-height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: auto 0 auto 0;
+      padding: 8% 0;
+
+      border-radius: 0;
+    }
+
+    section.clean-data-app section section svg,
+    section.hotspot-container section section svg {
+      width: 30%;
+      height: auto;
+
+      color: #ffff00;
+      font-size: 8rem;
+    }
+
+    section.hotspot-container section section svg {
+      width: 20%;
+      height: auto;
+
+      color: #ffffff;
+    }
+
+    section.clean-data-app section section h1,
+    section.hotspot-container section section h1 {
+      color: #ffffff;
+      font-size: 1rem;
+    }
+
+    section.clean-data-app section section p,
+    section.hotspot-container section section p {
+      margin: 5% 0 8% 0;
+      padding: 0 3%;
+
+      color: #ffffff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    section.hotspot-container section section p {
+      width: 100%;
+      height: 10%;
+      max-height: 300px;
+
+      overflow: auto;
+    }
+
+    section.clean-data-app section section button,
+    section.hotspot-container section section button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 4% 10%;
+
+      border: 0;
+      border-radius: 60px;
+
+      background: radial-gradient(circle, #0bb1d3, #9f2fff 85%);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+    }
+
+    section.clean-data-app section section button span,
+    section.hotspot-container section section button span {
+      color: #ffffff;
+    }
+
+    section.renew-alert section section {
+      max-height: 250px;
+
+      margin: auto 0 auto 0;
+      border-radius: 0;
+
+      overflow: auto;
+
+      &>p {
+        overflow: hidden;
+        color: #FFFFFF;
+        text-align: center;
+
+        &>bold {
+          font-weight: bold;
         }
-      ],
-      "selected": "COLOR"
-    },
-    "type": "SELECT"
-  },
-  {
-    "name": "APP_BACKGROUND_COLOR",
-    "value": "#080e16c7",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_CARD_COLOR",
-    "value": "#1d242e73",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_CARD_RADIUS",
-    "value": 20,
-    "type": "INTEGER"
-  },
-  {
-    "name": "APP_CARD_STATUS_COLOR",
-    "value": "#1d242e73",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_CARD_STATUS_RADIUS",
-    "value": 25,
-    "type": "INTEGER"
-  },
-  {
-    "name": "APP_CARD_CONFIG_COLOR",
-    "value": "#0E171EC9",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_DIALOG_BACKGROUND_COLOR",
-    "value": "#0E171EC9",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_BORDER_COLOR",
-    "value": "#1d242e73",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_INPUT_COLOR",
-    "value": "#1d242e73",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_INPUT_RADIUS",
-    "value": 25,
-    "type": "INTEGER"
-  },
-  {
-    "name": "APP_TEXT_COLOR",
-    "value": "#FFFFFFFF",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_BUTTON_COLOR",
-    "value": "#1d242e73",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_BUTTON_RADIUS",
-    "value": 25,
-    "type": "INTEGER"
-  },
-  {
-    "name": "APP_ICON_COLOR",
-    "value": "#FFFFFFFF",
-    "type": "COLOR"
-  },
-  {
-    "name": "APP_SHOW_CONNECTION_MODE",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_SUPPORT_BUTTON",
-    "value": null,
-    "type": "HTML"
-  },
-  {
-    "name": "APP_WEB_VIEW",
-    "value": null,
-    "type": "HTML"
-  },
-  {
-    "name": "APP_AUTO_START",
-    "value": false,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_CONNECTION_LIMITER",
-    "value": false,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_BTN_UPDATE_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_BTN_LOGGER_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_BTN_PAGE_ENABLED",
-    "value": false,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_DIALOG_ERROR_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_CHECKUSER_DIALOG_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_SUCCESS_TOAST_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_ERROR_TOAST_ENABLED",
-    "value": true,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_LAYOUT_WEBVIEW_ENABLED",
-    "value": false,
-    "type": "BOOLEAN"
-  },
-  {
-    "name": "APP_MESSAGE",
-    "value": null,
-    "type": "TEXT"
-  },
-  {
-    "name": "APP_UPDATE_URL",
-    "value": null,
-    "type": "URL",
-    "status": "ACTIVE"
-  }
-]
+
+        &>italic {
+          font-style: italic;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    section.logs-container section section {
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+
+      padding: 0.4rem 0.4rem 0rem 0.4rem;
+      margin: 0.4rem 0 0.8rem 0;
+
+      border-radius: 0;
+
+      overflow: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: transparent;
+      }
+
+      &>p {
+        width: 100%;
+        height: auto;
+
+        color: #FFFFFF;
+        font-size: 0.8rem;
+      }
+    }
+
+    section.logs-container section button {
+      width: auto;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      margin: auto 0 0 0;
+      padding: 3% 7%;
+
+      position: relative;
+
+      border: 0px;
+      border-radius: 20px;
+
+      background: radial-gradient(circle, #0bb1d3, #9f2fff 85%);
+      background-size: 300%;
+
+      animation: 8s infinite ButtonStartVpnAnimation;
+
+      &>svg {
+        color: #FFFFFF;
+      }
+
+      &>span {
+        color: #FFFFFF;
+      }
+    }
+
+    section.profile header,
+    section.carrier-list header,
+    section.container-tools header,
+    section.container-error header {
+      width: 100%;
+      height: 10%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: relative;
+
+      padding: 0 20px 0 20px;
+
+      background: #051d40;
+    }
+
+    section.profile header::before,
+    section.profile header::after,
+    section.carrier-list header::before,
+    section.carrier-list header::after,
+    section.container-tools header::before,
+    section.container-tools header::after,
+    section.container-error header::before,
+    section.container-error header::after {
+      width: calc(100% + 2px);
+      height: calc(100% + 2px);
+
+      content: "";
+
+      position: absolute;
+      z-index: -1;
+
+      background: linear-gradient(135deg,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf,
+          #76fcfc,
+          #7f47cb,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf);
+      background-size: 300%;
+
+      animation: 15s infinite ButtonStartVpnAnimation;
+    }
+
+    section.profile header::after,
+    section.carrier-list header::after,
+    section.container-tools header::after,
+    section.container-error header::after {
+      filter: blur(5px);
+    }
+
+    section.profile header svg,
+    section.carrier-list header svg,
+    section.container-tools header svg,
+    section.container-error header svg {
+      width: 20px;
+      height: 20px;
+
+      margin: 0 auto 0 0;
+
+      fill: url(#grad);
+    }
+
+    section.profile header h1,
+    section.carrier-list header h1,
+    section.container-tools header h1,
+    section.container-error header h1 {
+      margin: 0 auto 0 0;
+
+      color: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    section.profile form {
+      width: 100%;
+      height: auto;
+
+      padding: 0px 10px;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    section.profile form fieldset {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      position: relative;
+
+      margin: 0% 0px;
+      padding: 5px 10px;
+
+      border: 0px solid #00ff00;
+      border-radius: 5px;
+
+      background: #051d40;
+    }
+
+    section.profile form fieldset::before,
+    section.profile form fieldset::after {
+      width: calc(100% + 2px);
+      height: calc(100% + 17px);
+
+      content: "";
+
+      position: absolute;
+      top: -16px;
+      right: 0;
+      bottom: 0;
+      left: -1px;
+      z-index: -1;
+
+      border-radius: 5px;
+
+      background: radial-gradient(circle,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf,
+          #76fcfc,
+          #7f47cb,
+          #9f2fff,
+          #0bb1d3,
+          #7f47cb,
+          #00ffff,
+          #7a2cec,
+          #4adfdf);
+      background-size: 300%;
+
+      animation: 20s infinite ButtonStartVpnAnimation;
+    }
+
+    section.profile form fieldset::after {
+      filter: blur(3px);
+    }
+
+    section.profile form fieldset legend {
+      padding: 0px 7px 0px 5px;
+      background: #051d40;
+    }
+
+    section.profile form fieldset legend svg {
+      width: auto;
+      height: 1.563rem;
+
+      fill: url(#grad);
+    }
+
+    section.profile 
