@@ -233,7 +233,7 @@
   },
   {
     "label": "LBL_VPN_ESTABLISHED",
-    "text": "<b>CONECTADO✅</b>"
+    "text": "<b>CONECTADO</b>"
   },
   {
     "label": "LBL_APP_VERSION",
