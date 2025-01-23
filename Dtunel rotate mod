@@ -18,7 +18,7 @@
         "category_id": 5467,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "CONNECT [instant_split][crlf] HTTP/1.1 [crlf]Host:cê/,*netvivo[crlf][crlf][",
+            "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
             "sni": ""
         },
         "config_v2ray": null,
@@ -33,11 +33,11 @@
         "mode": "SSH_DIRECT",
         "name": "VIVO 1",
         "proxy": {
-            "host": "br.r-neet.cloud",
+            "host": "",
             "port": 8080
         },
         "server": {
-            "host": "br.r-neet.cloud",
+            "host": "149.78.186.180",
             "port": 8080
         },
         "sorter": 1,
