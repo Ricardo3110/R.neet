@@ -1,14 +1,14 @@
 [
     {
         "label": "Nome do app",
-        "name": "SISTEMA ON-LINE 🟢",
-        "value": "true",
+        "name": "APP_NAME",
+        "value": null,
         "type": "STRING"
     },
     {
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "",
+        "value": "https://bafkreihqfce2j7olrlalh4oxlond5gpkbzodnhgkugyk3gkm3nn5c5nnry.ipfs.w3s.link",
         "type": "IMAGE"
     },
     {
@@ -146,7 +146,7 @@
     {
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
@@ -164,7 +164,7 @@
     {
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -200,7 +200,7 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": false,
+        "value": "Bem vindo ao CONECT-VELOOX ",
         "type": "TEXT"
     },
     {
