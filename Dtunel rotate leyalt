@@ -200,7 +200,7 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": "true"",
+        "value": true,
         "type": "TEXT"
     },
     {
