@@ -2,7 +2,7 @@
     {
         "label": "Nome do app",
         "name": "APP_NAME",
-        "value": null,
+        "value": true,
         "type": "STRING"
     },
     {
