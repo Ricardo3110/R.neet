@@ -1,8 +1,8 @@
 [
     {
         "label": "Nome do app",
-        "name": "APP_NAME",
-        "value": null,
+        "name": "SISTEMA ON-LINE 🟢",
+        "value": "true",
         "type": "STRING"
     },
     {
@@ -146,7 +146,7 @@
     {
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -158,7 +158,7 @@
     {
         "label": "Usar botão de registros",
         "name": "APP_BTN_LOGGER_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
