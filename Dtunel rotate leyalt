@@ -164,7 +164,7 @@
     {
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
