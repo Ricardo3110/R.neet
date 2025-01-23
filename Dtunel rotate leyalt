@@ -200,7 +200,7 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": "Bem vindo ao CONECT-VELOOX ",
+        "value": "true"",
         "type": "TEXT"
     },
     {
