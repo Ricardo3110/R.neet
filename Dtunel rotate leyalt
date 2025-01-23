@@ -8,7 +8,7 @@
     {
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "https://bafkreihqfce2j7olrlalh4oxlond5gpkbzodnhgkugyk3gkm3nn5c5nnry.ipfs.w3s.link",
+        "value": "",
         "type": "IMAGE"
     },
     {
@@ -134,7 +134,7 @@
     {
         "label": "Atualizar automaticamente as configurações ao lançar uma atualização.",
         "name": "APP_CONFIG_AUTO_UPDATE",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -146,7 +146,7 @@
     {
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -200,7 +200,7 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": "Bem vindo ao CONECT-VELOOX ",
+        "value": "Bem vindo",
         "type": "TEXT"
     },
     {
