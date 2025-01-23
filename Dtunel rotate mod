@@ -219,7 +219,7 @@
         "category_id": 5469,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]"
+            "payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]#PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[lf]@centraldacdn[crlf][crlf]"
         },
         "config_v2ray": null,
         "created_at": "2023-07-24 18:20:54",
@@ -237,7 +237,7 @@
             "port": 80
         },
         "server": {
-            "host": "104.19.239.25#104.16.53.111",
+            "host": "149.78.186.180#104.19.239.25#104.16.53.111",
             "port": 80
         },
         "sorter": 3,
