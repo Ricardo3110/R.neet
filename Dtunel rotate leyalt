@@ -164,7 +164,7 @@
     {
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
@@ -194,13 +194,13 @@
     {
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": true,
+        "value": false,
         "type": "TEXT"
     },
     {
