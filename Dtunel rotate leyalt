@@ -194,7 +194,7 @@
     {
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
