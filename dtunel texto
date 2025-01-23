@@ -161,7 +161,7 @@
   },
   {
     "label": "LBL_AUTHENTICATION_FAILED_TEXT",
-    "text": "USUÁRIO EXPIRADO OU INEXISTENTE"
+    "text": "usuario expirado ou errado"
   },
   {
     "label": "LBL_STATE_CONNECTED",
