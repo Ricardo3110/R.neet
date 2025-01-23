@@ -158,7 +158,7 @@
     {
         "label": "Usar botão de registros",
         "name": "APP_BTN_LOGGER_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
