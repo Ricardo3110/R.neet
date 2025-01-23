@@ -161,7 +161,7 @@
   },
   {
     "label": "LBL_AUTHENTICATION_FAILED_TEXT",
-    "text": "Não foi possível autenticar com servidor. Por favor, verifique seu nome de usuário e senha."
+    "text": "❌USUÁRIO EXPIRADO OU INEXISTENTE❌"
   },
   {
     "label": "LBL_STATE_CONNECTED",
@@ -233,7 +233,7 @@
   },
   {
     "label": "LBL_VPN_ESTABLISHED",
-    "text": "<b>VPN estabelecido</b>"
+    "text": "<b>CONECTADO✅</b>"
   },
   {
     "label": "LBL_APP_VERSION",
