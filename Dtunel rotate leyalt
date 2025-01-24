@@ -191,6 +191,12 @@
         "value": true,
         "type": "BOOLEAN"
     },
+{
+        "label": "Ativar IP local no layout nativo",
+        "name": "APP_LOCAL_IP_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
     {
        "label": "Filtrar configurações pelo nome da rede",
         "name": "APP_CONFIG_FILTER_ENABLED",
