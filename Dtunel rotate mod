@@ -269,7 +269,7 @@
         "category_id": 5469,
         "config_openvpn": null,
         "config_payload": {
-            "payload": "ACL / HTTP/1.1[crlf]Host:br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]#"ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]"
+            "payload": "ACL / HTTP/1.1[crlf]Host:br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]#ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]"
         },
         "config_v2ray": null,
         "created_at": "2023-07-24 18:20:54",
