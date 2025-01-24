@@ -1,20 +1,14 @@
 [
     {
-        "label": "Nome do app",
-        "name": "APP_NAME",
-        "value": true,
-        "type": "STRING"
-    },
-    {
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "",
+        "value": "https://i.ibb.co/FhpPNyC/DT4nbr65nz.png",
         "type": "IMAGE"
     },
     {
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": "https://bafkreiaqxcbiuwbxtmmu5wjhivuduj3mfrlncrn4dj3caecrpiui7pgste.ipfs.w3s.link",
+        "value": "https://i.ibb.co/SP84js0/DTj23-tyad.jpg",
         "type": "IMAGE"
     },
     {
@@ -38,13 +32,13 @@
     {
         "label": "Cor de fundo",
         "name": "APP_BACKGROUND_COLOR",
-        "value": "#7D7D7DFF",
+        "value": "#080e16c7",
         "type": "COLOR"
     },
     {
         "label": "Cor do card inicial",
         "name": "APP_CARD_COLOR",
-        "value": "#00000089",
+        "value": "#1d242e73",
         "type": "COLOR"
     },
     {
@@ -68,13 +62,13 @@
     {
         "label": "Cor do card de configurações",
         "name": "APP_CARD_CONFIG_COLOR",
-        "value": "#0000007B",
+        "value": "#0E171EC9",
         "type": "COLOR"
     },
     {
         "label": "Cor do fundo dos dialogs",
         "name": "APP_DIALOG_BACKGROUND_COLOR",
-        "value": "#0000007B",
+        "value": "#050C5AE4",
         "type": "COLOR"
     },
     {
@@ -86,7 +80,7 @@
     {
         "label": "Cor das bordas",
         "name": "APP_BORDER_COLOR",
-        "value": "#23E9D6FF",
+        "value": "#1d242e73",
         "type": "COLOR"
     },
     {
@@ -110,7 +104,7 @@
     {
         "label": "Cor dos botões",
         "name": "APP_BUTTON_COLOR",
-        "value": "#80808094",
+        "value": "#1d242e73",
         "type": "COLOR"
     },
     {
@@ -122,7 +116,7 @@
     {
         "label": "Cor dos icones",
         "name": "APP_ICON_COLOR",
-        "value": "#D5D5D5FF",
+        "value": "#FFFFFFFF",
         "type": "COLOR"
     },
     {
@@ -134,7 +128,7 @@
     {
         "label": "Atualizar automaticamente as configurações ao lançar uma atualização.",
         "name": "APP_CONFIG_AUTO_UPDATE",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
@@ -146,7 +140,7 @@
     {
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
@@ -164,7 +158,7 @@
     {
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -192,6 +186,24 @@
         "type": "BOOLEAN"
     },
     {
+        "label": "Ativar IP local no layout nativo",
+        "name": "APP_LOCAL_IP_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Filtrar configurações pelo nome da rede",
+        "name": "APP_CONFIG_FILTER_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar alertas sonoros",
+        "name": "APP_ALERT_SOUND_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
         "value": false,
@@ -200,14 +212,8 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": "Bem vindo",
-        "type": "TEXT"
-    },
-    {
-        "label": "URL de atualização do aplicativo",
-        "name": "APP_UPDATE_URL",
         "value": null,
-        "type": "URL"
+        "type": "TEXT"
     },
     {
         "label": "Tipo de mensagem",
