@@ -299,55 +299,5 @@
         "updated_at": "2023-08-28 16:06:06",
         "url_check_user": "http://149.78.186.180:5001/checkUser",
         "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
-},
-{
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "category": {
-            "color": "#283593ed",
-            "created_at": "2023-07-24 16:38:13",
-            "id": 5469,
-            "name": "TIM DIRECT SSH 01",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "updated_at": "2023-07-24 16:38:13",
-            "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
-        },
-        "category_id": 5469,
-        "config_openvpn": null,
-        "config_payload": {
-            "payload": "ACL wss://br1.r-neet.cloud HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]"
-        },
-        "config_v2ray": null,
-        "created_at": "2023-07-24 18:20:54",
-        "description": "TIM DIRECT SSH 01",
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "icon": "https://i.imgur.com/fZsgslo.png",
-        "id": 67080,
-        "mode": "SSH_DIRECT",
-        "name": "TIM CLOUDFLARE 03",
-        "proxy": {
-            "host": "104.18.28.182",
-            "port": 80
-        },
-        "server": {
-            "host": "104.18.28.182",
-            "port": 80
-        },
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "udp_ports": [
-            7300
-        ],
-        "updated_at": "2023-08-28 16:06:06",
-        "url_check_user": "http://br1.r-neet.cloud:5001/checkUser",
-        "user_id": "d37036c7-833d-4246-8b45-c0ce6e8daaa2"
-} 
+}
 ]
