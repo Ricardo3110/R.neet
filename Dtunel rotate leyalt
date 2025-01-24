@@ -1,14 +1,21 @@
+      
 [
+    {
+        "label": "Nome do app",
+        "name": "APP_NAME",
+        "value": null,
+        "type": "STRING"
+    },
     {
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "",
+        "value": "https://bafkreihqfce2j7olrlalh4oxlond5gpkbzodnhgkugyk3gkm3nn5c5nnry.ipfs.w3s.link",
         "type": "IMAGE"
     },
     {
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": "bafkreiaqxcbiuwbxtmmu5wjhivuduj3mfrlncrn4dj3caecrpiui7pgste.ipfs.w3s.link",
+        "value": "https://bafkreiaqxcbiuwbxtmmu5wjhivuduj3mfrlncrn4dj3caecrpiui7pgste.ipfs.w3s.link",
         "type": "IMAGE"
     },
     {
@@ -32,13 +39,13 @@
     {
         "label": "Cor de fundo",
         "name": "APP_BACKGROUND_COLOR",
-        "value": "#080e16c7",
+        "value": "#7D7D7DFF",
         "type": "COLOR"
     },
     {
         "label": "Cor do card inicial",
         "name": "APP_CARD_COLOR",
-        "value": "#1d242e73",
+        "value": "#00000089",
         "type": "COLOR"
     },
     {
@@ -62,13 +69,13 @@
     {
         "label": "Cor do card de configurações",
         "name": "APP_CARD_CONFIG_COLOR",
-        "value": "#0E171EC9",
+        "value": "#0000007B",
         "type": "COLOR"
     },
     {
         "label": "Cor do fundo dos dialogs",
         "name": "APP_DIALOG_BACKGROUND_COLOR",
-        "value": "#050C5AE4",
+        "value": "#0000007B",
         "type": "COLOR"
     },
     {
@@ -80,7 +87,7 @@
     {
         "label": "Cor das bordas",
         "name": "APP_BORDER_COLOR",
-        "value": "#1d242e73",
+        "value": "#23E9D6FF",
         "type": "COLOR"
     },
     {
@@ -104,19 +111,18 @@
     {
         "label": "Cor dos botões",
         "name": "APP_BUTTON_COLOR",
-        "value": "#1d242e73",
+        "value": "#80808094",
         "type": "COLOR"
     },
     {
         "label": "Raio dos botões",
-        "name": "APP_BUTTON_RADIUS",
-        "value": 25,
+        "name": "APP_BUTTON_RADIUS",  "value": 25,
         "type": "INTEGER"
     },
     {
         "label": "Cor dos icones",
         "name": "APP_ICON_COLOR",
-        "value": "#FFFFFFFF",
+        "value": "#D5D5D5FF",
         "type": "COLOR"
     },
     {
@@ -186,24 +192,6 @@
         "type": "BOOLEAN"
     },
     {
-        "label": "Ativar IP local no layout nativo",
-        "name": "APP_LOCAL_IP_ENABLED",
-        "value": true,
-        "type": "BOOLEAN"
-    },
-    {
-        "label": "Filtrar configurações pelo nome da rede",
-        "name": "APP_CONFIG_FILTER_ENABLED",
-        "value": false,
-        "type": "BOOLEAN"
-    },
-    {
-        "label": "Ativar alertas sonoros",
-        "name": "APP_ALERT_SOUND_ENABLED",
-        "value": false,
-        "type": "BOOLEAN"
-    },
-    {
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
         "value": false,
@@ -212,8 +200,40 @@
     {
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": null,
+        "value": "Bem vindo ao CONECT-VELOOX ",
         "type": "TEXT"
+    },
+    {
+        "label": "URL de atualização do aplicativo",
+        "name": "APP_UPDATE_URL",
+        "value": null,
+        "type": "URL"
+    },
+    {
+        "label": "Tipo de mensagem",
+        "name": "APP_MESSAGE_TYPE",
+        "value": {
+            "options": [
+                {
+                    "label": "Alerta",
+                    "value": "ALERT"
+                },
+                {
+                    "label": "Informação",
+                    "value": "INFO"
+                },
+                {
+                    "label": "Boas vindas",
+                    "value": "WELCOME"
+                },
+                {
+                    "label": "Sem mensagem",
+                    "value": "NONE"
+                }
+            ],
+            "selected": "WELCOME"
+        },
+        "type": "SELECT"
     },
     {
         "label": "Tipo de mensagem",
