@@ -146,7 +146,7 @@
     {
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
@@ -164,7 +164,7 @@
     {
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN"
     },
     {
@@ -189,6 +189,12 @@
         "label": "Ativar toast de erro",
         "name": "APP_ERROR_TOAST_ENABLED",
         "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+       "label": "Filtrar configurações pelo nome da rede",
+        "name": "APP_CONFIG_FILTER_ENABLED",
+        "value": false,
         "type": "BOOLEAN"
     },
     {
