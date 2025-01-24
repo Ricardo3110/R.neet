@@ -194,7 +194,7 @@
     {
        "label": "Filtrar configurações pelo nome da rede",
         "name": "APP_CONFIG_FILTER_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN"
     },
     {
