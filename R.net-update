@@ -74,8 +74,8 @@
       "Payload": "CONNECT 127.0.0.1:22[split][lf] HTTP/1.0 [lf]Host: http://www.itv.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.233.20.46",
-      "ProxyPort": "8080",
+      "ProxyIP": "172.233.19.202",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
