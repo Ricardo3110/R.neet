@@ -160,7 +160,7 @@
 "icon_image": "https://i.imgur.com/ZViCWrc.png",
 "user_id": 2,
 "password": "",
-"udp_port": "7100,7200,7300,7400,7500,7600,7700,7800,7900",
+"udp_port": "7300",
 "category_id": 1,
 "v2ray_uuid": "",
 "primary_dns_server": "8.8.8.8",
