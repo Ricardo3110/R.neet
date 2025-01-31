@@ -1280,8 +1280,8 @@
         "url_check_user": "http://149.78.186.180:5001/checkUser",
         "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
         "auth": {
-            "password": null,
-            "username": null,
+            "password": "",
+            "username": "",
             "v2ray_uuid": null
         },
         "proxy": {
