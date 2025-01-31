@@ -1267,7 +1267,7 @@
         "name": "TIM PRÉ 1",
         "proxy_host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
         "proxy_port": 80,
-        "server_host": "br0.r-neet.shop",
+        "server_host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
         "server_port": 80,
         "sorter": 1,
         "status": "ACTIVE",
