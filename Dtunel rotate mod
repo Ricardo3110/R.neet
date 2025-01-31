@@ -1,2296 +1,717 @@
-[
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]#[split]\\\\nCONNECT [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\\\\nGET  http://sdp.vivo.com.br/ HTTP/1.1\\\\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\\\\n\\\\n\\\\n#GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23816,
-        "mode": "SSH_PROXY",
-        "name": "VIVO FLARE",
-        "proxy_host": "104.26.12.205#br.blindertop.xyz#172.67.74.152#104.26.12.205#104.18.28.181#104.16.239.166#104.18.7.80#104.18.6.80#104.18.7.41#104.18.6.41#104.16.51.111#104.18.33.113#104.18.33.113#104.16.239.166#104.17.64.225#104.19.240.25# 104.18.27.160#104.16.239.166#104.18.28.181#104.16.237.16#104.18.33.113#141.193.213.11#104.26.5.32#104.18.6.80#104.18.7.80 #104.18.6.41",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-17T19:52:03.664Z",
-        "created_at": "2024-12-09T04:20:31.412Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.26.12.205#br.blindertop.xyz#172.67.74.152#104.26.12.205#104.18.28.181#104.16.239.166#104.18.7.80#104.18.6.80#104.18.7.41#104.18.6.41#104.16.51.111#104.18.33.113#104.18.33.113#104.16.239.166#104.17.64.225#104.19.240.25# 104.18.27.160#104.16.239.166#104.18.28.181#104.16.237.16#104.18.33.113#141.193.213.11#104.26.5.32#104.18.6.80#104.18.7.80 #104.18.6.41",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]#[split]\\\\nCONNECT [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\\\\nGET  http://sdp.vivo.com.br/ HTTP/1.1\\\\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\\\\n\\\\n\\\\n#GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Atualização: websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: [random=breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Expect: 100-continue[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: henriquex.com.br[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: mtls.sandbox.c6bank.com.br[lf][lf][split][lf][lf]PCVPN / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: websocket[lf][lf]#GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23819,
-        "mode": "SSH_PROXY",
-        "name": "VIVO SEM LOGIN DE REDE",
-        "proxy_host": "104.26.12.205#172.64.154.143#104.18.33.113#104.17.64.225#104.19.239.25#104.18.28.182#104.19.2#185.194.204.11041.93#172.67.188.168",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:19:12.406Z",
-        "created_at": "2024-12-09T04:20:31.487Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.26.12.205#172.64.154.143#104.18.33.113#104.17.64.225#104.19.239.25#104.18.28.182#104.19.2#185.194.204.11041.93#172.67.188.168",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Atualização: websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: [random=breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Expect: 100-continue[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=acceleratedentalmarketing.com;cdn.prod.website-files.com;auth.vivo.com.br;cdn.c6bank.com.br;blog.c6bank.com.br;cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api][crlf][split]ACL / HTTP/1.1[crlf]Host: cdn.brandmetrics.com[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TMYSSH[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: henriquex.com.br[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: mtls.sandbox.c6bank.com.br[lf][lf][split][lf][lf]PCVPN / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: websocket[lf][lf]#GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com .br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com ;pagamentoonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank .com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro .cloud][crlf][crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23820,
-        "mode": "SSH_DIRECT",
-        "name": "VIVO PRÉ 1",
-        "proxy_host": "br.blindertop.xyz",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:19:25.118Z",
-        "created_at": "2024-12-09T04:20:31.511Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com .br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com ;pagamentoonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank .com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro .cloud][crlf][crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[delay_split] PATCH / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[delay_split][lf][rotate=PATCH;ACL;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH;SEARCH] HTTP/1.1[lf]Host: [rotate=portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
-        "config_payload_sni": "br.blindertop.xyz",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23821,
-        "mode": "SSH_DIRECT",
-        "name": "VIVO PRÉ 2",
-        "proxy_host": "185.194.204.110",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:19:34.264Z",
-        "created_at": "2024-12-09T04:20:31.535Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "185.194.204.110",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[delay_split] PATCH / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[delay_split][lf][rotate=PATCH;ACL;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH;SEARCH] HTTP/1.1[lf]Host: [rotate=portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
-            "sni": "br.blindertop.xyz"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Conexão: [crlf][crlf]",
-        "config_payload_sni": "V32.thur.store",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23822,
-        "mode": "SSH_PROXY",
-        "name": "VIVO PRÉ 3",
-        "proxy_host": "157.254.54.27",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:19:50.083Z",
-        "created_at": "2024-12-09T04:20:31.560Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Conexão: [crlf][crlf]",
-            "sni": "V32.thur.store"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[split][lf]ACL http://\" + br.blindertop.xyz:8080 + \" EHTTP/1.1 200 OK \nKeep-Alive[lf][lf]",
-        "config_payload_sni": "V32.thur.store",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23823,
-        "mode": "SSH_DIRECT",
-        "name": "VIVO PRÉ 4",
-        "proxy_host": "br.blindertop.xyz",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 5,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:19:59.941Z",
-        "created_at": "2024-12-09T04:20:31.584Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[split][lf]ACL http://\" + br.blindertop.xyz:8080 + \" EHTTP/1.1 200 OK \nKeep-Alive[lf][lf]",
-            "sni": "V32.thur.store"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:portalrecarga.vivo.com.br[crlf]Update: Update[crlf]Conexão: [crlf][crlf]#[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:204.216.130.40[crlf]Update: Update[crlf]Conexão: [crlf][crlf]#[split][lf]ACL / HTTP/1.1[crlf]Host: vigia.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]#[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]#[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]#[delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com]@SSHPLUSPRO[crlf]#[delay_split][crlf] SEARCH HTTP/1.1[crlf]Host: www.google.com.br[crlf]Connection: keep-alive[crlf]Referer: http://www.google.com.br[crlf][crlf][delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com]@SSHPLUSPRO[crlf]#[delay_split][crlf] SEARCH HTTP/1.1[crlf]Host: www.google.com.br[crlf]Connection: keep-alive[crlf]Referer: http://www.google.com.br[crlf][crlf]#[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]#[crlf]#[delay_split][crlf]ACL / HTTP/1.1[crlf]Host: microsoft.com [crlf]Update: Update[crlf]Conexão: [crlf][crlf]",
-        "config_payload_sni": "185.194.204.110",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23824,
-        "mode": "SSH_DIRECT",
-        "name": "VIVO PRE 5",
-        "proxy_host": "185.194.204.110",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 5,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:20:08.448Z",
-        "created_at": "2024-12-09T04:20:31.614Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "185.194.204.110",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:portalrecarga.vivo.com.br[crlf]Update: Update[crlf]Conexão: [crlf][crlf]#[delay_split][crlf]ACL / HTTP/1.1[crlf]Host:204.216.130.40[crlf]Update: Update[crlf]Conexão: [crlf][crlf]#[split][lf]ACL / HTTP/1.1[crlf]Host: vigia.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]#[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]#[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]#[delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com]@SSHPLUSPRO[crlf]#[delay_split][crlf] SEARCH HTTP/1.1[crlf]Host: www.google.com.br[crlf]Connection: keep-alive[crlf]Referer: http://www.google.com.br[crlf][crlf][delay_split]ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com]@SSHPLUSPRO[crlf]#[delay_split][crlf] SEARCH HTTP/1.1[crlf]Host: www.google.com.br[crlf]Connection: keep-alive[crlf]Referer: http://www.google.com.br[crlf][crlf]#[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]#[crlf]#[delay_split][crlf]ACL / HTTP/1.1[crlf]Host: microsoft.com [crlf]Update: Update[crlf]Conexão: [crlf][crlf]",
-            "sni": "185.194.204.110"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-        "config_payload_sni": "185.194.204.110",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23825,
-        "mode": "SSH_PROXY",
-        "name": "VIVO PRE 6",
-        "proxy_host": "mtls.sandbox.c6bank.com.br",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 6,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:20:18.664Z",
-        "created_at": "2024-12-09T04:20:31.637Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "mtls.sandbox.c6bank.com.br",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "sni": "185.194.204.110"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23826,
-        "mode": "SSH_PROXY",
-        "name": "VIVO CONTROLE 1",
-        "proxy_host": "104.17.70.206#104.18.7.41#104.18.6.41#104.26.5.32#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113#144.22.188.72#141.193.213.11#141.193.213.10",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:20:30.243Z",
-        "created_at": "2024-12-09T04:20:31.686Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.18.7.41#104.18.6.41#104.26.5.32#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113#144.22.188.72#141.193.213.11#141.193.213.10",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "ACL / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][split][lf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23827,
-        "mode": "SSH_PROXY",
-        "name": "VIVO CONTROLE 2",
-        "proxy_host": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 2,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:20:44.488Z",
-        "created_at": "2024-12-09T04:20:31.709Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "ACL / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][split][lf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23828,
-        "mode": "SSH_PROXY",
-        "name": "VIVO CONTROLE 3",
-        "proxy_host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2024-12-29T20:41:33.701Z",
-        "created_at": "2024-12-09T04:20:31.733Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://185.194.204.110:5959/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "SEARCH ws://br.blindertop.xyz HTTP/1.1\\nHost: legado.vivo.com.br\\nUpgrade: ws\\n\\n",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23829,
-        "mode": "SSH_PROXY",
-        "name": "VIVO CONTROLE 4",
-        "proxy_host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:02.846Z",
-        "created_at": "2024-12-09T04:20:31.757Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "SEARCH ws://br.blindertop.xyz HTTP/1.1\\nHost: legado.vivo.com.br\\nUpgrade: ws\\n\\n",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "SEARCH ws://br.blindertop.xyz HTTP/1.1\\nHost: legado.vivo.com.br\\nUpgrade: ws\\n\\n",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23830,
-        "mode": "SSH_PROXY",
-        "name": "VIVO CONTROLE 5",
-        "proxy_host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 5,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:12.128Z",
-        "created_at": "2024-12-09T04:20:31.781Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.18.7.41#104.26.5.32#104.16.23#104.17.64.2259.166#104.16.239.166#104.16.239.166#104.18.33.113#141.193.213.11",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "SEARCH ws://br.blindertop.xyz HTTP/1.1\\nHost: legado.vivo.com.br\\nUpgrade: ws\\n\\n",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23831,
-        "mode": "SSH_PROXY",
-        "name": "SOCKS EASY, PLANO E TIM",
-        "proxy_host": "104.17.70.206#104.26.5.32#104.26.4.32#141.193.213.10#141.193.213.11#blog.deezer.com#104.16.101.107#101espn.com",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 6,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:21.682Z",
-        "created_at": "2024-12-09T04:20:31.803Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.26.5.32#104.26.4.32#141.193.213.10#141.193.213.11#blog.deezer.com#104.16.101.107#101espn.com",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5147,
-            "name": "🟣VIVO PÓS🟣",
-            "color": "#000000D1",
-            "sorter": 4,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.659Z",
-            "updated_at": "2024-12-09T04:20:31.659Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5147,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.8.8",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23832,
-        "mode": "SSH_PROXY",
-        "name": "SOCKS EASY, PLANO E TIM 2",
-        "proxy_host": "104.17.70.206#104.26.5.32#104.26.4.32#141.193.213.10#141.193.213.11#blog.deezer.com#104.16.101.107#101espn.com",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 6,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:30.221Z",
-        "created_at": "2024-12-09T04:20:31.826Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.70.206#104.26.5.32#104.26.4.32#141.193.213.10#141.193.213.11#blog.deezer.com#104.16.101.107#101espn.com",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.8.8"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5148,
-            "name": "🟣VIVO EASY🟣",
-            "color": "#222222D1",
-            "sorter": 5,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.849Z",
-            "updated_at": "2024-12-09T04:20:31.849Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5148,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23833,
-        "mode": "SSH_PROXY",
-        "name": "VIVO EASY 1",
-        "proxy_host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:38.506Z",
-        "created_at": "2024-12-09T04:20:31.872Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5148,
-            "name": "🟣VIVO EASY🟣",
-            "color": "#222222D1",
-            "sorter": 5,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.849Z",
-            "updated_at": "2024-12-09T04:20:31.849Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5148,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23834,
-        "mode": "SSH_PROXY",
-        "name": "VIVO EASY 2",
-        "proxy_host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 2,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:47.646Z",
-        "created_at": "2024-12-09T04:20:31.895Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5148,
-            "name": "🟣VIVO EASY🟣",
-            "color": "#222222D1",
-            "sorter": 5,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.849Z",
-            "updated_at": "2024-12-09T04:20:31.849Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5148,
-        "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 23835,
-        "mode": "SSH_PROXY",
-        "name": "VIVO EASY 3",
-        "proxy_host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-        "proxy_port": 80,
-        "server_host": br.r-neet.shop",
-        "server_port": 22,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:21:57.965Z",
-        "created_at": "2024-12-09T04:20:31.918Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
-            "port": 80
-        },
-        "server": {
-            "host": "br.r-neet.shop",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]X-Forward-Host: br0.r-neet.shop[crlf]wss://[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]#PATCH wss://br0.r-neet.shop HTTP/1.1[lf]Host: c6bank.com.br[lf]Connection: Update[crlf]Upgrade: Websocket[lf][lf]#PATCH wss://br0.r-neet.shop HTTP/1.1[lf]Host: support.deezer.com[lf]Connection: Update[crlf]Upgrade: Websocket[lf][split][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: [rotate=browser-update.org;maxcdn.bootstrapcdn.com;maxcdn.bootstrapcdn.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@canaldotl[crlf][crlf]#PATCH / HTTP/1.9[crlf]host: c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br0.r-neet.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]#ACL / HTTP/1.3[crlf]Host: mtls.sandbox.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: br0.r-neet.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#ACL HTTP/1.1[lf]Host: google.es[lf]#PUT / Cache-Control: private: Web-security[crlf]#ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]#ACL / HTTP/1.1[crlf][crlf]#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#[protocol][crlf] [crlf][crlf]@#HTTP/ [crlf][crlf]|[crlf]]]@#[protocol]cdn-cgi/trace [crlf][crlf]|[crlf][crlf]Expect: 100-continue[crlf]@#GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]PATCH- / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#PATCH / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]PATCH- / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#HTTP/ *#http/ \\\\n\\\\n#RPC_OUT_DATA HTTP/#BASELINE-CONTROL HTTP/#PATCH HTTP/#ACL HTTP/#HEAD HTTP/#[delay_split]HEAD HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]#HTTP/1.1 200[crlf]Host: vimeo.com[crlf][crlf][netData][crlf]@mip [crlf][crlf]http://uber.com/ HTTP/1.1 200[crlf]mip[crlf][crlf] [crlf][crlf]http://udemy.com/ HTTP/1.1 200[crlf]Host@mip[crlf][crlf] [crlf][crlf] http://aliyuncs.com/ HTTP/1.1 200[crlf]Host fastly.net/[crlf][crlf][netData][crlf] [crlf][crlf] http://pornhub.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf] http://google.com/ HTTP/1.1[cr][lf] [crlf][crlf][netData][cr][lf] [crlf][crlf]CONNECT mip:22@http://youtube.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf]#HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf][crlf]CONNECT http://netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]X-Online-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]User-Agent:[ua][crlf]Connection:Keep-Alive[crlf]Proxy-Connection:Keep-Alive[crlf]X-Forwarded-For:[host][crlf]X-Forwarded-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]Content-Type:Application/Octet-Stream[crlf][crlf]#HTTP/1.1 8080[crlf]Host: http://https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; DM-01K Build/N2G47H)[crlf]X-Online-Host: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]X-Forwarded-For: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf][crlf]#HTTP/1.1 200 OK [crlf]Host:www.google.com[crlf]host:www.youtube.com[crlf]Host:www.facebook.com[crlf]#HTTP/ 2\\\\nHost: m.opera.com\\\\n\\\\n",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23836,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 2",
-        "proxy_host": "br0.r-neet.shop#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53#104.18.5.18",
-        "proxy_port": 80,
-        "server_host": "br.r-neet.shop",
-        "server_port": 80,
-        "sorter": 2,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2024-12-29T20:35:20.270Z",
-        "created_at": "2024-12-09T04:20:31.963Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://br.r-neet.shop:5001/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "br.r-neet.shop#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53#104.18.5.18",
-            "port": 80
-        },
-        "server": {
-            "host": "br.r-neet.shop",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]X-Forward-Host: br.blindertop.xyz[crlf]wss://[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: c6bank.com.br[lf]Connection: Update[crlf]Upgrade: Websocket[lf][lf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: support.deezer.com[lf]Connection: Update[crlf]Upgrade: Websocket[lf][split][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#ACL wss://br.blindertop.xyz HTTP/1.1[lf]Host: [rotate=browser-update.org;maxcdn.bootstrapcdn.com;maxcdn.bootstrapcdn.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@canaldotl[crlf][crlf]#PATCH / HTTP/1.9[crlf]host: c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br.blindertop.xyz[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]#ACL / HTTP/1.3[crlf]Host: mtls.sandbox.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: br.blindertop.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#ACL HTTP/1.1[lf]Host: google.es[lf]#PUT / Cache-Control: private: Web-security[crlf]#ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]#ACL / HTTP/1.1[crlf][crlf]#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#[protocol][crlf] [crlf][crlf]@#HTTP/ [crlf][crlf]|[crlf]]]@#[protocol]cdn-cgi/trace [crlf][crlf]|[crlf][crlf]Expect: 100-continue[crlf]@#GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]PATCH- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#PATCH / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]PATCH- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#HTTP/ *#http/ \\\\n\\\\n#RPC_OUT_DATA HTTP/#BASELINE-CONTROL HTTP/#PATCH HTTP/#ACL HTTP/#HEAD HTTP/#[delay_split]HEAD HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]#HTTP/1.1 200[crlf]Host: vimeo.com[crlf][crlf][netData][crlf]@mip [crlf][crlf]http://uber.com/ HTTP/1.1 200[crlf]mip[crlf][crlf] [crlf][crlf]http://udemy.com/ HTTP/1.1 200[crlf]Host@mip[crlf][crlf] [crlf][crlf] http://aliyuncs.com/ HTTP/1.1 200[crlf]Host fastly.net/[crlf][crlf][netData][crlf] [crlf][crlf] http://pornhub.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf] http://google.com/ HTTP/1.1[cr][lf] [crlf][crlf][netData][cr][lf] [crlf][crlf]CONNECT mip:22@http://youtube.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf]#HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf][crlf]CONNECT http://netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]X-Online-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]User-Agent:[ua][crlf]Connection:Keep-Alive[crlf]Proxy-Connection:Keep-Alive[crlf]X-Forwarded-For:[host][crlf]X-Forwarded-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]Content-Type:Application/Octet-Stream[crlf][crlf]#HTTP/1.1 8080[crlf]Host: http://https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; DM-01K Build/N2G47H)[crlf]X-Online-Host: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]X-Forwarded-For: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf][crlf]#HTTP/1.1 200 OK [crlf]Host:www.google.com[crlf]host:www.youtube.com[crlf]Host:www.facebook.com[crlf]#HTTP/ 2\\\\nHost: m.opera.com\\\\n\\\\n",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23837,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 3",
-        "proxy_host": "104.18.5.18",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:22:43.740Z",
-        "created_at": "2024-12-09T04:20:31.988Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.18.5.18",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "9.9.9.9",
-        "dns_server_dns2": "9.9.9.9",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23838,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 1",
-        "proxy_host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-        "proxy_port": 80,
-        "server_host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-        "server_port": 80,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:22:26.060Z",
-        "created_at": "2024-12-09T04:20:32.012Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://149.78.186.180:5001/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-            "port": 80
-        },
-        "server": {
-            "host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "9.9.9.9",
-            "dns2": "9.9.9.9"
-        },
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#PUT / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "ACL / HTTP/1.3[crlf]Host: [rotate=ubisoft.c6bank.com.br;api.of.c6bank.com.br;boleto.c6bank.com.br;proxy-homebroker.c6bank.com.br;homebroker.c6bank.com.br;mtls.of.c6bank.com.br;web.of.c6bank.com.br;teste.mail.c6bank.com.br;descomplica.com.br;wtaphf.descomplica.com.br;aidata.descomplica.com.br;bi.descomplica.com.br;cms-assets-p.c6bank.com.br;dataacademy.descomplica.com.br;cdn.c6bank.com.br;mobile.c6bank.app;mobile.hom.c6bank.app;api.sandbox.c6bank.com.br;gitlab.com;academy.descomplica.com.br;pre-onboarding-h.c6bank.app;www.c6bank.app;assets.c6bank.app;checkv.c6bank.app;pre-onboarding-p.c6bank.app;app.sandbox.c6bank.com.br;support.zen-deezer.com;auth.sandbox.c6bank.com.br;checkv-h.c6bank.app;mtls.sandbox.c6bank.com.br;tim.adfast.com.br;live.vivo.com.br;google.es;topspeed.c6bank.app;landing.stoodi.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23839,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 4",
-        "proxy_host": "timofertas.com#172.64.153.178#104.18.28.182#104.18.34.78#104.19.239.25#104.19.242.25#104.16.51.111#104.19.241.93#104.19.240.93#162.159.152.26#162.159.153.238#13.33.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149#172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32#172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com#investnews.com.br#172.67.188.168#deeplink.c6bank.info#timofertas.com.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149|172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32|172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149|172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32|172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com#104.18.5.18",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:22:53.768Z",
-        "created_at": "2024-12-09T04:20:32.035Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "timofertas.com#172.64.153.178#104.18.28.182#104.18.34.78#104.19.239.25#104.19.242.25#104.16.51.111#104.19.241.93#104.19.240.93#162.159.152.26#162.159.153.238#13.33.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149#172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32#172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com#investnews.com.br#172.67.188.168#deeplink.c6bank.info#timofertas.com.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149|172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32|172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149|172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113#www.pruftechnik.com#www.oiplace.com.br#www.usclaro.com#www.beha-amprobe.com#104.16.53.111#104.26.5.32|172.64.149.191#104.18.38.65#atendimento.lojadointer.com.br#znayp2saezuftgygo-mercadolibre.siteintercept.qualtrics.com#static.addtoany.com#www.teamworkonline.com#104.18.5.18",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "ACL / HTTP/1.3[crlf]Host: [rotate=ubisoft.c6bank.com.br;api.of.c6bank.com.br;boleto.c6bank.com.br;proxy-homebroker.c6bank.com.br;homebroker.c6bank.com.br;mtls.of.c6bank.com.br;web.of.c6bank.com.br;teste.mail.c6bank.com.br;descomplica.com.br;wtaphf.descomplica.com.br;aidata.descomplica.com.br;bi.descomplica.com.br;cms-assets-p.c6bank.com.br;dataacademy.descomplica.com.br;cdn.c6bank.com.br;mobile.c6bank.app;mobile.hom.c6bank.app;api.sandbox.c6bank.com.br;gitlab.com;academy.descomplica.com.br;pre-onboarding-h.c6bank.app;www.c6bank.app;assets.c6bank.app;checkv.c6bank.app;pre-onboarding-p.c6bank.app;app.sandbox.c6bank.com.br;support.zen-deezer.com;auth.sandbox.c6bank.com.br;checkv-h.c6bank.app;mtls.sandbox.c6bank.com.br;tim.adfast.com.br;live.vivo.com.br;google.es;topspeed.c6bank.app;landing.stoodi.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23840,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 5",
-        "proxy_host": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 5,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:23:03.173Z",
-        "created_at": "2024-12-09T04:20:32.059Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "ACL /index.html HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://live.vivo.com.br/, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23841,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 6",
-        "proxy_host": "pre-onboarding-h.c6bank.app#104.16.239.166#104.17.64.225#104.18.27.160#104.18.28.181#104.18.28.182#104.18.33.113#104.19.240.25",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 6,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2024-12-29T20:38:41.202Z",
-        "created_at": "2024-12-09T04:20:32.082Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://185.194.204.110:5959/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "pre-onboarding-h.c6bank.app#104.16.239.166#104.17.64.225#104.18.27.160#104.18.28.181#104.18.28.182#104.18.33.113#104.19.240.25",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "ACL /index.html HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://live.vivo.com.br/, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH HTTP/ \\n\\n#HTTP/ \\n\\n",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23842,
-        "mode": "SSH_DIRECT",
-        "name": "TIM PRÉ 7 (DDD 61)",
-        "proxy_host": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 7,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:23:12.650Z",
-        "created_at": "2024-12-09T04:20:32.105Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "PATCH HTTP/ \\n\\n#HTTP/ \\n\\n",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]X-Forward-Host: br.blindertop.xyz[crlf]wss://[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: c6bank.com.br[lf]Connection: Update[crlf]Upgrade: Websocket[lf][lf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: support.deezer.com[lf]Connection: Update[crlf]Upgrade: Websocket[lf][split][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#ACL wss://br.blindertop.xyz HTTP/1.1[lf]Host: [rotate=browser-update.org;maxcdn.bootstrapcdn.com;maxcdn.bootstrapcdn.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@canaldotl[crlf][crlf]#PATCH / HTTP/1.9[crlf]host: c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br.blindertop.xyz[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]#ACL / HTTP/1.3[crlf]Host: mtls.sandbox.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: br.blindertop.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#ACL HTTP/1.1[lf]Host: google.es[lf]#PUT / Cache-Control: private: Web-security[crlf]#ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]#ACL / HTTP/1.1[crlf][crlf]#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#[protocol][crlf] [crlf][crlf]@#HTTP/ [crlf][crlf]|[crlf]]]@#[protocol]cdn-cgi/trace [crlf][crlf]|[crlf][crlf]Expect: 100-continue[crlf]@#GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]PATCH- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#PATCH / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]PATCH- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#HTTP/ *#http/ \\\\n\\\\n#RPC_OUT_DATA HTTP/#BASELINE-CONTROL HTTP/#PATCH HTTP/#ACL HTTP/#HEAD HTTP/#[delay_split]HEAD HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]#HTTP/1.1 200[crlf]Host: vimeo.com[crlf][crlf][netData][crlf]@mip [crlf][crlf]http://uber.com/ HTTP/1.1 200[crlf]mip[crlf][crlf] [crlf][crlf]http://udemy.com/ HTTP/1.1 200[crlf]Host@mip[crlf][crlf] [crlf][crlf] http://aliyuncs.com/ HTTP/1.1 200[crlf]Host fastly.net/[crlf][crlf][netData][crlf] [crlf][crlf] http://pornhub.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf] http://google.com/ HTTP/1.1[cr][lf] [crlf][crlf][netData][cr][lf] [crlf][crlf]CONNECT mip:22@http://youtube.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf]#HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf][crlf]CONNECT http://netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]X-Online-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]User-Agent:[ua][crlf]Connection:Keep-Alive[crlf]Proxy-Connection:Keep-Alive[crlf]X-Forwarded-For:[host][crlf]X-Forwarded-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]Content-Type:Application/Octet-Stream[crlf][crlf]#HTTP/1.1 8080[crlf]Host: http://https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; DM-01K Build/N2G47H)[crlf]X-Online-Host: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]X-Forwarded-For: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf][crlf]#HTTP/1.1 200 OK [crlf]Host:www.google.com[crlf]host:www.youtube.com[crlf]Host:www.facebook.com[crlf]#HTTP/ 2\\\\nHost: m.opera.com\\\\n\\\\n",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23843,
-        "mode": "SSH_PROXY",
-        "name": "TIM PRÉ 8 BETA",
-        "proxy_host": "br.blindertop.xyz#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 8,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:23:30.398Z",
-        "created_at": "2024-12-09T04:20:32.129Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "br.blindertop.xyz#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]X-Forward-Host: br.blindertop.xyz[crlf]wss://[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: c6bank.com.br[lf]Connection: Update[crlf]Upgrade: Websocket[lf][lf]#PATCH wss://br.blindertop.xyz HTTP/1.1[lf]Host: support.deezer.com[lf]Connection: Update[crlf]Upgrade: Websocket[lf][split][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#ACL wss://br.blindertop.xyz HTTP/1.1[lf]Host: [rotate=browser-update.org;maxcdn.bootstrapcdn.com;maxcdn.bootstrapcdn.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: [rotate=cdnjs.cloudflare.com;aceitedigital.vivo.com.br;api.vivo.com.br;gateway.ipfs.cloudflare.com][crlf][split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@canaldotl[crlf][crlf]#PATCH / HTTP/1.9[crlf]host: c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br.blindertop.xyz[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]#ACL / HTTP/1.3[crlf]Host: mtls.sandbox.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: br.blindertop.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#ACL HTTP/1.1[lf]Host: google.es[lf]#PUT / Cache-Control: private: Web-security[crlf]#ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]#ACL / HTTP/1.1[crlf][crlf]#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#[protocol][crlf] [crlf][crlf]@#HTTP/ [crlf][crlf]|[crlf]]]@#[protocol]cdn-cgi/trace [crlf][crlf]|[crlf][crlf]Expect: 100-continue[crlf]@#GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#PATCH /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]PATCH- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#PATCH / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]PATCH- / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]#ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][lf]#MOVE http/ \\\\n\\\\n#PATCH http/ [cr]#HTTP/ *#http/ \\\\n\\\\n#RPC_OUT_DATA HTTP/#BASELINE-CONTROL HTTP/#PATCH HTTP/#ACL HTTP/#HEAD HTTP/#[delay_split]HEAD HTTP / Host:api-equipamentos.vivo.com.br/ HTTP/1.1[crlf]X-Online-Host: api-equipamentos.vivo.com.br[crlf]X-Forwarded-Host: api-equipamentos.vivo.com.br[crlf]Proxy-Connection: keep-alive[crlf]Upgrade: Websocket[crlf][crlf]#HTTP/1.1 200[crlf]Host: vimeo.com[crlf][crlf][netData][crlf]@mip [crlf][crlf]http://uber.com/ HTTP/1.1 200[crlf]mip[crlf][crlf] [crlf][crlf]http://udemy.com/ HTTP/1.1 200[crlf]Host@mip[crlf][crlf] [crlf][crlf] http://aliyuncs.com/ HTTP/1.1 200[crlf]Host fastly.net/[crlf][crlf][netData][crlf] [crlf][crlf] http://pornhub.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf] http://google.com/ HTTP/1.1[cr][lf] [crlf][crlf][netData][cr][lf] [crlf][crlf]CONNECT mip:22@http://youtube.com/ HTTP/1.1[crlf] [crlf][crlf][netData][crlf] [crlf][crlf]#HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf][crlf]CONNECT http://netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com HTTP/1.1 80[crlf]Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]X-Online-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]User-Agent:[ua][crlf]Connection:Keep-Alive[crlf]Proxy-Connection:Keep-Alive[crlf]X-Forwarded-For:[host][crlf]X-Forwarded-Host:netflix.com; facebook.com; wikipedia.com; amazon.com; alibaba.com; tiktok.com; YouTube.com; google.com;Joel.org.com[crlf]Content-Type:Application/Octet-Stream[crlf][crlf]#HTTP/1.1 8080[crlf]Host: http://https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; DM-01K Build/N2G47H)[crlf]X-Online-Host: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]X-Forwarded-For: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf][crlf]#HTTP/1.1 200 OK [crlf]Host:www.google.com[crlf]host:www.youtube.com[crlf]Host:www.facebook.com[crlf]#HTTP/ 2\\\\nHost: m.opera.com\\\\n\\\\n",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5149,
-            "name": "🔵TIM🔵",
-            "color": "#D1000000",
-            "sorter": 6,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.940Z",
-            "updated_at": "2024-12-09T04:20:31.940Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5149,
-        "config_openvpn": null,
-        "config_payload_payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23844,
-        "mode": "SSH_PROXY",
-        "name": "TIM REGIÕES",
-        "proxy_host": "162.159.140.159#172.66.0.157 172.66.0.157#apf.maisvantagenstim.com.br",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 9,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:23:41.390Z",
-        "created_at": "2024-12-09T04:20:32.153Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "162.159.140.159#172.66.0.157 172.66.0.157#apf.maisvantagenstim.com.br",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5150,
-            "name": "🔵TIM EXPIRADO🔵",
-            "color": "#222222D1",
-            "sorter": 7,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.202Z",
-            "updated_at": "2024-12-09T04:20:32.202Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5150,
-        "config_openvpn": null,
-        "config_payload_payload": "HEAD wss://[app_host] HTTP/1.1[lf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]#[protocol][crlf] [crlf][crlf]@#GET wss://feedback.infinitepay.io HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: websocket[crlf][crlf]#PROPFIND m.youtube.com.br HTTP/1.1[crlf]Host: m.youtube.com.br[crlf]#HTTP/1.1[crlf] [crlf][crlf]•#[protocol] \\n\\n/#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#MERGE p.adsymptotic.com HTTP/2.0[crlf]Host: p.adsymptotic.com [crlf]Connection: update, Keep-Alive-Status 101[crlf]Update: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@Laranjo01[crlf]Referer: http://www.google.com[crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23846,
-        "mode": "SSH_DIRECT",
-        "name": "TIM  EXPIRADO 1",
-        "proxy_host": null,
-        "proxy_port": null,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:23:51.877Z",
-        "created_at": "2024-12-09T04:20:32.227Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": null,
-            "port": null
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "HEAD wss://[app_host] HTTP/1.1[lf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]#[protocol][crlf] [crlf][crlf]@#GET wss://feedback.infinitepay.io HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: websocket[crlf][crlf]#PROPFIND m.youtube.com.br HTTP/1.1[crlf]Host: m.youtube.com.br[crlf]#HTTP/1.1[crlf] [crlf][crlf]•#[protocol] \\n\\n/#PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]#MERGE p.adsymptotic.com HTTP/2.0[crlf]Host: p.adsymptotic.com [crlf]Connection: update, Keep-Alive-Status 101[crlf]Update: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@Laranjo01[crlf]Referer: http://www.google.com[crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5150,
-            "name": "🔵TIM EXPIRADO🔵",
-            "color": "#222222D1",
-            "sorter": 7,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.202Z",
-            "updated_at": "2024-12-09T04:20:32.202Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5150,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: www.flickr.com;palcomp3.comyoutube.com[crlf]X-Forward-Host: palcomp3.com;www.flickr.com;youtube.com[crlf]Expect: 100-continue[crlf][crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23847,
-        "mode": "SSH_PROXY",
-        "name": "TIM  EXPIRADO 2",
-        "proxy_host": "104.17.64.225#104.18.99.70#104.16.239.166#unpkg.com#104.16.18.94#104.16.239.0#104.16.239.1#104.16.239.2#104.16.239.3#104.16.239.4#104.18.33.113#104.16.239.166",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 2,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2024-12-29T20:37:15.744Z",
-        "created_at": "2024-12-09T04:20:32.249Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://185.194.204.110:5959/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.17.64.225#104.18.99.70#104.16.239.166#unpkg.com#104.16.18.94#104.16.239.0#104.16.239.1#104.16.239.2#104.16.239.3#104.16.239.4#104.18.33.113#104.16.239.166",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "PATCH / HTTP/1.1[crlf]Host: br.blindertop.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: www.flickr.com;palcomp3.comyoutube.com[crlf]X-Forward-Host: palcomp3.com;www.flickr.com;youtube.com[crlf]Expect: 100-continue[crlf][crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5150,
-            "name": "🔵TIM EXPIRADO🔵",
-            "color": "#222222D1",
-            "sorter": 7,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.202Z",
-            "updated_at": "2024-12-09T04:20:32.202Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5150,
-        "config_openvpn": null,
-        "config_payload_payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23848,
-        "mode": "SSH_PROXY",
-        "name": "TIM  EXPIRADO 3",
-        "proxy_host": "185.194.204.110",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:24:00.252Z",
-        "created_at": "2024-12-09T04:20:32.272Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "185.194.204.110",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5150,
-            "name": "🔵TIM EXPIRADO🔵",
-            "color": "#222222D1",
-            "sorter": 7,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.202Z",
-            "updated_at": "2024-12-09T04:20:32.202Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5150,
-        "config_openvpn": null,
-        "config_payload_payload": "PROPPATCH www.reddit.com HTTP/1.0[crlf]Host: www.reddit.com[crlf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "modo avião",
-        "dns_server_dns1": "94.140.14.14",
-        "dns_server_dns2": "94.140.15.15",
-        "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-        "id": 23849,
-        "mode": "SSH_PROXY",
-        "name": "TIM  EXPIRADO 4",
-        "proxy_host": "185.194.204.110",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-20T04:24:10.504Z",
-        "created_at": "2024-12-09T04:20:32.295Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "185.194.204.110",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "94.140.14.14",
-            "dns2": "94.140.15.15"
-        },
-        "config_payload": {
-            "payload": "PROPPATCH www.reddit.com HTTP/1.0[crlf]Host: www.reddit.com[crlf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5151,
-            "name": "🔴CLARO FLEX/PLANO🔴",
-            "color": "#D1000000",
-            "sorter": 8,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.318Z",
-            "updated_at": "2024-12-09T04:20:32.318Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5151,
-        "config_openvpn": null,
-        "config_payload_payload": null,
-        "config_payload_sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net",
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/cv56rZg/436ec4dcda35.png",
-        "id": 23850,
-        "mode": "SSL_DIRECT",
-        "name": "CLARO FLEX/PLANOS 1",
-        "proxy_host": null,
-        "proxy_port": null,
-        "server_host": "157.254.54.27",
-        "server_port": 443,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-12T06:00:02.777Z",
-        "created_at": "2024-12-09T04:20:32.344Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://185.194.204.110:5959/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": null,
-            "port": null
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 443
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": null,
-            "sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5151,
-            "name": "🔴CLARO FLEX/PLANO🔴",
-            "color": "#D1000000",
-            "sorter": 8,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.318Z",
-            "updated_at": "2024-12-09T04:20:32.318Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5151,
-        "config_openvpn": null,
-        "config_payload_payload": null,
-        "config_payload_sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net",
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/cv56rZg/436ec4dcda35.png",
-        "id": 23851,
-        "mode": "SSL_DIRECT",
-        "name": "CLARO FLEX/PLANOS 2",
-        "proxy_host": null,
-        "proxy_port": null,
-        "server_host": "157.254.54.27",
-        "server_port": 443,
-        "sorter": 2,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:24:28.555Z",
-        "created_at": "2024-12-09T04:20:32.368Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": null,
-            "port": null
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 443
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": null,
-            "sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5151,
-            "name": "🔴CLARO FLEX/PLANO🔴",
-            "color": "#D1000000",
-            "sorter": 8,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.318Z",
-            "updated_at": "2024-12-09T04:20:32.318Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5151,
-        "config_openvpn": null,
-        "config_payload_payload": null,
-        "config_payload_sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net",
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://i.ibb.co/cv56rZg/436ec4dcda35.png",
-        "id": 23852,
-        "mode": "SSL_DIRECT",
-        "name": "CLARO FLEX/PLANOS 3",
-        "proxy_host": null,
-        "proxy_port": null,
-        "server_host": "157.254.54.27",
-        "server_port": 443,
-        "sorter": 3,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:24:38.269Z",
-        "created_at": "2024-12-09T04:20:32.391Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": null,
-            "port": null
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 443
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": null,
-            "sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com#autodiscover.whatsapp.com#web.whatsapp.com#wa.me#wce623a0b1-ge3dsnbsgm3doojy.snr.whatsapp.net"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5151,
-            "name": "🔴CLARO FLEX/PLANO🔴",
-            "color": "#D1000000",
-            "sorter": 8,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:32.318Z",
-            "updated_at": "2024-12-09T04:20:32.318Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5151,
-        "config_openvpn": null,
-        "config_payload_payload": "PATCH http://fatura-facil.claro.com.br/ HTTP/1.1[crlf]Host: [crlf]X-Online-Host: [crlf]X-Forward-Host: [crlf]X-Forwarded-For: [crlf]Connection: Keep-Alive[crlf][crlf]#PATCH wss://proxy-d943e.dtunnel.cloud HTTP/1.1[crlf][split]Host: minhaclaro.claro.com.br[crlf]Connection: keep-alive[crlf]X-Online-Host: minhaclaro.claro.com.br[crlf]User-Agent: [ua][crlf]Connection: close[crlf]Connection: Upgrade[lf]Upgrade: websocket[crlf][method][host][crlf][crlf]#PATCH / [host_port] [protocol]\\\\r\\nHost: minhaclaro.claro.com.br\\\\r\\nConnection: keep-alive\\\\r\\nProxy-Connection: keep-alive\\\\r\\nX-Online-Host: minhaclaro.claro.com.br[crlf]User-Agent: [ua][crlf]Connection: close[crlf]Connection: Upgrade[lf]Upgrade: websocket[crlf][raw][crlf]",
-        "config_payload_sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com",
-        "config_v2ray": null,
-        "description": "",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea3a7cbd-86d4-4202-a26f-f7954b087254/dhoppud-a8d21daa-943f-4ae5-9547-2ca67c5d2294.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhM2E3Y2JkLTg2ZDQtNDIwMi1hMjZmLWY3OTU0YjA4NzI1NFwvZGhvcHB1ZC1hOGQyMWRhYS05NDNmLTRhZTUtOTU0Ny0yY2E2N2M1ZDIyOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vH9fLixRqw5rf-NLr3lBOmQVvUbO5LO1L39wQZGpGGA",
-        "id": 23853,
-        "mode": "SSH_DIRECT",
-        "name": "CLARO SECURITY",
-        "proxy_host": null,
-        "proxy_port": null,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 4,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-20T04:25:04.824Z",
-        "created_at": "2024-12-09T04:20:32.414Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": null,
-            "port": null
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "PATCH http://fatura-facil.claro.com.br/ HTTP/1.1[crlf]Host: [crlf]X-Online-Host: [crlf]X-Forward-Host: [crlf]X-Forwarded-For: [crlf]Connection: Keep-Alive[crlf][crlf]#PATCH wss://proxy-d943e.dtunnel.cloud HTTP/1.1[crlf][split]Host: minhaclaro.claro.com.br[crlf]Connection: keep-alive[crlf]X-Online-Host: minhaclaro.claro.com.br[crlf]User-Agent: [ua][crlf]Connection: close[crlf]Connection: Upgrade[lf]Upgrade: websocket[crlf][method][host][crlf][crlf]#PATCH / [host_port] [protocol]\\\\r\\nHost: minhaclaro.claro.com.br\\\\r\\nConnection: keep-alive\\\\r\\nProxy-Connection: keep-alive\\\\r\\nX-Online-Host: minhaclaro.claro.com.br[crlf]User-Agent: [ua][crlf]Connection: close[crlf]Connection: Upgrade[lf]Upgrade: websocket[crlf][raw][crlf]",
-            "sni": "m.waze.com#web.whatsapp.com#media.whatsapp.net#c.whatsapp.nethatsapp.com#c.whatsapp.net#m.waze.com#mmx.cdn.whatsapp.net#static.whatsapp.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com.net#v.whatsapp.com#b.whatsapp.com#whatsapp.net#api.whatapp.com#graph.whatsapp.com#embed.waze.com#m.waze.com#m.twitter.com"
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[rotate=ACL;GET;PATCH;HEAD] / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][split][lf]",
-        "config_payload_sni": null,
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 25463,
-        "mode": "SSH_PROXY",
-        "name": "VIVO FLARE 2",
-        "proxy_host": "104.16.239.166#104.17.64.225#104.18.33.113#104.26.5.32#::ffff:6810:356f#104.16.53.111#104.16.51.111#104.17.70.206#104.24.24.34#104.24.25.34",
-        "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
-        "server_port": 22,
-        "sorter": 1,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.2",
-        "updated_at": "2025-01-01T17:29:15.502Z",
-        "created_at": "2025-01-01T17:28:31.067Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://185.194.204.110:5959/checkUser",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "104.16.239.166#104.17.64.225#104.18.33.113#104.26.5.32#::ffff:6810:356f#104.16.53.111#104.16.51.111#104.17.70.206#104.24.24.34#104.24.25.34",
-            "port": 80
-        },
-        "server": {
-            "host": "br.blindertop.xyz",
-            "port": 22
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[rotate=ACL;GET;PATCH;HEAD] / HTTP/1.1[lf]Host: br.blindertop.xyz[lf]Upgrade: Websocket[lf][split][lf]",
-            "sni": null
-        }
-    },
-    {
-        "auth_password": "",
-        "auth_username": "",
-        "auth_v2ray_uuid": null,
-        "category": {
-            "id": 5146,
-            "name": "🟣VIVO GERAL🟣",
-            "color": "#222222D1",
-            "sorter": 1,
-            "status": "ACTIVE",
-            "created_at": "2024-12-09T04:20:31.388Z",
-            "updated_at": "2024-12-09T04:20:31.388Z",
-            "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02"
-        },
-        "category_id": 5146,
-        "config_openvpn": null,
-        "config_payload_payload": "[delay_split]BCOPY / [crlf][crlf]|[delay_split]ACL / HTTP/1.1[crlf]Host: [host_port][crlf]#[delay_split]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-        "config_payload_sni": "185.194.204.110",
-        "config_v2ray": null,
-        "description": "EXPIRADO | VÁLIDO",
-        "dns_server_dns1": "8.8.8.8",
-        "dns_server_dns2": "8.8.4.4",
-        "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-        "id": 28010,
-        "mode": "SSH_PROXY",
-        "name": "VIVO PRE SOCKS",
-        "proxy_host": "157.254.54.27",
-        "proxy_port": 80,
-        "server_host": "157.254.54.27",
-        "server_port": 80,
-        "sorter": 6,
-        "status": "ACTIVE",
-        "tls_version": "TLSv1.3",
-        "updated_at": "2025-01-25T04:08:56.299Z",
-        "created_at": "2025-01-25T04:07:54.186Z",
-        "udp_ports": [
-            7300
-        ],
-        "url_check_user": "http://157.254.54.27:5959",
-        "user_id": "6691bc47-8dae-4888-a10c-f94b0377da02",
-        "auth": {
-            "password": null,
-            "username": null,
-            "v2ray_uuid": null
-        },
-        "proxy": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "server": {
-            "host": "157.254.54.27",
-            "port": 80
-        },
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "config_payload": {
-            "payload": "[delay_split]BCOPY / [crlf][crlf]|[delay_split]ACL / HTTP/1.1[crlf]Host: [host_port][crlf]#[delay_split]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: br.blindertop.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-            "sni": "185.194.204.110"
-        }
+{
+    "status": 200,
+    "data": {
+        "prev_page": null,
+        "next_page": null,
+        "has_prev": false,
+        "has_next": false,
+        "total": 10,
+        "current_page": 1,
+        "pages": 1,
+        "results": [
+            {
+                "name": "VIVO PRE 01",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split] ACL \/ HTTP\/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 1,
+                "id": 1291,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 02",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[split]ACL \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 2,
+                "id": 1292,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 03",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split]ACL sni:\/\/vivo360.vivo.com.br HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]X-Forward-Host: br1.beto1.shop[crlf] wss:\/\/live.vivo.com.br[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 3,
+                "id": 1293,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 04",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split]ACL \/ HTTP\/1.1[crlf]Host: http:\/\/br3.beto1.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 4,
+                "id": 1294,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 05",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split]ACL \/ HTTP\/1.1[lf]Host: br1.beto1.shop[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 5,
+                "id": 1295,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 06",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[split]ACL \/ HTTP 1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 6,
+                "id": 1296,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 07",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split][lf]ACL \/ HTTP\/1.1[lf]Host: vivo.com.br[lf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 7,
+                "id": 1297,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO PRE 08",
+                "SSH": "",
+                "server_hostname": "br1.beto1.shop",
+                "description": "VIVO TURBO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 355,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "[delay_split]BCOPY \/ [crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 8,
+                "id": 1298,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO PRE ",
+                    "id": 355,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 1,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO EASY\/CONTROLE 01",
+                "SSH": "",
+                "server_hostname": "104.17.70.206",
+                "description": "VIVO EASY\/CONTROLE",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 356,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "PATCH \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 1,
+                "id": 1299,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO CONTROLE \/EASY",
+                    "id": 356,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 2,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO EASY\/CONTROLE 02",
+                "SSH": "",
+                "server_hostname": "104.26.5.32",
+                "description": "VIVO EASY\/CONTROLE",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 356,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "PATCH \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 2,
+                "id": 1300,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO CONTROLE \/EASY",
+                    "id": 356,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 2,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO EASY\/CONTROLE 03",
+                "SSH": "",
+                "server_hostname": "104.26.4.32",
+                "description": "VIVO EASY\/CONTROLE",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 356,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "PATCH \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 3,
+                "id": 1301,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO CONTROLE \/EASY",
+                    "id": 356,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 2,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO EASY\/CONTROLE 04",
+                "SSH": "",
+                "server_hostname": "104.26.4.32",
+                "description": "VIVO EASY\/CONTROLE",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 356,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "PATCH \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 4,
+                "id": 1302,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO CONTROLE \/EASY",
+                    "id": 356,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 2,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "VIVO EASY\/CONTROLE 05",
+                "SSH": "",
+                "server_hostname": "141.193.213.11",
+                "description": "VIVO EASY\/CONTROLE",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/HFB6VFj\/ic-vivo.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 356,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "PATCH \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 5,
+                "id": 1303,
+                "proxy_port": 80,
+                "category": {
+                    "name": "VIVO CONTROLE \/EASY",
+                    "id": 356,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 2,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 1",
+                "SSH": "",
+                "server_hostname": "revive.timrecompensas.com.br",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 1,
+                "id": 1304,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 2",
+                "SSH": "",
+                "server_hostname": "172.64.154.143",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 2,
+                "id": 1305,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 3",
+                "SSH": "",
+                "server_hostname": "172.66.0.157",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 3,
+                "id": 1306,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 4",
+                "SSH": "",
+                "server_hostname": "162.159.140.159",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 4,
+                "id": 1307,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 5",
+                "SSH": "",
+                "server_hostname": "apf.maisvantagenstim.com.br",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 5,
+                "id": 1308,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            },
+            {
+                "name": "TIM VALIDO \/ EXPIRADO 6",
+                "SSH": "",
+                "server_hostname": "141.193.213.11",
+                "description": "VALIDO E EXPIRADO",
+                "username": "",
+                "server_port": 80,
+                "icon_image": "https:\/\/i.ibb.co\/YpRH0b0\/ic-tim.png",
+                "user_id": 131,
+                "password": "",
+                "udp_port": "7300",
+                "category_id": 357,
+                "v2ray_uuid": "",
+                "primary_dns_server": "8.8.8.8",
+                "payload": "ACL \/cdn-cgi\/trace HTTP\/1.1[lf]Host: tim.com.br[crlf][crlf][split][crlf]GET- \/ HTTP\/1.1[crlf]Host: br1.beto1.shop[lf]Upgrade: Websocket[crlf][crlf]",
+                "status": "ACTIVE",
+                "secondary_dns_server": "8.8.4.4",
+                "sni": "",
+                "config_mode": "SSH_DIRECT",
+                "config_v2ray": "",
+                "url_check_user": "http:\/\/br1.beto1.shop:5000\/gl",
+                "config_openvpn": "",
+                "proxy_hostname": "",
+                "sort_order": 6,
+                "id": 1309,
+                "proxy_port": 80,
+                "category": {
+                    "name": "TIM SALDO VALIDO E EXPIRADO",
+                    "id": 357,
+                    "category_color": "",
+                    "status": "ACTIVE",
+                    "sort_order": 3,
+                    "user_id": 131,
+                    "slug": "",
+                    "description": ""
+                }
+            }
+        ]
     }
-]
+}
