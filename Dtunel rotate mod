@@ -1069,7 +1069,7 @@
         },
         "category_id": 5148,
         "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+        "config_payload_payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
         "config_payload_sni": null,
         "config_v2ray": null,
         "description": "",
@@ -1081,7 +1081,7 @@
         "name": "VIVO EASY 3",
         "proxy_host": "104.18.7.41#104.18.6.41#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#172.64.144.109#104.18.7.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41",
         "proxy_port": 80,
-        "server_host": "br.blindertop.xyz",
+        "server_host": br.r-neet.shop",
         "server_port": 22,
         "sorter": 3,
         "status": "ACTIVE",
@@ -1103,7 +1103,7 @@
             "port": 80
         },
         "server": {
-            "host": "br.blindertop.xyz",
+            "host": "br.r-neet.shop",
             "port": 22
         },
         "dns_server": {
@@ -1111,7 +1111,7 @@
             "dns2": "94.140.15.15"
         },
         "config_payload": {
-            "payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "sni": null
         }
     },
@@ -1143,7 +1143,7 @@
         "name": "TIM PRÉ 2",
         "proxy_host": "br0.r-neet.shop#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53#104.18.5.18",
         "proxy_port": 80,
-        "server_host": "br0.r-neet.shop",
+        "server_host": "br.r-neet.shop",
         "server_port": 80,
         "sorter": 2,
         "status": "ACTIVE",
@@ -1161,11 +1161,11 @@
             "v2ray_uuid": null
         },
         "proxy": {
-            "host": "br0.r-neet.shop#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53#104.18.5.18",
+            "host": "br.r-neet.shop#104.18.5.18#172.66.0.157#162.159.140.159#vs.timrecompensas.com.br#portal.timrecompensas.com.br#apf.maisvantagenstim.com.br#timofertas.com#104.16.239.166#104.17.25.14#104.18.33.113#104.17.64.225#104.18.99.70#141.193.213.10#104.18.27.160#104.18.28.181#104.16.237.16#104.19.239.25#172.67.74.152#104.19.241.93#104.18.28.182#162.159.140.159#172.66.0.157#149.78.187.53#104.18.5.18",
             "port": 80
         },
         "server": {
-            "host": "br0.r-neet.shop",
+            "host": "br.r-neet.shop",
             "port": 80
         },
         "dns_server": {
