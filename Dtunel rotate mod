@@ -1255,7 +1255,7 @@
         },
         "category_id": 5149,
         "config_openvpn": null,
-        "config_payload_payload": "GET / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]#PUT / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]",
+        "config_payload_payload": "",
         "config_payload_sni": null,
         "config_v2ray": null,
         "description": "",
@@ -1289,7 +1289,7 @@
             "port": 80
         },
         "server": {
-            "host": "br0.r-neet.shop",
+            "host": "104.18.5.18#revive.timrecompensas.com.br#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
             "port": 80
         },
         "dns_server": {
@@ -1297,7 +1297,7 @@
             "dns2": "9.9.9.9"
         },
         "config_payload": {
-            "payload": "GET / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]#PUT / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: shop.br.blindertop.xyz[lf]Upgrade: Websocket[crlf][crlf]",
+            "payload": "GET / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#PUT / HTTP/1.1[lf]Host: [rotate=timrecompensas.com.br;revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
             "sni": null
         }
     },
