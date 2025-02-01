@@ -9,7 +9,7 @@
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
       "id": 1001,
-      "name": "VIVO",
+      "name": "SERVIDOR-BR",
       "sorter": "1",
       "status": "ACTIVE",
       "updated_at": "2025-2-1 5:6:1",
@@ -31,7 +31,7 @@
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
     "id": 113438,
     "mode": "SSH_DIRECT",
-    "name": "VIVO",
+    "name": "LIVE",
     "proxy": {
       "host": "br.r-neet.shop",
       "port": "8080"
@@ -47,7 +47,58 @@
       "7300"
     ],
     "updated_at": "2025-2-1 5:6:28",
-    "url_check_user": "Nzjsksnxjjdks",
+    "url_check_user": "http://149.78.186.180:5001/checkUser",
+    "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
+  },
+{
+    "auth": {
+      "password": "",
+      "username": "",
+      "v2ray_uuid": null
+    },
+    "category": {
+      "color": "#B332FF",
+      "created_at": "2025-2-1 5:6:1",
+      "id": 1001,
+      "name": "SERVIDOR-BR",
+      "sorter": "1",
+      "status": "ACTIVE",
+      "updated_at": "2025-2-1 5:6:1",
+      "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
+    },
+    "category_id": 1014,
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]#ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": null
+    },
+    "config_v2ray": null,
+    "created_at": "2025-2-1 5:6:28",
+    "description": null,
+    "dns_server": {
+      "dns1": "8.8.8.8",
+      "dns2": "8.8.4.4"
+    },
+    "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
+    "id": 113438,
+    "mode": "SSH_DIRECT",
+    "name": "TIM",
+    "proxy": {
+      "host": "149.78.186.180",
+      "port": "80"
+    },
+    "server": {
+      "host": "149.78.186.180",
+      "port": "80"
+    },
+    "sorter": "1",
+    "status": "ACTIVE",
+    "tls_version": "TLSv1.2",
+    "udp_ports": [
+      "7300"
+    ],
+    "updated_at": "2025-2-1 5:6:28",
+    "url_check_user": "http://149.78.186.180:5001/checkUser",
     "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
   }
-]
+] 
