@@ -285,7 +285,7 @@
         "id": 30772,
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN",
         "status": "ACTIVE",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
