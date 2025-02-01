@@ -258,7 +258,7 @@
         "id": 30769,
         "label": "Ativar dialog de checkuser",
         "name": "APP_CHECKUSER_DIALOG_ENABLED",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN",
         "status": "ACTIVE",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
