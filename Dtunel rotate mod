@@ -26,7 +26,7 @@
     "description": null,
     "dns_server": {
       "dns1": "8.8.8.8",
-      "dns2": "8.8.4.4"
+      "dns2": "8.8.8.8"
     },
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
     "id": 1,
