@@ -91,7 +91,7 @@
       "host": "149.78.186.180",
       "port": "80"
     },
-    "sorter": "1",
+    "sorter": "2",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
@@ -142,7 +142,7 @@
       "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
-    "sorter": "1",
+    "sorter": "3",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
