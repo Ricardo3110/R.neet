@@ -120,7 +120,7 @@
     "category_id": 1014,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]#ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -135,11 +135,11 @@
     "mode": "SSH_DIRECT",
     "name": "TIM-CDN",
     "proxy": {
-      "host": "149.78.186.180",
+      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
     "server": {
-      "host": "149.78.186.180",
+      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
     "sorter": "1",
