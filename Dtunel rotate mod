@@ -8,7 +8,7 @@
     "category": {
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
-      "id": 1001,
+      "id": 1,
       "name": "SERVIDOR-BR",
       "sorter": "1",
       "status": "ACTIVE",
@@ -29,7 +29,7 @@
       "dns2": "8.8.4.4"
     },
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-    "id": 113438,
+    "id": 1,
     "mode": "SSH_DIRECT",
     "name": "VIVO-SERCURITY",
     "proxy": {
@@ -59,9 +59,9 @@
     "category": {
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
-      "id": 1001,
+      "id": 2,
       "name": "SERVIDOR-BR",
-      "sorter": "1",
+      "sorter": "2",
       "status": "ACTIVE",
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
@@ -80,7 +80,7 @@
       "dns2": "8.8.4.4"
     },
     "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-    "id": 113438,
+    "id": 2,
     "mode": "SSH_DIRECT",
     "name": "TIM-SOCKS",
     "proxy": {
@@ -110,9 +110,9 @@
     "category": {
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
-      "id": 1001,
+      "id": 3,
       "name": "SERVIDOR-BR",
-      "sorter": "1",
+      "sorter": "3",
       "status": "ACTIVE",
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
@@ -131,7 +131,7 @@
       "dns2": "8.8.4.4"
     },
     "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-    "id": 113438,
+    "id": 3,
     "mode": "SSH_DIRECT",
     "name": "TIM-CDN",
     "proxy": {
