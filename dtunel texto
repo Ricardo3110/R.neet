@@ -401,7 +401,7 @@
   },
   {
     "label": "LBL_VALIDATING_ACCESS",
-    "text": "👤 Nome de usuario: {username}<br>📆 Expira em: {expiration_date}<br>📅 Dias restantes: {expiration_days}<br>🚫 Conexoes: {count_connections}|{limit_connections}"
+    "text": "Conectado"
   },
   {
     "label": "LBL_DNS_FORWARDING_DISABLED",
