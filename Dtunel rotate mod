@@ -149,7 +149,8 @@
       "7300"
     ],
     "updated_at": "2025-2-1 5:6:28",
-    "url_check_user": "http://149.78.186.180:5000",
+    "url_check_user": "http://149.78.186.180:5001/checkUser",
+    "user_id",
     "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
   }
 ] 
