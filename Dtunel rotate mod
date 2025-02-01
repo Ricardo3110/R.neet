@@ -15,7 +15,7 @@
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1014,
+    "category_id": 1,
     "config_openvpn": null,
     "config_payload": {
       "payload": "[delay_split]\\nPUT /? HTTP/1.1\\nHost: tbr-sdgw.datami.net HTTP/1.0\\n",
@@ -66,7 +66,7 @@
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1014,
+    "category_id": 2,
     "config_openvpn": null,
     "config_payload": {
       "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]#ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
@@ -117,7 +117,7 @@
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1014,
+    "category_id": 3,
     "config_openvpn": null,
     "config_payload": {
       "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
