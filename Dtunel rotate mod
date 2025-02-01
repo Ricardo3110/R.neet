@@ -31,7 +31,7 @@
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
     "id": 113438,
     "mode": "SSH_DIRECT",
-    "name": "LIVE",
+    "name": "VIVO",
     "proxy": {
       "host": "br.r-neet.shop",
       "port": "8080"
