@@ -195,7 +195,7 @@
         "id": 30762,
         "label": "Atualizar automaticamente as configurações ao lançar uma atualização.",
         "name": "APP_CONFIG_AUTO_UPDATE",
-        "value": true,
+        "value": false,
         "type": "BOOLEAN",
         "status": "ACTIVE",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
@@ -213,7 +213,7 @@
         "id": 30764,
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
-        "value": false,
+        "value": true,
         "type": "BOOLEAN",
         "status": "ACTIVE",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
