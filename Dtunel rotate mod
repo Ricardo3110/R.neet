@@ -18,7 +18,7 @@
     "category_id": 1,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "[delay_split]\\\\nPUT /? HTTP/1.1\\\\nHost: tbr-sdgw.datami.net HTTP/1.0\\\\n",
+      "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
