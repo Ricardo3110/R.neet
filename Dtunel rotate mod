@@ -6,35 +6,35 @@
       "v2ray_uuid": null
     },
     "category": {
-      "color": "#B332FF",
-      "created_at": "2025-2-1 5:6:1",
-      "id": 1,
+      "color": "#FFFFFF",
+      "created_at": "2025-2-3 5:14:32",
+      "id": 1001,
       "name": "SERVIDOR-BR",
       "sorter": "1",
       "status": "ACTIVE",
-      "updated_at": "2025-2-1 5:6:1",
+      "updated_at": "2025-2-3 5:14:32",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1,
+    "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "[delay_split]\\nPUT /? HTTP/1.1\\nHost: tbr-sdgw.datami.net HTTP/1.0\\n",
+      "payload": "[delay_split]\\\\nPUT /? HTTP/1.1\\\\nHost: tbr-sdgw.datami.net HTTP/1.0\\\\n",
       "sni": null
     },
     "config_v2ray": null,
-    "created_at": "2025-2-1 5:6:28",
+    "created_at": "2025-2-3 5:17:11",
     "description": null,
     "dns_server": {
-      "dns1": "8.8.8.8",
+      "dns1": "8.8.4.4",
       "dns2": "8.8.8.8"
     },
-    "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-    "id": 1,
+    "icon": "\"https://i.ibb.co/0Bb4zWG/200w.gif",
+    "id": 113438,
     "mode": "SSH_DIRECT",
-    "name": "VIVO-SERCURITY",
+    "name": "VIVO",
     "proxy": {
-      "host": "br.r-neet.shop",
-      "port": "8080"
+      "host": null,
+      "port": null
     },
     "server": {
       "host": "br.r-neet.shop",
@@ -46,49 +46,49 @@
     "udp_ports": [
       "7300"
     ],
-    "updated_at": "2025-2-1 5:6:28",
+    "updated_at": "2025-2-3 5:17:11",
     "url_check_user": "http://149.78.186.180:5001/checkUser",
     "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
   },
-{
+  {
     "auth": {
       "password": "",
       "username": "",
       "v2ray_uuid": null
     },
     "category": {
-      "color": "#B332FF",
-      "created_at": "2025-2-1 5:6:1",
-      "id": 2,
+      "color": "#FFFFFF",
+      "created_at": "2025-2-3 5:14:32",
+      "id": 1001,
       "name": "SERVIDOR-BR",
-      "sorter": "2",
+      "sorter": "1",
       "status": "ACTIVE",
-      "updated_at": "2025-2-1 5:6:1",
+      "updated_at": "2025-2-3 5:14:32",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 2,
+    "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]#ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
-    "created_at": "2025-2-1 5:6:28",
+    "created_at": "2025-2-3 5:19:26",
     "description": null,
     "dns_server": {
-      "dns1": "8.8.8.8",
-      "dns2": "8.8.4.4"
+      "dns1": "8.8.4.4",
+      "dns2": "8.8.8.8"
     },
-    "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-    "id": 2,
+    "icon": "\"https://i.ibb.co/0Bb4zWG/200w.gif",
+    "id": 113438,
     "mode": "SSH_DIRECT",
-    "name": "TIM-SOCKS",
+    "name": "TIM",
     "proxy": {
-      "host": "149.78.186.180",
-      "port": "80"
+      "host": null,
+      "port": null
     },
     "server": {
-      "host": "149.78.186.180",
+      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
     "sorter": "2",
@@ -97,60 +97,8 @@
     "udp_ports": [
       "7300"
     ],
-    "updated_at": "2025-2-1 5:6:28",
+    "updated_at": "2025-2-3 5:19:26",
     "url_check_user": "http://149.78.186.180:5001/checkUser",
-    "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
-  },
-{
-    "auth": {
-      "password": "",
-      "username": "",
-      "v2ray_uuid": null
-    },
-    "category": {
-      "color": "#B332FF",
-      "created_at": "2025-2-1 5:6:1",
-      "id": 3,
-      "name": "SERVIDOR-BR",
-      "sorter": "1",
-      "status": "ACTIVE",
-      "updated_at": "2025-2-1 5:6:1",
-      "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
-    },
-    "category_id": 3,
-    "config_openvpn": null,
-    "config_payload": {
-      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "sni": null
-    },
-    "config_v2ray": null,
-    "created_at": "2025-2-1 5:6:28",
-    "description": null,
-    "dns_server": {
-      "dns1": "8.8.8.8",
-      "dns2": "8.8.4.4"
-    },
-    "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-    "id": 3,
-    "mode": "SSH_DIRECT",
-    "name": "TIM-CDN",
-    "proxy": {
-      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
-      "port": "80"
-    },
-    "server": {
-      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
-      "port": "80"
-    },
-    "sorter": "3",
-    "status": "ACTIVE",
-    "tls_version": "TLSv1.2",
-    "udp_ports": [
-      "7300"
-    ],
-    "updated_at": "2025-2-1 5:6:28",
-    "url_check_user": "http://149.78.186.180:5001/checkUser",
-    "user_id",
     "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
   }
-] 
+]
