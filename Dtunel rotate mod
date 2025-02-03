@@ -29,7 +29,7 @@
       "dns2": "8.8.8.8"
     },
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
-    "id": 113438,
+    "id": 1,
     "mode": "SSH_DIRECT",
     "name": "VIVO",
     "proxy": {
