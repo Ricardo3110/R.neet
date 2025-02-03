@@ -12,7 +12,7 @@
         "id": 24323,
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDUcvuUyxxo_kQyc_n8rdX5EeDdikRaNYvg&usqp=CAU",
+        "value": "",
         "type": "IMAGE",
         "status": "null",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
@@ -21,7 +21,7 @@
         "id": 24324,
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": "",
+        "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDUcvuUyxxo_kQyc_n8rdX5EeDdikRaNYvg&usqp=CAU",
         "type": "IMAGE",
         "status": "null",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
