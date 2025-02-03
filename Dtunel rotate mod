@@ -80,7 +80,7 @@
       "dns2": "8.8.8.8"
     },
     "icon": "https://i.ibb.co/0Bb4zWG/200w.gif",
-    "id": 113438,
+    "id": 1,
     "mode": "SSH_DIRECT",
     "name": "TIM",
     "proxy": {
