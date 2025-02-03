@@ -33,7 +33,7 @@
     "mode": "SSH_DIRECT",
     "name": "VIVO",
     "proxy": {
-      "host": "br.r-neet.shop,
+      "host": "br.r-neet.shop",
       "port": "8080"
     },
     "server": {
