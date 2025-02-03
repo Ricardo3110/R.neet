@@ -18,7 +18,7 @@
     "category_id": 1,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "payload": "[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br [crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -31,7 +31,7 @@
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
     "id": 1,
     "mode": "SSH_PROXY",
-    "name": "VIVO",
+    "name": "LIVE",
     "proxy": {
       "host": "149.78.186.100",
       "port": "8080"
@@ -69,7 +69,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0. r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]#[delay_split]\nPUT /? HTTP/1.1\nHost: tbr-sdgw.datami.net HTTP/1.0\n#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf ]Connection: [crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -88,7 +88,7 @@
       "port": null
     },
     "server": {
-      "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
+      "host": "149.78.186.180#104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
     "sorter": "1",
@@ -101,4 +101,4 @@
     "url_check_user": "http://149.78.186.180:5001/checkUser",
     "user_id": "9bc2f4c4-8916-42f7-9065-0a907e806ed6"
   }
-]
+] 
