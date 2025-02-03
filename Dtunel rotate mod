@@ -110,14 +110,14 @@
     "category": {
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
-      "id": 1,
+      "id": 3,
       "name": "SERVIDOR-BR",
       "sorter": "1",
       "status": "ACTIVE",
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1,
+    "category_id": 3,
     "config_openvpn": null,
     "config_payload": {
       "payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
@@ -142,7 +142,7 @@
       "host": "104.18.4.18#141.193.213.11#104.16.51.111#1.1.1.1",
       "port": "80"
     },
-    "sorter": "1",
+    "sorter": "3",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
