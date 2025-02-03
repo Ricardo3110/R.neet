@@ -59,14 +59,14 @@
     "category": {
       "color": "#B332FF",
       "created_at": "2025-2-1 5:6:1",
-      "id": 1,
+      "id": 2,
       "name": "SERVIDOR-BR",
-      "sorter": "1",
+      "sorter": "2",
       "status": "ACTIVE",
       "updated_at": "2025-2-1 5:6:1",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1,
+    "category_id": 2,
     "config_openvpn": null,
     "config_payload": {
       "payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]#HTTP/ [crlf][crlf]|[crlf]#ACL HTTP/ [crlf][crlf]#ACL / HTTP/1.1[crlf]Host:br.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
@@ -91,7 +91,7 @@
       "host": "149.78.186.180",
       "port": "80"
     },
-    "sorter": "1",
+    "sorter": "2",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
