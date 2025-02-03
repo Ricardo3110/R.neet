@@ -30,11 +30,11 @@
     },
     "icon": "https://media1.giphy.com/media/aYNAJzN7a6U0ynelQR/200w.webp",
     "id": 1,
-    "mode": "SSH_DIRECT",
+    "mode": "SSH_PROXY",
     "name": "VIVO",
     "proxy": {
-      "host": null,
-      "port": null
+      "host": "149.78.186.100",
+      "port": "8080"
     },
     "server": {
       "host": "149.78.186.180",
