@@ -341,7 +341,1076 @@
         "id": 37562,
         "label": "LAYOUT WEBVIEW (POR SUA CONTA E RISCO)",
         "name": "APP_LAYOUT_WEBVIEW",
-        "value": "<html><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta http-equiv=\"Expires\" content=\"Tue, 31 Dec 2030 23:59:59 GMT\">\n  <meta http-equiv=\"Cache-Control\" content=\"public, max-age=31536000\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <title>GUARDIAN</title>\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');\n\n    :root {\n      /*Editar o modal*/\n      --btn-modal: #0000003f;\n      --btn-border: 1px solid #4071FF;\n      --btn-modal-border: 50px;\n      --modal-shadow: #ffffff;\n      --modal-bg: #171e2e;\n      --modal-icon: #fff;\n      --config-color: #0000003f;\n      --category-color: #0000003f;\n      --text-color: #ffffff;\n      /*Editar Layout*/\n      --fundo: #2B2D2E;\n      --topo: #0000008f;\n      --icon: #0F140F;\n      --icon-bg: #E5EAFC;\n      --config: #F7F7FC;\n      --box-border: 1px solid #C0C6DE;\n      --box-bg: transparent;\n      --box-icon: black;\n      --info1: #C0C6DE;\n      --info2: #4071FF;\n    }\n\n    body {\n      font-family: 'Be Vietnam Pro', sans-serif;\n      background: var(--fundo);\n      height: 100vh;\n      width: 100vw;\n      justify-content: center;\n      align-items: center;\n    }\n\n    .container {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      background: var(--topo);\n      width: 100vw;\n      background: #4071ff;\n    }\n\n    button.power-icon {\n      background: #ccc;\n      border-radius: 80px;\n      display: flex;\n      -webkit-text-stroke: 3px;\n    }\n\n    .app-bg-gray-1 {\n      background: var(--config);\n    }\n\n    .app-bg-gray-2 {\n      background: #ffffff;\n      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n    .app-bg-gray-3 {\n      background: #fff;\n    }\n\n    .app-bg-4 {\n      background: linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd);\n      background-size: 400% 400%;\n      animation: gradient 5s ease infinite;\n    }\n\n    @keyframes gradient {\n      0% {\n        background-position: 0% 50%;\n      }\n\n      50% {\n        background-position: 100% 50%;\n      }\n\n      100% {\n        background-position: 0% 50%;\n      }\n    }\n\n    .app-bg-blue {\n      background: radial-gradient(circle at 83.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n      BORDER: 1PX SOLID #fff;\n      PADDING: 12PX 10PX !IMPORTANT;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n\t.app-bg-blue2 {\n      background: #62656a;\n      BORDER: 0PX SOLID #fff;\n      PADDING: 0PX 0PX !IMPORTANT;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n    .app-color-blue {\n      color: #4071FF;\n    }\n\n\t.app-color-blue-escuro {\n      color: #00003f;\n    }\n\n    .app-color-gray-1 {\n      color: #fff;\n    }\n\n    .app-rounded {\n      border-bottom-left-radius: 50px;\n      border-bottom-right-radius: 50px;\n      background: radial-gradient(circle at 83.21% 88.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n\n    .status {\n      font-size: 1em;\n      color: #fff !important;\n    }\n\n    .put {\n      border-radius: 60px;\n    }\n\n    .icon {\n      font-size: 0.8em;\n      color: var(--box-icon);\n    }\n\n    input {\n      width: 100%;\n      background: transparent;\n      border: none;\n      outline: none;\n      color: var(--box-typing);\n      line-height: 1;\n      font-weight: 600;\n      font-size: 17.6px;\n    }\n\n    .box {\n      border: var(--box-border);\n      background: var(--box-bg);\n    }\n\n    .tool {\n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      border: none;\n    }\n\n    .tool-bt {\n      background: var(--btn-modal);\n      height: 50px;\n      width: 150px;\n    }\n\n    .info {\n      color: var(--info2);\n    }\n\n    .info1 {\n      color: var(--info1);\n    }\n\n    .info2 {\n      color: var(--modal-icon);\n    }\n\n    .info3 {\n      font-size: 1.2em;\n      color: #0000ff;\n    }\n\n    .modal {\n      backdrop-filter: blur(5px);\n      -webkit-backdrop-filter: blur(5px);\n    }\n\n    .modal-content {\n      border: none;\n      background: #00000000;\n      color: var(--text-color);\n      border: none !important;\n      box-shadow: none !important;\n      border: none !important;\n    }\n\n    .modal-dialog {\n      padding: 0 0.5rem;\n    }\n\n    .bg-category {\n      background: radial-gradient(circle at 63.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n\n    .bg-config {\n      background: linear-gradient(240deg, rgba(6,19,22,1) 10%, rgba(17,59,107,1) 90%, rgba(69,148,252,1) 100%);\n    }\n\n    .btn {\n      width: 150px;\n      background-color: #171e2e;\n      outline: none;\n      height: 49px;\n      border-radius: var(--btn-modal-border);\n      text-transform: uppercase;\n      font-weight: 600;\n      margin: 10px 0;\n      cursor: pointer;\n      BORDER: NONE;\n      transition: 0.5s;\n    }\n  </style>\n\n\n\n\n\n\n\n\n  \n<style>/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.relative{position:relative}.-top-32{top:-8rem}.-top-36{top:-9rem}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.mb-0{margin-bottom:0px}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-auto{margin-left:auto}.mr-2{margin-right:0.5rem}.ms-2{-webkit-margin-start:0.5rem;margin-inline-start:0.5rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.h-screen{height:100vh}.h-12{height:3rem}.h-44{height:11rem}.h-56{height:14rem}.w-12{width:3rem}.w-44{width:11rem}.w-56{width:14rem}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-nowrap{flex-wrap:nowrap}.place-items-center{place-items:center}.items-center{align-items:center}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border-0{border-width:0px}.border-2{border-width:2px}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-0{padding:0px}.p-1{padding:0.25rem}.p-10{padding:2.5rem}.p-2{padding:0.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-0{padding-bottom:0px}.pb-44{padding-bottom:11rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-start{text-align:start}.text-xs{font-size:0.75rem;line-height:1rem}.font-semibold{font-weight:600}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}</style><style>/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.relative{position:relative}.-top-32{top:-8rem}.-top-36{top:-9rem}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.mb-0{margin-bottom:0px}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-auto{margin-left:auto}.mr-2{margin-right:0.5rem}.ms-2{-webkit-margin-start:0.5rem;margin-inline-start:0.5rem}.mt-1{margin-top:0.25rem}.flex{display:flex}.h-12{height:3rem}.h-44{height:11rem}.h-56{height:14rem}.h-screen{height:100vh}.w-12{width:3rem}.w-44{width:11rem}.w-56{width:14rem}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-nowrap{flex-wrap:nowrap}.place-items-center{place-items:center}.items-center{align-items:center}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border-0{border-width:0px}.border-2{border-width:2px}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-0{padding:0px}.p-1{padding:0.25rem}.p-10{padding:2.5rem}.p-2{padding:0.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-0{padding-bottom:0px}.pb-44{padding-bottom:11rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-start{text-align:start}.font-semibold{font-weight:600}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}</style></head>\n\n<body style=\"\n    background: radial-gradient(circle at 63.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n    background-image: none;\n\" class=\"h-screen\">\n  <div class=\"container px-2 pt-10 pb-44 app-rounded\" id=\"backverde\" style=\"display: ;padding-bottom: 122px;padding-top: 38px;\">\n    <button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"ToolsModal.show()\"><i class=\"bi bi-list-nested mr-2\"></i>Menu</button>\n    <button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"DtStartAppUpdate.execute()\"><i class=\"bi bi-arrow-repeat mr-2\"></i>Atualizar</button>\n\t<button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"loggerModal.show()\"><i class=\"bi bi-file-earmark-text mr-2\"></i>Registros</button>\n  </div>\n  <div class=\"flex flex-row items-center justify-center -top-32 relative\" style=\"justify-content: center;display: flex;margin-left: -1rem;margin-top: 16px;\">\n    <div class=\"welcome d-flex align-items-center\" style=\"font-family:inherit;font-size:21px;padding:0 0;height:70px;color:#fff;justify-items:normal;width:30pc;margin-top: -42px;justify-content:flex-start;margin-left: 37px;\">\n      <i class=\"bi bi-person\" style=\"font-size:41px;margin-right:10px;margin-bottom:11px;margin-left:7px\" id=\"usericon1\"></i>\n      <div class=\"d-flex flex-column\" style=\"display:flex!important\">\n        <div style=\"display:inline-grid;margin-top:11px;margin-top:10px\">\n          <span style=\"font-size:19px;font-family:inherit\" id=\"userinfo1\">Bem-vindo (a)</span>\n          <span style=\"font-size:13px;font-family:inherit\" id=\"userinfo2\">conecte-se primeiro</span>\n        </div>\n        <div style=\"display:inline-flex;margin-left:-47px;top:14px;left:19px;margin-bottom:-11px;margin-top:7px\">\n  \n          <a class=\"ml-auto\" onclick=\"DtStartWebViewActivity.execute('https://wa.me/qr/KNBIPHN5O4B4K1')\" style=\"display:block;background: rgba(0, 0, 0, 0.2);padding:4px 9px;color:#fff;border-radius:10px;margin-left:4px;font-family:inherit;font-size: 12px;display:block;border: 1px solid #fff;\">\n            CONEXÃO SSH BRASIL\n          </a>\n\n\n        </div>\n      </div>\n    </div>\n    <div class=\"w-56 h-56 app-bg-gray-3 rounded-full items-center justify-center flex\" style=\"display:block;width:auto;height:auto;margin-top:0;background-color: white;background-image: none;\">\n      <div class=\"w-44 h-44 app-bg-4 rounded-full flex justify-center items-center\" id=\"btnc\" style=\"width: 140px;height: 140px;align-items:center;background:linear-gradient(-45deg,#4071ff,#2b4089,#0098ff,#5995fd);border-radius:50em;border:6px solid #fff\">\n        <button id=\"icop\" class=\"bi bi-power bg-white app-color-blue rounded-full p-10 power-icon\" onclick=\"startStopVpn()\" style=\"color:#4071ff;width: 120px;height: 120px;font-size: 40px;justify-content:center;top:1px\"></button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"flex flex-col -top-36 relative\" style=\"\n    top: -130px;\n\">\n    <div class=\"py-3 flex flex-row justify-center items-center\">\n      <span class=\"app-color-gray-1 mr-2\">INSIRA SEUS DADOS</span>\n      <i class=\"bi bi-box-arrow-in-right\" style=\"color:#c0c6de\"></i>\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center mb-1 mt-1 flex flex-row items-center px-6 py-2.5 mx-6 rounded-xl app-bg-gray-1 border-2\" style=\"\n    color: #Fff;\n    border: 1px solid #c3c9e0;\n    border-radius: 10px;\n\">\n      <i class=\"bi bi-lightning-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"Escolha uma operadora\" disabled=\"\" id=\"config\">\n      <i class=\"bi bi-list\" style=\"color:#fff\"></i>\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center mb-2 mt-1 items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:flex!important;border: 1px solid #c3c9e0;border-radius: 10px;\">\n      <i class=\"bi bi-person-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"USUÁRIO \" id=\"username\">\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:flex!important;border: 1px solid #c3c9e0;border-radius: 10px;\">\n      <i class=\"bi bi-key-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"SENHA\" id=\"password\" style=\"\n\">\n      <i class=\"bi bi-eye-fill\" style=\"color:#c0c6de\" onclick=\"password.type==`text`?password.type = `password`:password.type = `text`\"></i>\n    </div>\n    <div class=\"d-flex gap-2 justify-content-center mb-2 mt-1 flex flex-row items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:none!important\">\n      <i class=\"icon fa fa-lock\" style=\"color:#c0c6de\"></i>\n      <input placeholder=\"V2ray UUID\" id=\"uuid\">\n      <i class=\"icon fa fa-eye\" onclick=\"uuid.type==`text`?uuid.type = `password`:uuid.type = `text`\"></i>\n    </div>\n\n\n    <div style=\"\n    padding: 0px 28px;\n    display: flex;\n    color: #00f;\n    justify-content: center;\n    align-items: center;\n    margin-top: -117px;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: wrap;\n    margin-top: 57px;\n    margin-bottom: 2px;\n\">\n\n\n\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 8px 10px;\n width: calc(48% - 5px);\n border-radius: 10px;\n text-align: center;\n display: flex;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n text-align: center;\n margin-bottom: 11px;\n margin-right: 5px;\n color: #C0C6DE;\n height: 145px;\n display: block;\n\">\n        <div>\n          <font color=\"#1AA200\">\n\t\t  <i class=\"bi bi-shield-fill-check\" style=\"\n         font-size: 44px;\n         margin-right: 0px;\n         padding: 0px;\n         text-align: center;\n         justify-content: center;\n     \"></i>\n\t  </font>\n          <div style=\"\n\">\n            <font color=\"#000000\"><a style=\"\n             font-size: 14px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">Rápido e Seguro</a></font>\n            <a style=\"\n             font-size: 10px;\n             display: block;\n             font-weight: 300;\n         \">Sua conexão é criptografada e segura</a>\n            <font color=\"#000000\">\n\t\t\t<i id=\"inter\" class=\"bi bi-toggle-off\" style=\"\n     font-size: 29px;\n     margin-left: 4px;\n \"></i>\n </font>\n          </div>\n        </div>\n\n      </item>\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 8px 10px;\n width: calc(48% - 5px);\n border-radius: 10px;\n text-align: center;\n display: block;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n text-align: center;\n margin-bottom: 11px;\n height: 145px;\n margin-right: 5px;\n color: #C0C6DE;\n margin-left: 9px;\n\">\n        <div>\n          <font color=\"#fcb503\">\n\t\t  <i class=\"bi bi-infinity\" style=\"\n         font-size: 44px;\n         margin-right: 0px;\n         padding: 0px;\n         text-align: center;\n         justify-content: center;\n     \"></i>\n</font>\n\n          <div style=\"\n\">\n            <font color=\"#000000\"><a style=\"\n             font-size: 14px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">Sem Limites</a></font>\n            <a style=\"\n             font-size: 10px;\n             display: block;\n             font-weight: 300;\n         \">Navegue na internet sem limite de dados.</a>\n            <font color=\"#000000\"><i id=\"inter2\" class=\"bi bi-toggle-off\" style=\"\n     font-size: 29px;\n     margin-left: 4px;\n \"></i></font>\n          </div>\n        </div>\n\n      </item>\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 4px 4px;\n width: calc(97% - 0px);\n border-radius: 10px;\n text-align: start;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n margin-bottom: 11px;\n height: 36px;\n display: block;\n margin-right: 5px;\n color: #C0C6DE;\n text-align: center;\n margin-left: -1px;\n\">\n        <div style=\"display: inline-flex;align-items: center;\">\n          <div style=\"\n    padding: 0px 5px;\n\">\n            <i class=\"bi bi-hdd-network\" style=\"\n             font-size: 19px;\n             margin-left: 2px;\n             margin-right: 9px;\n         \"></i>\n            <a style=\"\n             font-size: 12px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">IP:</a>\n            <a style=\"font-size: 12px;\" id=\"ip\">192.168.0.1</a>\n          </div>\n          <div style=\"\n    padding: 0px 5px;\n\">\n            <i class=\"bi bi-diagram-2\" style=\"\n             font-size: 19px;\n             margin-left: 2px;\n             margin-right: 9px;\n         \"></i>\n            <a style=\"\n             font-size: 12px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">DNS:</a>\n            <a id=\"dns1\" style=\"font-size: 12px;\">Lento</a>\n          </div>\n        </div>\n      </item>\n\t  \n\n\n  </div>\n  </div>\n  <div onclick=\"loggerModal.show()\" class=\"teste\" id=\"footer1\" style=\"background:red;color:#fff;padding:10px;position:fixed;bottom:0;border-top-left-radius:20px;left:0;width:100%;text-align:center;z-index:9999;border-top-right-radius:20px\">\n    <i class=\"bi bi-broadcast-pin mr-2\"></i>\n    <a href=\"\">Status:</a>\n    <span class=\"status app-color-blue font-semibold\" style=\"color:red\" id=\"state\">LBL_STATE_DISCONNECTED</span>\n  </div>\n  <div class=\"modal fade\" id=\"configModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-header border-bottom-0 pb-0\">\n          <h1 class=\"modal-title fs-5\" style=\"color:var(--text-color)\">Selecione uma Conexão:</h1>\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\"></button>\n        </div>\n        <div class=\"modal-body p-1 text-center\">\n          <ul class=\"list-group app-bg-blue2 overflow-y-auto config-body\" style=\"max-height:600px\"></ul>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"modal fade\" id=\"loggerModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-body p-1 text-center\">\n          <ul class=\"list-group bg-transparent overflow-y-auto logger-content\" style=\"max-height:600px\"><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 0</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 1</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 2</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 3</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 4</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 5</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 6</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 7</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 8</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 9</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 10</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 11</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 12</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 13</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 14</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 15</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 16</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 17</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 18</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 19</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 20</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 21</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 22</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 23</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 24</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 25</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 26</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 27</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 28</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 29</li></ul>\n        </div>\n        <div class=\"modal-footer flex-nowrap p-0\">\n          <button class=\"btn btn-primary w-100 clear-logger\" style=\"background-color:var(--btn-modal)\">LIMPAR</button>\n          <button type=\"button\" class=\"btn btn-primary w-100\" data-bs-dismiss=\"modal\" style=\"background-color:var(--btn-modal)\">FECHAR</button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"tool webm modal fade\" index=\"-1\" id=\"ToolsModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"tool modal-header\">\n          <h5 class=\"modal-title\" style=\"color:#fff\">FERRAMENTAS</h5>\n        </div>\n\n        <div class=\"modal-body\" style=\"display: flex; justify-content: center; align-items: center;\">\n          <button type=\"button\" class=\"rounded-2xl text-white\" id=\"hotspot-button\" style=\"background: rgba(0, 0, 0, 0.3); padding: 10px; outline: none; border: 0; display: flex; align-items: center; gap: 5px;\">\n            <i class=\"bi bi-router\"></i>\n\n            <span id=\"hotspot-value\">ATIVAR WI-FI</span>\n          </button>\n        </div>\n        \n    \n\t\t<div class=\"modal-body\">\n          <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartWebViewActivity.execute(&quot;https://www.speedtest.net/pt&quot;)\"><i class=\"info2 bi bi-speedometer mr-2\"></i> SPEEDTEST</button>\n        </div>\n        <div class=\"modal-body\">\n        <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartApnActivity.execute()\"><i class=\"bi bi-wrench-adjustable-circle\"></i> CONFIGURAR APN</button>\n      \n      <div class=\"modal-body\">\n\t\n\t  <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartWebViewActivity.execute('https://bit.ly/3MWk3Os')\"><i class=\"bi bi-file-earmark-text mr-2\"></i> TERMOS DE USO</button>\n\t  </div>\n\t        <div class=\"modal-body\">\n        <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtCleanApp.execute()\"><i class=\"info2 bi bi-trash3 mr-2\"></i> LIMPAR DADOS</button>\n        </div>\n\t\t<div class=\"modal-body\">\n\t\t\n\t\t  \n        </div>\n     <div class=\"tool modal-footer\">\n        <button type=\"button\" class=\"btn btn-primary\" data-bs-dismiss=\"modal\" style=\"background-color: var(--btn-modal);\">FECHAR</button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"modal fade\" id=\"checkUserModal\" index=\"1\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-header border-bottom-0 pb-0\">\n          <h1 class=\"modal-title fs-5 chk-title text-light\"></h1>\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\"></button>\n        </div>\n        <div class=\"modal-body text-center\">\n          <p class=\"fs-5 mb-0 chk-message text-light\"></p>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"md modal fade\" id=\"speedTestModal\">\n    <div class=\"md modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"md modal-content rounded-3 shadow\">\n        <div class=\"md modal-header border-bottom-0 py-3\">\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>\n        </div>\n        <div class=\"modal-body ratio rounded-bottom-3\" style=\"height:600px\">\n          <div class=\"spinner d-flex w-100 h-100 align-items-center justify-content-center\">\n            <div class=\"spinner-border text-light p-5\" role=\"status\">\n              <span class=\"visually-hidden\">Loading...</span>\n            </div>\n          </div>\n          <iframe class=\"rounded-bottom-3\" id=\"speedFrame\"></iframe>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js\"></script>\n\n  <script>\n    const appGetStatusHotspot = () => DtGetStatusHotSpotService.execute()\n    const appStartHotspot = () => DtStartHotSpotService.execute()\n    const appStopHotspot = () => DtStopHotSpotService.execute()\n\n    const hotspotValue = document.querySelector('#hotspot-value')\n    const hotspotButton = document.querySelector('#hotspot-button')\n\n    const startHotspot = () => {\n      appStartHotspot()\n\n      hotspotValue.innerHTML = 'PARAR HOTSPOT'\n    }\n\n    const stopHotspot = () => {\n      appStopHotspot()\n\n      hotspotValue.innerHTML = 'INICIAR HOTSPOT'\n    }\n\n    const toggleHotspot = () => {\n      appGetStatusHotspot() === 'STOPPED' ? startHotspot() : stopHotspot()\n    }\n\n    const setStatusHotspot = () => {\n      if (appGetStatusHotspot() === 'STOPPED') {\n        hotspotValue.innerHTML = 'INICIAR HOTSPOT'\n      } else {\n        hotspotValue.innerHTML = 'PARAR HOTSPOT'\n      }\n    }\n    \n    hotspotButton.addEventListener('click', (e) => {\n      e.preventDefault()\n\n      toggleHotspot()\n    })\n\n    setStatusHotspot()\n\n\n  </script>\n\n  <script>\n    Object.defineProperty(String.prototype, 't', {\n      value: function t() {\n        return window?.DtTranslateText?.execute('' + this) ?? '' + this\n      },\n      writable: true,\n      configurable: true,\n    })\n\n    const config = document.querySelector('#config')\n    config.parentElement.onclick = () => showConfigsModal();\n\n    const username = document.querySelector('#username')\n    username.oninput = e => DtUsername.set(e.target.value)\n\n    const password = document.querySelector('#password')\n    password.oninput = e => DtPassword.set(e.target.value)\n\n    const uuid = document.querySelector('#uuid')\n    uuid.oninput = e => DtUuid.set(e.target.value)\n\n    const clearLogger = document.querySelector('.clear-logger')\n\n    const checkUserModal = new bootstrap.Modal(document.querySelector('#checkUserModal'))\n    const configModal = new bootstrap.Modal(document.querySelector('#configModal'))\n    const loggerModal = new bootstrap.Modal(document.querySelector('#loggerModal'))\n    const ToolsModal = new bootstrap.Modal(document.querySelector('#ToolsModal'))\n    const speedTestModal = new bootstrap.Modal(document.querySelector('#speedTestModal'))\n\n    const dtConfigClickListener = () => {\n      const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{ \"auth\": {\"username\": \"\"} }`)\n      const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');\n\n      config.placeholder = data.name ?? 'ESCOLHA UMA OPERADORA ';\n      username.parentElement.style.setProperty('display', !data?.auth?.username && !isV2ray ? 'flex' : 'none', 'important')\n      password.parentElement.style.setProperty('display', !data?.auth?.password && !isV2ray ? 'flex' : 'none', 'important')\n      uuid.parentElement.style.setProperty('display', !data?.auth?.v2ray_uuid && isV2ray ? 'flex' : 'none', 'important')\n    }\n\n    const startStopVpn = e => {\n      if (DtGetVpnState.execute() != 'DISCONNECTED') {\n\n        DtExecuteVpnStop.execute()\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd)\";\n        document.getElementById(\"btnc\").style.background = \"blue\";\n      } else {\n        DtExecuteVpnStart.execute()\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd)\";\n        document.getElementById(\"btnc\").style.background = \"blue\";\n      }\n\n    }\n\n    clearLogger.addEventListener('click', () => DtClearLogs.execute())\n\n    speedTestModal._element.addEventListener('shown.bs.modal', () => {\n      const iframe = document.querySelector('#speedFrame');\n      if (!iframe.src) {\n        iframe.src = 'https://fast.com/pt/'\n        iframe.addEventListener('load', () => {\n          mp3Modal._element.querySelector('.spinner').classList.add('d-none')\n        })\n      }\n    })\n    speedTestModal._element.addEventListener('hide.bs.modal', () => {\n      const iframe = document.querySelector('#speedFrame');\n      iframe.src = '';\n    })\n\n    const dtVpnStateListener = state => {\n      const isRunning = state != 'DISCONNECTED';\n      const isConnected = state == 'CONNECTED';\n      const isDesconnected = state == 'DISCONNECTED';\n      const status = document.querySelector('#state')\n\n      status.innerHTML = ('LBL_STATE_' + state).t()\n\n      if (isRunning) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #ffcc00, #d5de0a, #ebd138, #ffcc00)\";\n        document.getElementById(\"footer1\").style.background = \"#ffcc00\";\n        document.getElementById(\"icop\").style.color = \"#dce600\";\n        username.setAttribute('readonly', 'true')\n        password.setAttribute('readonly', 'true')\n        status.style.color = '#00ff15'\n      } else {\n        username.removeAttribute('readonly')\n        password.removeAttribute('readonly')\n        status.style.color = 'RED'\n      }\n      if (isConnected) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #64dd17, #00ce6e, #64dd17, #5ddf15)\";\n        document.getElementById(\"footer1\").style.background = \"#64dd17\";\n        document.getElementById(\"icop\").style.color = \"#64dd17\";\n\n        const inter = document.getElementById('inter');\n        const inter2 = document.getElementById('inter2');\n        inter.className = \"bi bi-toggle-on\";\n        inter2.className = \"bi bi-toggle-on\";\n\n        const elemento = document.getElementById('userinfo1');\n        elemento.innerHTML = username.value;\n\n        dns1.innerHTML = \"1.1.1.1\";\n        username.setAttribute('readonly', 'true')\n        password.setAttribute('readonly', 'true')\n        status.style.color = '#00ff15'\n        fetch('https://api.ipify.org/?format=json')\n          .then(response => response.json())\n          .then(data => {\n            const publicIP = data.ip;\n            document.getElementById('ip').textContent = publicIP;\n          })\n          .catch(error => {\n            console.log('Erro ao obter o endereço IP público:', error);\n          });\n\n      }\n      if (isDesconnected) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #ff8764, #ff7463, #ff5c5f, #ff3858)\";\n        document.getElementById(\"footer1\").style.background = \"red\";\n        document.getElementById(\"icop\").style.color = \"#ff0000\";\n        const elemento3 = document.getElementById('usericon1');\n        const elemento2 = document.getElementById('userinfo2');\n        elemento3.className = \"bi bi-person\";\n\n        elemento2.innerHTML = \"conecte-se primeiro\";\n\t\t\n\t\t const inter3 = document.getElementById('inter');\n        const inter4 = document.getElementById('inter2');\n        inter3.className = \"bi bi-toggle-off\";\n        inter4.className = \"bi bi-toggle-off\";\n\n      }\n    }\n\n    const dtCheckUserStartedListener = () => {\n      const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{}`)\n      const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');\n      if (isV2ray || !data.urlCheckUser)\n        return;\n\n      const html = `\n            <div class=\"d-flex justify-content-center\">\n                <div class=\"spinner-border p-4\" role=\"status\">\n                    <span class=\"visually-hidden\">Loading...</span>\n                </div>\n            </div>\n            `\n\n      checkUserModal._element.querySelector('.chk-title').textContent = 'CHECK USER'\n      checkUserModal._element.querySelector('.chk-message').innerHTML = html;\n      checkUserModal.show()\n    }\n\n    const dtCheckUserModelListener = model => {\n      const data = JSON.parse(model ?? `{\"username\": \"test\"}`)\n      const elemento2 = document.getElementById('userinfo2');\n      const elemento3 = document.getElementById('usericon1');\n      var dias = `${data.expiration_days}`;\n      var diasrestantes = \"dias restantes\";\n      var resultado = dias + \" \" + diasrestantes;\n      elemento2.innerHTML = resultado;\n      elemento3.className = \"bi bi-person-check\";\n\n    }\n\n    const showConfigsModal = () => {\n      const mock = '[{\"sorter\":6,\"color\":\"#6D08041C\",\"name\":\"CONFIG\",\"id\":1393,\"items\":[{\"mode\":\"V2RAY - VLESS\",\"sorter\":4,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":11803,\"status\":\"ACTIVE\"},{\"mode\":\"SSH_DIRECT\",\"sorter\":2,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 02\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":28627,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":23,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 03\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":30001,\"status\":\"ACTIVE\"}]},{\"sorter\":2,\"color\":\"#6D08041C\",\"name\":\"CONFIG 2\",\"id\":1846,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":26295,\"status\":\"ACTIVE\"}]},{\"sorter\":4,\"color\":\"#80000000\",\"name\":\"CONFIG 3\",\"id\":3310,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29997,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST 2\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29998,\"status\":\"ACTIVE\"}]}]'\n      const data = JSON.parse(window?.DtGetConfigs?.execute() || mock)\n\n      data.sort((a, b) => a.sorter - b.sorter)\n      data.forEach(item => item.items.sort((a, b) => a.sorter - b.sorter))\n\n      const body = configModal._element.querySelector('.config-body')\n      body.innerHTML = ''\n\n      data.forEach(category => {\n        const categoryElement = document.createElement('li')\n        categoryElement.className = 'list-group-item bg-transparent border-0 mb-1 rounded-1 px-1'\n        categoryElement.style.color = 'var(--text-color)'\n        categoryElement.innerHTML = `<span class=\"fw-bold w-100 d-block p-1 rounded-1 mb-1 bg-category\">${category.name}</span>`\n\n        const configUlElement = document.createElement('ul')\n        configUlElement.className = 'list-group overflow-y-auto'\n\n        category.items.forEach(item => {\n          const configElement = document.createElement('li')\n          configElement.className = 'list-group-item d-flex border-0 bg-config rounded-2 px-1 py-2 mb-1'\n          configElement.style.color = 'var(--text-color)'\n          configElement.innerHTML = `\n                            <img src=\"${item.icon}\" width=\"40\" height=\"35\">\n                            <div class=\"text-start d-flex flex-column ms-2 w-100 text-truncate\">\n                                <span class=\"fw-bold text-uppercase\" style=\"font-size: 0.8rem;\">${item.name}</span>\n                                <span class=\"fst-italic fw-bold text-uppercase\" style=\"font-size: 0.7rem;\">${item.description || ''}</span>\n                            </div>\n                            <div class=\"d-flex flex-column ms-2\">\n                                <span class=\"fst-italic fw-bold text-end text-uppercase text-nowrap\" style=\"font-size: 0.8rem;\">${item.mode}</span>\n                            </div>\n                        </li>\n                    `\n          configElement.addEventListener('click', e => {\n            window?.DtSetConfig?.execute(item.id)\n            configModal.hide()\n          })\n          configUlElement.appendChild(configElement)\n        })\n\n        categoryElement.appendChild(configUlElement)\n        body.appendChild(categoryElement)\n      })\n      configModal.show()\n    }\n\n    const dtOnNewLogListener = () => {\n      const mock = [];\n      for (let i = 0; i < 30; i++) {\n        mock.push({\n          'TIME': 'MESSAGE ' + i\n        })\n      }\n\n      const log = window?.DtGetLogs?.execute() || JSON.stringify(mock)\n      const data = JSON.parse(log)\n\n      let content = '';\n      data.forEach(item => {\n        content += '<li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">';\n        content += Object.keys(item)[0] + \" \" + item[Object.keys(item)]\n        content += '</li>';\n      })\n\n      loggerModal._element.querySelector('.logger-content').innerHTML = content;\n      const listGroup = loggerModal._element.querySelector('.list-group')\n      listGroup.scrollTo(0, listGroup.scrollHeight)\n    }\n\n    username.value = window?.DtUsername?.get() ?? ''\n    password.value = window?.DtPassword?.get() ?? ''\n    uuid.value = window?.DtUuid?.get() ?? ''\n\n    dtOnNewLogListener()\n    dtConfigClickListener()\n    dtVpnStateListener(window?.DtGetVpnState?.execute() ?? 'DISCONNECTED')\n  </script>\n  <script>\n    const config = JSON.parse(DtGetAppConfig.execute());\n    const urlCheckUser = new URL(config.urlCheckUser);\n    urlCheckUser.protocol = 'http:';\n\n    const createConnection = () => new WebSocket(urlCheckUser);\n    const startActions = socket => {\n      socket.send(JSON.stringify({\n        action: 'all',\n        data: {}\n      }));\n    }\n    const parseResponseData = data => {\n      data = JSON.parse(data);\n      console.log(data)\n\n      if (data.total != undefined) {\n        const total = data.total;\n        document.getElementById('total').innerHTML = String(total).padStart(2, '0');\n      }\n    }\n\n    const startSocket = () => {\n      const socket = createConnection();\n      socket.onopen = e => startActions(socket);\n      socket.onmessage = e => parseResponseData(e.data);\n    }\n\n    const setVpnState = state => {\n      if (state == 'CONNECTED')\n        startSocket();\n\n    }\n    startSocket();\n  </script>\n  <script>\n    class AndroidMock {\n      static getLocalIP() {\n        return '192.168.0.1';\n      }\n\n      static getConfig() {\n        return JSON.stringify({\n          urlCheckUser: ''\n        });\n      }\n\n\n\n      static openRadioInfo() {\n        console.log('openRadioInfo');\n      }\n    }\n  </script>\n  <script>\n    function showLocalIP(android) {\n\n\n      document.getElementById('ip').innerHTML = android.getLocalIP();\n\n      setInterval(() => {\n\n        document.getElementById('ip').innerHTML = android.getLocalIP();\n      }, 2000000)\n    }\n\n    function showCheckUser(android) {\n      const config = JSON.parse(window?.DtGetDefaultConfig?.execute() ?? android.getConfig());\n\n      const urlCheckUser = new URL(config.urlCheckUser);\n      urlCheckUser.protocol = 'ws:';\n      const socket = new WebSocket(urlCheckUser);\n      socket.onopen = function(e) {\n        socket.send(JSON.stringify({\n          action: 'all',\n          data: {}\n        }));\n      };\n\n      socket.onmessage = function(event) {\n        const data = JSON.parse(event.data);\n        if (data.total === undefined)\n          return;\n\n        const total = data.total;\n        document.getElementById('total').innerHTML = ' ' + String(total).padStart(2, '0');\n        socket.close();\n      };\n    }\n\n    window.onload = function() {\n      const android = window.Android || AndroidMock;\n      showLocalIP(android);\n      showCheckUser(android);\n    }\n  </script>\n  \n</body></html>",
+        "value": "<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>=H KING VPN =H</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+
+            --bs-dark-rgb: 33,37,41;
+            --bs-bg-opacity: 1;
+            /*Editar o modal*/
+            --btn-modal: #0000003f;
+            --btn-border: 0px solid #fff;
+            --btn-modal-border: 50px;
+            --modal-shadow: rgba(0, 0, 0, 0.5);
+            --modal-bg: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+            --modal-icon: #fff;
+            --config-color: #0000003f;
+            --category-color: #0000003f;
+            --text-color: #ffffff; 
+
+            /*Editar Layout*/
+            --fundo: #ffffff;
+            --topo: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+            --icon: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;            
+            --icon-bg: #E5EAFC;
+            --config: #F7F7FC;
+            --box-border: 1px solid #C0C6DE;
+            --box-bg: transparent;
+            --box-typing: #C0C6DE;
+            --box-icon: #C0C6DE;
+            --info1: #C0C6DE;
+            --info2: #4071FF;
+            
+        }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fundo);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background: var(--topo);*/
+    width: 100vw;
+    padding: 0 auto;
+
+}
+
+button.power-icon {
+    font-size: 5.5em;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 0px 2px 0px #333;
+    box-shadow: 0 20px 25px 0px #4071ff54, 0 2px 0px 0px #4071ff10;*/
+}
+
+.app-bg-gray-1 {
+    background: var(--config);
+}
+
+.app-bg-gray-2 {
+    background: var(--icon-bg);
+}
+
+.app-bg-gray-3 {
+    background: #fff;
+  }
+  
+  .app-bg-4 {
+    background-color: #ed2939;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    /*box-shadow: 0 0px 2px 0px #333;
+  	background: linear-gradient(-45deg, #ed2939, #ed2939, #ed2939, #ed2939);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;*/
+  }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.app-bg-blue {
+    background: none;
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.app-color-blue {
+    color: #ed2939;
+    
+}
+
+.app-color-gray-1 {
+    color: #C0C6DE;
+}
+
+.app-rounded {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+	.status {
+    font-size: 1em;
+    }
+    
+    .put {
+    	border-radius: 60px;
+    }
+    
+    .icon {
+    	font-size: 0.8em;
+        color: var(--box-icon);
+    }
+
+    input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--box-typing) !important;
+            line-height: 1;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .box {
+            border: var(--box-border);
+            background: var(--box-bg);
+        }
+
+.tool {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tool-bt {
+    background: var(--btn-modal);
+    height: 50px;
+    width: 150px;
+    border: var(--btn-border);
+}
+
+.info {
+color: var(--info2);
+}
+
+.info1 {
+color: var(--info1);
+}
+
+ .info2 {
+color: var(--modal-icon);
+}
+
+ .info3 {
+font-size: 1.2em;
+    color: var(--icon);
+}
+
+.modal {
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            border: none;
+            background: var(--modal-bg);
+            box-shadow: 0 5px 10px var(--modal-shadow);
+            color: var(--text-color);
+        }
+
+        .modal-dialog {
+            padding: 0 0.5rem;
+        }
+
+        .bg-category {
+            background: var(--category-color);
+        }
+
+        .bg-config {
+            background: var(--config-color);
+        }
+        .bg-dark {
+            background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+        }
+     
+        .btn{
+            width: 150px;
+            background-color: #171e2e;
+            outline: none;
+            height: 49px;
+            border-radius: var(--btn-modal-border);
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: 0.5s;
+            border: var(--btn-border);
+        }
+        .itens {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1px 3px;
+            font-size: 24px;
+        }
+        .itens span {
+            font-size: 10px;
+            margin-top: -2px;
+        }
+
+        .left-icon {
+            position: relative;
+            left: -3%;
+        }
+        .right-icon {
+            position: relative;
+            right: -3.3%;
+        }
+        .box-shadow {
+            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .renovar {
+            width: 100%;
+  background-color: initial;
+  padding: 5px 20px;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+    bottom: 6%;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.iconn {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+    color: #888888;
+    font-size: 15px;
+    margin: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #888888;
+  margin-top: 5px;
+}
+
+.right-content {
+  text-align: right;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 24px;
+}
+.space-evenly {
+    justify-content: space-evenly;
+  }
+  
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    /* Remover o left para evitar o deslocamento */
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000000;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+    border: 1px solid #ED2939;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 3px;
+    bottom: 2px;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+
+  input:checked+.slider {
+    background-color: #ED2939;
+  }
+
+  input:focus+.slider {
+    box-shadow: 0 0 1px #6205D5;
+  }
+
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+        
+
+</style>
+</head>
+<body class="h-screen bg-dark">
+    
+        <div class="container flex flex-row justify-between items-center px-6 pt-12">
+            <button class="left-icon place-items-center text-white justify-start" onclick="ToolsModal.show()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/></svg></button>
+            <h1 id="sitename" style="display:none; font-size: 25px;font-weight: 600; color: #fff;text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);">SAURON EDIT</h1>
+            <button class="right-icon place-items-center text-white" onclick="loggerModal.show()"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M13,17H8c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1h5c0.55,0,1,0.45,1,1C14,16.55,13.55,17,13,17z M16,13H8c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h8 c0.55,0,1,0.45,1,1C17,12.55,16.55,13,16,13z M16,9H8C7.45,9,7,8.55,7,8c0-0.55,0.45-1,1-1h8c0.55,0,1,0.45,1,1 C17,8.55,16.55,9,16,9z"/></g></svg></button>
+
+        </div>
+          
+        <div class="flex flex-row items-center justify-center pt-3">
+            <div class="w-56 h-44 mt-4 mb-2 rounded-full items-center justify-center flex">
+                    <button id="power" class="fa-solid fa-cat rounded-full p-10 power-icon" onclick="startStopVpn()"></button>
+            </div>
+        </div>
+
+            
+        <div class="flex flex-col">
+
+
+
+            <div class="flex flex-row justify-center items-center">
+                <button class="btn btn-sm text-white font-semibold rounded-full bg-dark p-2" onclick="InstrucoesModal.show()" id="" style="style="background-color: #41484f;position: absolute;center: 12px;color: white;padding: 3px 8px;border-radius: 8px;display: flex; align-items: center""><i class="fa fa-warning" style="font-size:18px;color:red"></i> LEIA ANTES</button>
+            </div>
+            
+            
+                            
+            <div class="box d-flex gap-2 justify-content-center mb-1 mt-1 flex flex-row items-center px-6 py-2 mx-6 rounded-xl app-bg-gray-1 border-0 box-shadow">
+                <i class="icon fa fa-cogs"></i>
+                <input type="text" placeholder="CONFIG." readonly id="config">
+                <i class="icon fa fa-angle-double-down"></i>
+            </div>       
+
+            <div class="box d-flex gap-2 justify-content-center mb-2 mt-1 items-center px-6 py-1.5 mx-6 rounded-xl border-slate-150 border-0 box-shadow">
+                <i class="icon fa fa-user"></i>
+                <input type="text" placeholder="Login" id="username" style="padding-right: 98px;" autocapitalize="none" autocomplete="off">
+                <span id="badge-renovar" onclick="DtStartWebViewActivity.execute('https://wa.me/5511941894222')" class="badge" style="background-color: #41484f;position: absolute;right: 30px;color: white;padding: 3px 8px;border-radius: 8px;display: flex; align-items: center"><!-- License: Apache. Made by googlefonts: https://github.com/googlefonts/noto-emoji -->
+<svg width="18" height="18" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"><path d="M59.77 3.68c-1.58.01-2.39.17-2.39 3.76s.34 113.87.34 115.07c0 1.2 1.2 1.71 3.25 1.71h8.38c1.37 0 1.88-.85 1.71-3.08c-.17-2.22-.19-113.53-.19-114.89s-.62-2.43-2.81-2.51c-1.78-.05-6.41-.07-8.29-.06z" fill="#02ab47"></path><path d="M45.39 43.95s-.25-6.26 4.17-10.31c4.07-3.73 7.87-3.45 7.87-3.45l.04 6.21s2.32-.8 6.24-.64s7.15 1.53 7.15 1.53v-6.52s2.17-.1 5.45 3.76c1.64 1.93 2.99 5.95 3.44 8.05c.57 2.7 1.56 3.95 4.17 4.14c2.61.19 4.59.17 6.2.11c2.29-.08-4.89-12.55-4.89-12.55S77.21 22.19 74.6 22.11c-2.62-.08-18.82.33-20.37 1.15c-1.55.82-11.7 7.94-11.7 7.94l-1.39 11.04s3.85 4.5 3.85 4.17c-.01-.33.4-2.46.4-2.46z" fill="#2f7c31"></path><path d="M37.6 43.95l-7.64-6s-1.63 12.38 4.54 19.84c4.52 5.45 9.82 7.69 14.48 9.74c4.36 1.91 8.57 3.23 8.57 3.23l.02 7.32l13.35 7.1l-.02-9.61s5.07 2.75 7.61 5.45s2.78 6.05 2.86 8.18s-.98 5.48-.98 5.48l-1.47 6.54l17.02-17.18l-40.16-26.67L37.6 43.95z" fill="#2f7c31"></path><path d="M30.89 82.37s-2.04 1.75-1.45 6.5c.54 4.41 3.03 11.29 10.47 17.34c7.44 6.05 17.8 7.21 17.8 7.21v5.05l13.3-.02l-.02-5.01s7.94-.33 14.65-4.59c7.02-4.45 12.15-13.53 11.86-22.06c-.1-2.99-2-2.52-2-2.52s-24.42 21.12-26.06 21.28s-17.51-2.62-17.51-2.62l-14.8-16.11l-6.24-4.45z" fill="#2f7c31"></path><path d="M37.13 80.6c-4.98.49-6.71 1.47-6.79 2.95c-.08 1.47 4.25 27.18 34.52 26.75c29.04-.41 32.48-18.08 32.72-24.95c.3-8.26-4.58-15.13-15.54-21.6c-8.17-4.81-27.9-12.03-31.17-14.07c-3.01-1.88-7.2-6.05-6.63-12.27c.57-6.22 7.36-12.35 19.88-12.27c12.52.08 17.45 8.8 18.41 11.37c1.54 4.15 1.24 9.56 3.52 10.27c1.06.33 4.17.21 5.97-.04c1.8-.25 4.36-1.63 4.5-5.24c.16-4.17-4.17-27.49-33.13-27.24c-27.65.23-34.46 17.19-33.39 26.92c1 9.23 8.52 17.91 20.63 22.82s33.54 10.88 33.3 21.92c-.22 9.91-11.71 13.41-21.19 12.93c-9.57-.49-14.81-6.05-16.77-12.6c-1.89-6.27-5.49-5.97-8.84-5.65z" fill="#02ab47"></path><path d="M41.72 83.73c-1.02-1.9-7.84-1.61-8.71 1.61c-.88 3.21 2.24 8.22 4.33 7.79c2.87-.6.44-4.04 1.56-5.35c1.11-1.33 4.08-1.7 2.82-4.05z" fill="#7adc8a"></path><path d="M63.62 5.39c-1.99-.05-4.22-.07-4.34 2.61c-.11 2.59.07 4.58 1.07 4.68c1.14.12 2.75-2.34 3.45-3.41c.9-1.34 1.97-3.82-.18-3.88z" fill="#7adc8a"></path><path d="M48.33 21.17c-.77-1.11-5.03-2-10.94 5.3s-3.73 11.15-2.38 11.32c1.84.23 2.86-1.28 3.99-3.76c1.61-3.53 3.53-5.68 6.53-7.95c2.56-1.94 4.12-3 2.8-4.91z" fill="#7adc8a"></path></svg> Comprar</span>
+                <span id="badge-renovar" onclick="DtStartWebViewActivity.execute('https://wa.me/5511941894222')" class="badge" style="background-color: #41484f;position: absolute;right: 30px;color: white;padding: 3px 8px;border-radius: 8px;display: flex; align-items: center"><!-- License: Apache. Made by googlefonts: https://github.com/googlefonts/noto-emoji -->
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 48 48">
+<path fill="#37c6d0" d="M19.262,44.037l-8.04-8.04L11,35l-1.777-1.003l-5.26-5.26c-2.617-2.617-2.617-6.859,0-9.475	l5.26-5.26L11,13l0.223-0.997l8.04-8.04c2.617-2.617,6.859-2.617,9.475,0l8.04,8.04L37,13l1.777,1.003l5.26,5.26	c2.617,2.617,2.617,6.859,0,9.475l-5.26,5.26L37,35l-0.223,0.997l-8.04,8.04C26.121,46.653,21.879,46.653,19.262,44.037z"></path><path d="M35.79,11.01c-1.76,0.07-3.4,0.79-4.63,2.04l-6.81,6.77c-0.09,0.1-0.22,0.15-0.35,0.15	s-0.25-0.05-0.35-0.15l-6.8-6.76c-1.24-1.26-2.88-1.98-4.64-2.05L8.22,15h3.68c0.8,0,1.55,0.31,2.12,0.88l6.8,6.78	c0.85,0.84,1.98,1.31,3.18,1.31s2.33-0.47,3.18-1.31l6.79-6.78C34.55,15.31,35.3,15,36.1,15h3.68L35.79,11.01z M36.1,33	c-0.8,0-1.55-0.31-2.12-0.88l-6.8-6.78c-0.85-0.84-1.98-1.31-3.18-1.31s-2.33,0.47-3.18,1.31l-6.79,6.78	C13.45,32.69,12.7,33,11.9,33H8.22l3.99,3.99c1.76-0.07,3.4-0.79,4.63-2.04l6.81-6.77c0.09-0.1,0.22-0.15,0.35-0.15	s0.25,0.05,0.35,0.15l6.8,6.76c1.24,1.26,2.88,1.98,4.64,2.05L39.78,33H36.1z" opacity=".05"></path><path d="M36.28,11.5H36.1c-1.74,0-3.38,0.68-4.59,1.91l-6.8,6.77c-0.19,0.19-0.45,0.29-0.71,0.29	s-0.52-0.1-0.71-0.29l-6.79-6.77c-1.22-1.23-2.86-1.91-4.6-1.91h-0.18l-3,3h3.18c0.93,0,1.81,0.36,2.48,1.02l6.8,6.78	c0.75,0.76,1.75,1.17,2.82,1.17s2.07-0.41,2.82-1.17l6.8-6.77c0.67-0.67,1.55-1.03,2.48-1.03h3.18L36.28,11.5z M36.1,33.5	c-0.93,0-1.81-0.36-2.48-1.02l-6.8-6.78c-0.75-0.76-1.75-1.17-2.82-1.17s-2.07,0.41-2.82,1.17l-6.8,6.77	c-0.67,0.67-1.55,1.03-2.48,1.03H8.72l3,3h0.18c1.74,0,3.38-0.68,4.59-1.91l6.8-6.77c0.19-0.19,0.45-0.29,0.71-0.29	s0.52,0.1,0.71,0.29l6.79,6.77c1.22,1.23,2.86,1.91,4.6,1.91h0.18l3-3H36.1z" opacity=".07"></path><path fill="#fff" d="M38.78,14H36.1c-1.07,0-2.07,0.42-2.83,1.17l-6.8,6.78c-0.68,0.68-1.58,1.02-2.47,1.02	s-1.79-0.34-2.47-1.02l-6.8-6.78C13.97,14.42,12.97,14,11.9,14H9.22l2-2h0.68c1.6,0,3.11,0.62,4.24,1.76l6.8,6.77	c0.59,0.59,1.53,0.59,2.12,0l6.8-6.77C32.99,12.62,34.5,12,36.1,12h0.68L38.78,14z M36.1,34c-1.07,0-2.07-0.42-2.83-1.17l-6.8-6.78	c-1.36-1.36-3.58-1.36-4.94,0l-6.8,6.78C13.97,33.58,12.97,34,11.9,34H9.22l2,2h0.68c1.6,0,3.11-0.62,4.24-1.76l6.8-6.77	c0.59-0.59,1.53-0.59,2.12,0l6.8,6.77C32.99,35.38,34.5,36,36.1,36h0.68l2-2H36.1z"></path>
+</svg>Comprar</span>
+            </div>       
+
+            <div class="box d-flex gap-2 justify-content-center items-center px-6 py-1.5 mx-6 rounded-xl border-slate-150 border-0 box-shadow">
+                <i class="icon fa fa-lock"></i>
+                <input type="password" placeholder="Senha" id="password" autocapitalize="none" autocomplete="off">
+                <i class="icon fa fa-eye" onclick="password.type==`text`?password.type = `password`:password.type = `text`"></i>
+            </div>
+                
+            <div class="d-flex gap-2 justify-content-center mb-2 mt-1 flex flex-row items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2">
+                <i class="icon fa fa-lock"></i>
+                <input type="text" placeholder="V2ray UUID" id="uuid">
+                <i class="icon fa fa-eye" onclick="uuid.type==`text`?uuid.type = `password`:uuid.type = `text`"></i>        
+            </div>
+
+
+            <a id="renovar" style="display: none;" class="renovar mt-3 mb-2" onclick="DtStartWebViewActivity.execute('https://wa.me/5511941894222)">
+                <div class="content">
+                    <div class="left-content">
+                        <div class="iconn"><svg width="25" height="25" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FA8C00" d="M1.526 10.769h11.218v2.603H1.526z"/><path fill="#FF8C00" d="M1.377 8.705L7.016.061l5.741 8.644z"/><path fill="#EDA500" d="M12.674 10.104l1.313-7.634L2.822 9.802z"/><path fill="#FEC400" d="M1.335 10.058L.075 2.433l10.428 7.625z"/></g></svg></div>
+                        <div class="text-content">
+                        <h2 class="title" style="font-weight: 500;">Comprar novo loginSsh</h2>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="arrow">→</div>
+                    </div>
+                </div>
+            </a>
+                
+                <div class="flex flex-row items-center justify-center mt-2">
+                <i class="info1 fa-solid fa-rss app-color-gray-1 mr-2"></i>
+                <span class="info1 font-semibold text-xs mr-0" id="name">IP:</span>
+                <span class="info1 font-semibold text-xs" id="ip">127.0.0.1</span>
+                </div>
+
+            <div class="py-2 flex flex-row justify-center items-center">
+                <span class="status app-color-blue font-semibold" id="state">DESCONECTADO</span>
+            </div>
+                <!--<div class="flex flex-row items-center justify-center mt-1">
+                	<i class="info1 fa-solid fa-user app-color-gray-1 mr-2"></i>
+                	<span class="info font-semibold text-xs" id="total">00</span>
+            </div>-->
+
+
+            
+
+            <div class="flex flex-row items-center space-evenly mt-2">
+                <button class="itens place-items-center p-2 text-white" onclick="DtStartAppUpdate.execute()"><i class="bi bi-arrow-repeat"></i><span>Atualizar</span></button>
+
+                    <button class="itens place-items-center p-2 text-white" onclick="DtStartCheckUser.execute()"><i class="bi bi-calendar-check"></i><span>Validade</span></button>
+                    <button class="itens place-items-center p-2 text-white" data-bs-target="#speedTestModal" data-bs-toggle="modal"><i class="bi bi-speedometer"></i><span>SpeedTest</span></button>
+                    <button class="itens place-items-center p-2 text-white" onclick="DtStartWebViewActivity.execute('https://t.me/gatonetvpn')"><i class="bi bi-telegram"></i><span>Telegram</span></button>
+                    <button id="suporte" class="itens place-items-center p-2 text-white" onclick="DtStartWebViewActivity.execute('https://wa.me/5511941894222')"><i class="bi bi-whatsapp"></i><span>Suporte</span></button>
+
+            </div>
+
+		<div class="flex gap-4 w-12/1" style="display: flex; justify-content: center;">
+          <section class="w-1/2 h-9 flex items-center justify-center gap-2 mt-3 rounded-md bg-[#0b011800]"
+            id="button-airplane" style="margin-right: 0%;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#ED2939" class="text-[#FFFFFF] w-5 h-5"
+              viewBox="0 0 32 32">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-308.000000, -307.000000)"
+                  fill="#ED2939">
+                  <path
+                    d="M337.854,311.163 L330.402,318.642 L334.908,331.037 C335.13,331.747 334.992,332.627 334.705,332.914 C333.89,333.73 333.309,333.342 333,333 L325.795,323.266 L317.819,331.27 L319.255,336.6 C318.688,336.032 315.38,331.602 315.301,331.521 C315.248,331.469 310.896,328.225 310.427,327.753 L315.538,329.133 L323.665,321.152 L314,314 C313.723,313.752 313.358,313.02 314.104,312.271 C314.392,311.984 315.262,311.897 315.97,312.12 L328.311,316.592 L335.864,309.175 C336.392,308.647 337.425,308.701 337.888,309.164 C338.35,309.627 338.382,310.636 337.854,311.163 L337.854,311.163 Z M339.207,307.82 C337.961,306.57 335.771,306.863 334.518,308.119 L328.141,314.481 L316.313,310.061 C315.18,309.768 314.039,309.389 312.634,310.798 C311.917,311.516 310.427,313.01 312.634,315.221 L320.744,321.861 L315.467,327.127 L310.543,325.896 C309.813,325.708 309.321,325.855 308.946,326.269 C308.757,326.505 307.386,327.521 308.342,328.479 L314.067,332.933 L318.521,338.658 C319.213,339.352 319.856,338.919 320.735,338.084 C321.292,337.526 321.172,337.239 321.004,336.426 L319.892,331.536 L325.133,326.277 L331.763,334.389 C333.969,336.6 335.46,335.105 336.177,334.389 C337.583,332.979 337.205,331.837 336.912,330.702 L332.529,318.854 L338.88,312.481 C340.133,311.226 340.454,309.069 339.207,307.82 L339.207,307.82 Z"
+                    id="airplane" sketch:type="MSShapeGroup"></path>
+                </g>
+              </g>
+            </svg>
+            <span class="text-[#FFFFFF] text-sm font-medium">Modo Avião</span>
+            <label class="switch">
+              <input type="checkbox" id="switch-button">
+              <span class="slider"></span>
+            </label>
+          </section>
+        </div>
+      </section>
+
+            
+            <a id="renovar" style="display: none;" class="renovar mt-4" onclick="DtStartWebViewActivity.execute('https://t.me/gatonetvpn')">
+                <div class="content">
+                    <div class="left-content">
+                        <div class="iconn"><svg width="30" height="30" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FA8C00" d="M1.526 10.769h11.218v2.603H1.526z"/><path fill="#FF8C00" d="M1.377 8.705L7.016.061l5.741 8.644z"/><path fill="#EDA500" d="M12.674 10.104l1.313-7.634L2.822 9.802z"/><path fill="#FEC400" d="M1.335 10.058L.075 2.433l10.428 7.625z"/></g></svg></div>
+                        <div class="text-content">
+                        <h2 class="title">Comprar Acesso Premium</h2>
+                        <p class="subtitle">VIP</p>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="arrow">→</div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+          
+
+
+    </div>
+    <div class="modal fade" id="configModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded-3 shadow">
+                <div class="modal-header border-bottom-0 pb-0">
+                    <h1 class="modal-title fs-5" style="color: var(--text-color);">CONFIGURA��ES</h1>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-1 text-center">
+                    <div class="input-group items-center pl-2 pr-2">
+                        <input type="text" class="form-control" id="search-input" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="search-button">
+                        <button class="btn btn-outline-secondary text-white" type="button" id="search-button">Pesquisar</button>
+                    </div>
+
+                    <div id="enviarpayload" class="flex flex-row justify-center items-center">
+                        <button class="btn btn-sm w-100 text-white font-semibold"  onclick="DtStartWebViewActivity.execute('https://t.me/donoking.')"><small>Quer sua payload no APP? Envie-nos</small></button>
+                    </div>
+                    <ul class="list-group bg-transparent overflow-y-auto config-body" style="max-height: 600px;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript para a pesquisa -->
+<script>
+    function searchConfigurations() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('search-input');
+        filter = input.value.toUpperCase();
+        ul = document.querySelector('.config-body');
+        li = ul.getElementsByTagName('li');
+
+        for (i = 0; i < li.length; i++) {
+            a = li[i];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+
+    document.getElementById('search-button').addEventListener('click', searchConfigurations);
+    document.getElementById('search-input').addEventListener('input', searchConfigurations);
+</script>
+    <div class="modal fade" id="loggerModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded-3 shadow">
+                <div class="modal-body p-1 text-center">
+                    <ul class="list-group bg-transparent overflow-y-auto logger-content" style="max-height: 600px;">
+                    </ul>
+                </div>
+                <div class="modal-footer flex-nowrap p-0">
+                    <button class="btn btn-primary w-100 clear-logger" style="background-color:var(--btn-modal);">LIMPAR</button>
+                      <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal" style="background-color: var(--btn-modal);">FECHAR</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool webm modal fade" index="-1" id="InstrucoesModal">
+        <div class="pt-4 modal-dialog modal-dialog-centered" role="document">
+                     
+ 
+        <div class="modal-content">
+        <div class="tool modal-header">
+            <h5 class="modal-title" style="color:#ffffff;">INSTRUÇÕES</h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+    
+        </div>
+            <div class="modal-body">
+                <p>
+                     Como usar?<br><br><hr><br>
+                         <small><font color="red">Para conectar: Escolha sua configuração, digite seu usuário e senha e clique no Icone do Gato Vermelho para conectar!:</font> <br><br><hr><br>
+
+                     
+                     <b>VIVO PRÉ</b> - MAIORIA dos DDD<br><br>
+
+                    <b>Método WSEC</b>: Esse metodo funciona pra todos.<br>
+                    <small><font color="red">OBS:</font> A conexão no modo Security pode levar algum tempo e as vezes é necessário por o celular em modo avião e tirar. <br>Para esta conexão funcionar é necessário que apareça a notificação de Fazer Login na Rede <br>Caso não funcione para você: tente contratar o plano vivo pré-turbo ou baixe o Vivo Pontos na PlayStore, assista alguns anúncios para ganhar pacote de dados, gaste os MBs e tente novamente<br><br><hr><br>
+
+  <b>VIVO EASY PRIME</b> - Necessário pagar os R$33,00 do plano todo mês e não deixar o saldo expirar.<br>
+                    <small>OBS: Pode funcionar no Easy normal.</small><br><br><hr><br>
+
+
+                    <b>TIM PRÉ</b> - Funcionando em todos os DDDs<br> Com saldo valido ou expirado <br><br><hr><br>
+
+                    <b>CLARO</b> - Precisa Plano Flex, Controle ou P�s.<br>
+
+                    <small>OBS: Necess�rio manter o plano em dia para funcionar.</small><br><br><hr><br>
+
+                </p>
+            </div>
+        <!--<div class="tool modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: var(--btn-modal);">FECHAR</button>
+            
+        </div>--> 
+        </div>
+    </div>
+    </div>
+
+    <div class="tool webm modal fade" index="-1" id="ToolsModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+                     
+ 
+    <div class="modal-content">
+      <div class="tool modal-header">
+        <h5 class="modal-title" style="color:#ffffff;">FERRAMENTAS</h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+ 
+      </div>
+        <div class="modal-body">
+        <button class="tool-bt rounded-2xl text-white" onclick="toggleHotSpot()"><i class="info2 bi bi-wifi mr-2"></i>HotSpot</button>
+        </div>
+        <div class="modal-body">
+        <button class="tool-bt rounded-2xl text-white" onclick="DtStartApnActivity.execute()"><i class="info2 bi bi-wifi mr-2"></i>APN</button>
+        </div>
+        <div class="modal-body">
+        <button class="tool-bt rounded-2xl text-white" onclick="DtIgnoreBatteryOptimizations.execute()"><i class="info2 bi bi-battery-full mr-2"></i>Bateria</button>
+      </div>
+      <div class="modal-body">
+        <button class="tool-bt rounded-2xl text-white" onclick="DtCleanApp.execute()"><i class="info2 bi bi-trash3 mr-2"></i>Limpar</button>
+        </div>
+      <!--<div class="tool modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: var(--btn-modal);">FECHAR</button>
+        
+      </div>--> 
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="checkUserModal" index="1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-3 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 chk-title text-light"></h1>
+                <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="fs-5 mb-0 chk-message text-light"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="md modal fade" id="speedTestModal">
+    <div class="md modal-dialog modal-dialog-centered" role="document">
+        <div class="md modal-content rounded-3 shadow">
+            <div class="md modal-header border-bottom-0 py-3">
+                <button class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                    
+            </div>
+            <div class="modal-body ratio rounded-bottom-3" style="height: 600px;">
+                <div class="spinner d-flex w-100 h-100 align-items-center justify-content-center">
+                    <div class="spinner-border text-light p-5" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+                <iframe class="rounded-bottom-3" id="speedFrame"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // Fun��o para verificar o log e ocultar o elemento #renovar, se necess�rio
+    function verificarLog() {
+        const log = window?.DtGetLogs?.execute();
+        if (log && log.includes("SSH4G VPN PRO")) {
+            // A string "SSH4G VPN PRO" est� presente no log, n�o oculte o elemento #renovar
+            document.querySelector('#renovar').style.display = 'block';
+            document.querySelector('#sitename').style.display = 'block';
+            document.querySelector('#badge-renovar').style.display = 'flex';
+            document.querySelector('#suportessh4g').style.display = 'inherit';
+            document.querySelector('#enviarpayload').style.display = 'block';
+            document.querySelector('#bonus').style.display = 'block';
+
+
+        } else {
+            // A string "SSH4G VPN PRO" n�o est� presente no log, oculte o elemento #renovar
+            document.querySelector('#renovar').style.display = 'none';
+            document.querySelector('#sitename').style.display = 'none';
+            document.querySelector('#badge-renovar').style.display = 'none';
+            document.querySelector('#suportessh4g').style.display = 'none';
+            document.querySelector('#enviarpayload').style.display = 'none';
+            document.querySelector('#bonus').style.display = 'none';
+
+        }
+    }
+
+    // Chame a fun��o quando a p�gina for carregada e sempre que o log for atualizado
+    document.addEventListener('DOMContentLoaded', verificarLog);
+    window.addEventListener('logAtualizado', verificarLog);
+</script>
+    // <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+    <script>
+        Object.defineProperty(String.prototype, 't', {
+            value: function t() {
+                return window?.DtTranslateText?.execute('' + this) ?? '' + this
+            },
+            writable: true,
+            configurable: true,
+        })
+
+        const config = document.querySelector('#config')
+        config.parentElement.onclick = () => showConfigsModal();
+
+        const username = document.querySelector('#username')
+        username.oninput = e => DtUsername.set(e.target.value)
+
+        const password = document.querySelector('#password')
+        password.oninput = e => DtPassword.set(e.target.value)
+
+        const uuid = document.querySelector('#uuid')
+        uuid.oninput = e => DtUuid.set(e.target.value)
+
+        const clearLogger = document.querySelector('.clear-logger')
+
+        const checkUserModal = new bootstrap.Modal(document.querySelector('#checkUserModal'))
+        const configModal = new bootstrap.Modal(document.querySelector('#configModal'))
+        const loggerModal = new bootstrap.Modal(document.querySelector('#loggerModal'))
+        const ToolsModal = new bootstrap.Modal(document.querySelector('#ToolsModal'))
+        const InstrucoesModal = new bootstrap.Modal(document.querySelector('#InstrucoesModal'))
+        const speedTestModal = new bootstrap.Modal(document.querySelector('#speedTestModal'))
+
+        const toggleHotSpot = () => {
+            const hotSpotStatus = window?.DtGetStatusHotSpotService?.execute() ?? 'STOPPED';
+            hotSpotStatus == 'RUNNING' ? stopHotSpot() : startHotSpot();
+        }
+        const startHotSpot = () => DtStartHotSpotService.execute();
+        const stopHotSpot = () => DtStopHotSpotService.execute();
+        
+
+        const dtConfigClickListener = () => {
+            const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{ "auth": {"username": ""} }`)
+            const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');
+
+            config.placeholder = data.name ?? 'Escolha um servidor';
+            username.parentElement.style.setProperty('display', !data?.auth?.username && !isV2ray ? 'flex' : 'none', 'important')
+            password.parentElement.style.setProperty('display', !data?.auth?.password && !isV2ray ? 'flex' : 'none', 'important')
+            uuid.parentElement.style.setProperty('display', !data?.auth?.v2ray_uuid && isV2ray ? 'flex' : 'none', 'important')
+        }
+
+        const startStopVpn = e => {
+            if (DtGetVpnState.execute() != 'DISCONNECTED') {
+                DtExecuteVpnStop.execute()
+            } else {
+                DtExecuteVpnStart.execute()
+            }
+        }
+
+        clearLogger.addEventListener('click', () => DtClearLogs.execute())
+
+        speedTestModal._element.addEventListener('shown.bs.modal', () => {
+            const iframe = document.querySelector('#speedFrame');
+            if (!iframe.src) {
+                iframe.src = 'http://speedtest.sercomtel.com.br/'
+                iframe.addEventListener('load', () => {
+                    mp3Modal._element.querySelector('.spinner').classList.add('d-none')
+                })
+            }
+        })
+        speedTestModal._element.addEventListener('hide.bs.modal', () => {
+            const iframe = document.querySelector('#speedFrame');
+            iframe.src = '';
+        })
+
+        
+
+
+        const dtVpnStateListener = state => {
+            const isRunning = state != 'DISCONNECTED';
+            const status = document.querySelector('#state')
+            const vpnButton = document.querySelector('#power');
+            const vpnButtonBG = document.querySelector('#power-bg');
+
+
+            status.innerHTML = ('LBL_STATE_' + state).t()
+
+        /*const renovar = document.querySelector('#renovar');
+            if (state !== 'CONNECTED') {
+                renovar.style.display = 'none';
+            }*/
+
+            if (isRunning) {
+                if (state === 'CONNECTED') {
+                    status.style.color = '#00ff15'; // Define a cor do texto como verde apenas quando conectado
+                    vpnButton.style.color = '#00ff15';
+                    vpnButtonBG.style.backgroundColor = '#00ff15';
+                } else {
+                    status.style.color = 'orange'; // Remove a cor definida para voltar ao padr�o
+                    vpnButton.style.color = 'orange';
+                    vpnButtonBG.style.backgroundColor = 'orange';
+                }
+                username.setAttribute('readonly', 'true')
+                password.setAttribute('readonly', 'true')
+            } else {
+                username.removeAttribute('readonly')
+                password.removeAttribute('readonly')
+                status.style.color = '#ed2939'
+                vpnButton.style.color = '#ed2939';
+                vpnButtonBG.style.backgroundColor = '#ed2939';
+
+            }
+        }
+
+        const dtCheckUserStartedListener = () => {
+            const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{}`)
+            const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');
+            if (isV2ray || !data.urlCheckUser) return;
+
+            const html = `
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border p-4" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            `
+
+            checkUserModal._element.querySelector('.chk-title').textContent = 'CHECK USER'
+            checkUserModal._element.querySelector('.chk-message').innerHTML = html;
+            checkUserModal.show()
+        }
+
+        const dtCheckUserModelListener = model => {
+            const data = JSON.parse(model ?? `{"username": "test"}`)
+            const html = `
+                <div class="d-flex flex-column text-white">
+                    <span>=dNome de usuario: ${data.username}</span>
+                    <span>=�Expira em: ${data.expiration_date}</span>
+                    <span>=�Dias restantes: ${data.expiration_days}</span>
+                    <span>=�Conexoes: ${data.count_connections}|${data.limit_connections}</span>
+                </div>
+            `
+
+            checkUserModal._element.querySelector('.chk-title').textContent = ''
+            checkUserModal._element.querySelector('.chk-message').innerHTML = html;
+            checkUserModal.show()
+        }
+
+        const showConfigsModal = () => {
+            const mock = '[{"sorter":6,"color":"#6D08041C","name":"CONFIG","id":1393,"items":[{"mode":"V2RAY - VLESS","sorter":4,"tlsVersion":"TLSv1.2","name":"CONFIG 01","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":11803,"status":"ACTIVE"},{"mode":"SSH_DIRECT","sorter":2,"tlsVersion":"TLSv1.2","name":"CONFIG 02","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":28627,"status":"ACTIVE"},{"mode":"OVPN_PROXY","sorter":23,"tlsVersion":"TLSv1.2","name":"CONFIG 03","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":30001,"status":"ACTIVE"}]},{"sorter":2,"color":"#6D08041C","name":"CONFIG 2","id":1846,"items":[{"mode":"SSH_PROXY","sorter":1,"tlsVersion":"TLSv1.2","name":"CONFIG 01","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":26295,"status":"ACTIVE"}]},{"sorter":4,"color":"#80000000","name":"CONFIG 3","id":3310,"items":[{"mode":"SSH_PROXY","sorter":1,"tlsVersion":"TLSv1.2","name":"CONFIG. TEST","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":29997,"status":"ACTIVE"},{"mode":"OVPN_PROXY","sorter":1,"tlsVersion":"TLSv1.2","name":"CONFIG. TEST 2","icon":"https://cdn-icons-png.flaticon.com/512/8187/8187143.png","id":29998,"status":"ACTIVE"}]}]'
+            const data = JSON.parse(window?.DtGetConfigs?.execute() || mock)
+
+            data.sort((a, b) => a.sorter - b.sorter)
+            data.forEach(item => item.items.sort((a, b) => a.sorter - b.sorter))
+
+            const body = configModal._element.querySelector('.config-body')
+            body.innerHTML = ''
+
+            data.forEach(category => {
+                const categoryElement = document.createElement('li')
+                categoryElement.className = 'list-group-item bg-transparent border-0 mb-1 rounded-1 px-1'
+                categoryElement.style.color = 'var(--text-color)'
+                categoryElement.innerHTML = `<span class="fw-bold w-100 d-block p-1 rounded-1 mb-1 bg-category">${category.name}</span>`
+
+                const configUlElement = document.createElement('ul')
+                configUlElement.className = 'list-group overflow-y-auto'
+
+                category.items.forEach(item => {
+                    const configElement = document.createElement('li')
+                    configElement.className = 'list-group-item d-flex border-0 bg-config rounded-2 px-1 py-2 mb-1'
+                    configElement.style.color = 'var(--text-color)'
+                    configElement.innerHTML = `
+                            <img src="${item.icon}" width="40" height="40">
+                            <div class="text-start d-flex flex-column ms-2 w-100 text-truncate">
+                                <span class="fw-bold text-uppercase" style="font-size: 0.8rem;">${item.name}</span>
+                                <span class="fst-italic fw-bold text-uppercase" style="font-size: 0.7rem;">${item.description || ''}</span>
+                            </div>
+                            <!--<div class="d-flex flex-column ms-2">
+                                <span class="fst-italic fw-bold text-end text-uppercase text-nowrap" style="font-size: 0.8rem;">${item.mode}</span>
+                            </div>-->
+                        </li>
+                    `
+                    configElement.addEventListener('click', e => {
+                        window?.DtSetConfig?.execute(item.id)
+                        configModal.hide()
+                    })
+                    configUlElement.appendChild(configElement)
+                })
+
+                categoryElement.appendChild(configUlElement)
+                body.appendChild(categoryElement)
+            })
+            configModal.show()
+        }
+
+        const dtOnNewLogListener = () => {
+            const mock = [];
+            for (let i = 0; i < 30; i++) {
+                mock.push({ 'TIME': 'MESSAGE ' + i })
+            }
+
+            const log = window?.DtGetLogs?.execute() || JSON.stringify(mock)
+            const data = JSON.parse(log)
+
+            let content = '';
+            data.forEach(item => {
+                content += '<li class="list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap" style="font-size: 12px; color: var(--text-color);">';
+                content += Object.keys(item)[0] + " " + item[Object.keys(item)]
+                content += '</li>';
+            })
+
+            loggerModal._element.querySelector('.logger-content').innerHTML = content;
+            const listGroup = loggerModal._element.querySelector('.list-group')
+            listGroup.scrollTo(0, listGroup.scrollHeight)
+        }
+
+        username.value = window?.DtUsername?.get() ?? ''
+        password.value = window?.DtPassword?.get() ?? ''
+        uuid.value = window?.DtUuid?.get() ?? ''
+
+        dtOnNewLogListener()
+        dtConfigClickListener()
+        dtVpnStateListener(window?.DtGetVpnState?.execute() ?? 'DISCONNECTED')
+        
+    </script>
+    
+        <script>
+        const config = JSON.parse(DtGetAppConfig.execute());
+        const urlCheckUser = new URL(config.urlCheckUser);
+        urlCheckUser.protocol = 'http:';
+
+        const createConnection = () => new WebSocket(urlCheckUser);
+        const startActions = socket => {
+            socket.send(JSON.stringify({
+                action: 'all',
+                data: {}
+            }));
+        }
+        const parseResponseData = data => {
+            data = JSON.parse(data);
+            console.log(data)
+
+            if (data.total != undefined) {
+                const total = data.total;
+                document.getElementById('total').innerHTML = String(total).padStart(2, '0');
+            }
+        }
+
+        const startSocket = () => {
+            const socket = createConnection();
+            socket.onopen = e => startActions(socket);
+            socket.onmessage = e => parseResponseData(e.data);
+        }
+
+        const setVpnState = state => {
+            if (state == 'CONNECTED') startSocket();
+        }
+        startSocket();
+    </script>
+     <script>
+        class AndroidMock {
+            static getLocalIP() {
+                return '192.168.0.1';
+            }
+    
+            static getConfig() {
+                return JSON.stringify({
+                    urlCheckUser: 'http://sv-br.ssh4g.xyz:5000'
+                });
+            }
+    
+            static getNetworkName() {
+                return 'IP';
+            }
+    
+            static openRadioInfo() {
+                console.log('openRadioInfo');
+            }
+        }
+    </script>
+    
+    <script>
+        function showLocalIP(android) {
+            console.log(android.getNetworkName());
+            document.getElementById('name').innerHTML = ' ' + android.getNetworkName() + ':';
+            document.getElementById('ip').innerHTML = android.getLocalIP();
+    
+            setInterval(() => {
+                document.getElementById('name').innerHTML =
+                    ' ' + android.getNetworkName() + ':';
+                document.getElementById('ip').innerHTML = android.getLocalIP();
+            }, 2000)
+        }
+    
+        function showCheckUser(android) {
+            const config = JSON.parse(window?.DtGetDefaultConfig?.execute() ?? android.getConfig());
+    
+            const urlCheckUser = new URL(config.urlCheckUser);
+            urlCheckUser.protocol = 'ws:';
+            const socket = new WebSocket(urlCheckUser);
+            socket.onopen = function (e) {
+                socket.send(JSON.stringify({
+                    action: 'all',
+                    data: {}
+                }));
+            };
+    
+            socket.onmessage = function (event) {
+                const data = JSON.parse(event.data);
+                if (data.total === undefined)
+                    return;
+    
+                const total = data.total;
+                document.getElementById('total').innerHTML = ' ' + String(total).padStart(2, '0');
+                socket.close();
+            };
+        }
+    
+        const usernameInput = document.getElementById('username');
+        const configInput = document.getElementById('output');
+    
+        // Fun��o para atualizar o campo readonly com o valor digitado
+        function updateConfig() {
+            configInput.value = `https://t.me/KingkongSsh`;
+        }
+    
+    
+        window.onload = function () {
+            const android = window.Android || AndroidMock;
+            showLocalIP(android);
+            showCheckUser(android);
+            updateConfig();
+        };
+        usernameInput.addEventListener('input', updateConfig);
+        document.addEventListener('DOMContentLoaded', updateConfig);
+
+    
+    </script>
+	
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const switchButton = document.getElementById("switch-button");
+
+      // Define a função para atualizar o estado do switch e do modo avião
+      function updateSwitchAndAirplaneMode() {
+        const airplaneState = DtAirplaneState.execute();
+        switchButton.checked = airplaneState === "ativo";
+      }
+
+      // Atualiza o estado inicial do switch e do modo avião
+      updateSwitchAndAirplaneMode();
+
+      // Adiciona um ouvinte de evento de clique para o botão de modo avião
+      const buttonAirplane = document.getElementById("button-airplane");
+      buttonAirplane.addEventListener("click", function () {
+        switchButton.checked = !switchButton.checked;
+        if (switchButton.checked) {
+          DtAirplaneActivate.execute();
+        } else {
+          DtAirplaneDeactivate.execute();
+        }
+      });
+    });
+
+  </script>
+</body>
+</html>
+",
         "type": "HTML",
         "status": "ACTIVE",
         "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
