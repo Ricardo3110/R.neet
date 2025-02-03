@@ -3,16 +3,16 @@
         "id": 24322,
         "label": "Nome do app",
         "name": "APP_NAME",
-        "value": "MasterSSH 2.0",
+        "value": "2.0",
         "type": "STRING",
-        "status": "DISABLE",
+        "status": "SCTIVE",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
     },
     {
         "id": 24323,
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "https://i.ibb.co/JFT6jLV/DTdle6d1st.png",
+        "value": "",
         "type": "IMAGE",
         "status": "DISABLE",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
@@ -21,7 +21,7 @@
         "id": 24324,
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": "https://i.ibb.co/64CrjcT/DTjsn-onyi.png",
+        "value": "",
         "type": "IMAGE",
         "status": "ACTIVE",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
