@@ -8,14 +8,14 @@
     "category": {
       "color": "#FFFFFF",
       "created_at": "2025-2-3 5:14:32",
-      "id": 1001,
+      "id": 1,
       "name": "SERVIDOR-BR",
       "sorter": "1",
       "status": "ACTIVE",
       "updated_at": "2025-2-3 5:14:32",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1002,
+    "category_id": 1,
     "config_openvpn": null,
     "config_payload": {
       "payload": "[delay_split]\\\\nPUT /? HTTP/1.1\\\\nHost: tbr-sdgw.datami.net HTTP/1.0\\\\n",
