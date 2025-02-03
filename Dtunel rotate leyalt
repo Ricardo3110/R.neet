@@ -5,7 +5,7 @@
         "name": "APP_NAME",
         "value": "MasterSSH 2.0",
         "type": "STRING",
-        "status": "ACTIVE",
+        "status": "DISABLE",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
     },
     {
@@ -14,7 +14,7 @@
         "name": "APP_LOGO",
         "value": "https://i.ibb.co/JFT6jLV/DTdle6d1st.png",
         "type": "IMAGE",
-        "status": "ACTIVE",
+        "status": "DISABLE",
         "user_id": "131c93f0-54d5-4899-b705-b25eb193003e"
     },
     {
