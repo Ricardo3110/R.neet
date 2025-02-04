@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.189",
+  "Version": "1.1.190",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "149.78.186.180",
-"CheckUser": "https://69c90ff9e9.dtunnel.shop:2053",
+"CheckUser": "http://149.78.186.180:5001/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
