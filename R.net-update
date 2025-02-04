@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "149.78.186.180",
-"CheckUser": "http://149.78.186.180:5001/checkUser",
+"CheckUser": "https://69c90ff9e9.dtunnel.shop:2053",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
