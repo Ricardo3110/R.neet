@@ -203,7 +203,7 @@
 {
       "Name": "TIM-5 (CDN-FLARE)",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.4.18",
