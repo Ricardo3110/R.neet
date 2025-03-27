@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.193",
+  "Version": "1.1.194",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -203,7 +203,7 @@
 {
       "Name": "TIM-5 (CDN-FLARE)",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: [rotate= timrecompensas.com.br;vs.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.4.18",
