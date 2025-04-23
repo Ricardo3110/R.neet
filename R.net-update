@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.196",
+  "Version": "1.1.197",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -206,7 +206,7 @@
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: [rotate= timrecompensas.com.br;vs.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
+      "ProxyIP": "104.18.5.18",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
