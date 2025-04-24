@@ -1,4 +1,4 @@
-{
+u{
   "Version": "1.1.197",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
@@ -234,7 +234,7 @@
    {
       "Name": "TIM-8 (CDN-FLARE)",
       "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.19.240.25",
