@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.199",
+  "Version": "1.1.200",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,7 +50,7 @@
  {
       "Name": "VIVO-2 (Websocket)",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
