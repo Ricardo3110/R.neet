@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.208",
+  "Version": "1.1.210",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -232,7 +232,7 @@
       "Info": "Proxy"
     },
    {
-      "Name": "TIM-7 (CDN-FLARE)",
+      "Name": "TIM-8 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "MERGE /<h2><font color="blue">🔰 R.NET 🔰</h2> HTTP/1.1
 Host: br.r-neet.shop
