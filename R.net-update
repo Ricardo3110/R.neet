@@ -231,19 +231,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-   {
-      "Name": "TIM-8 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "MERGE /<h2><font color="blue">🔰 R.NET 🔰</h2> HTTP/1.1
-Host: br.r-neet.shop
-Upgrade: websocket
-Connection: Upgrade\r\n\r\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+  
  {
       "Name": "TIM-9 (CDN-FLARE)",
       "FLAG": "tim",
