@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.211",
+  "Version": "1.1.212",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -200,30 +200,10 @@
       "ProxyPort": "80",
       "Info": "Direct"
     },
-{
+
+   {
       "Name": "TIM-5 (CDN-FLARE)",
       "FLAG": "tim",
-      "Payload": "ACL / [instant_split] HTTP/1.1 [lf]Host: br.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.50.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
- 
- {
-      "Name": "TIM-6 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "141.193.213.10",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-   {
-      "Name": "TIM-7 (CDN-FLARE)",
-      "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
@@ -231,79 +211,9 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-   {
-      "Name": "TIM-8 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "TIM-9 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+   
 {
-      "Name": "TIM-10 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com [lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.64.154.143",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-11 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.19.241.93",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-12 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.33.113",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-13 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.17.64.225",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-14 (CDN-FLARE)",
-      "FLAG": "tim",
-      "Payload": "ACL wss://br0.r-neet.shop HTTP/1.1[lf]Host: ipv4.google.com[lf]Upgrade: Websocket[lf][split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.239.166",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-{
-      "Name": "TIM-15 (CDN-SAAS)",
+      "Name": "TIM-6 (CDN-SAAS)",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -313,7 +223,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "TIM-16 (CDN-GCORE)",
+      "Name": "TIM-7 (CDN-GCORE)",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
       "SNI": "",
