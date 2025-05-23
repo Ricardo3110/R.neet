@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.212",
+  "Version": "1.1.213",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -200,8 +200,7 @@
       "ProxyPort": "80",
       "Info": "Direct"
     },
-
-   {
+  {
       "Name": "TIM-5 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
@@ -211,8 +210,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-   
-{
+  {
       "Name": "TIM-6 (CDN-SAAS)",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
@@ -232,8 +230,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-
- {
+   {
       "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
       "Payload": "ACL / HTTP/1.1[crlf]Host: w.waze.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
