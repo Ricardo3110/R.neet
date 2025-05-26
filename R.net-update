@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.215",
+  "Version": "1.1.216",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -160,9 +160,9 @@
     },
 
    {
-      "Name": "TIM-1 (Proxy-Socks)",
+      "Name": "TIM-1 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
+      "Payload": "[split]HTTP/  [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
@@ -170,9 +170,9 @@
       "Info": "Direct"
     },
  {
-      "Name": "TIM-2 (Proxy-Socks)",
+      "Name": "TIM-2 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
