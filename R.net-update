@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.213",
+  "Version": "1.1.214",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -211,12 +211,12 @@
       "Info": "Proxy"
     },
   {
-      "Name": "TIM-6 (CDN-SAAS)",
+      "Name": "TIM-6 ( Sercurity )",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "[split]HTTP/ 3 500 NO MERCADO LIVRE MY REBORN BABY [lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "1.1.1.1",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
