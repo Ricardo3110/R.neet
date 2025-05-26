@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.216",
+  "Version": "1.1.217",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -211,7 +211,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "TIM-6 ( Sercurity )",
+      "Name": "TIM-6 (SERCURITY)",
       "FLAG": "tim",
       "Payload": "[split]HTTP/ 3 500 NO MERCADO LIVRE MY REBORN BABY [lf][lf]",
       "SNI": "",
@@ -221,12 +221,12 @@
       "Info": "Direct"
     },
   {
-      "Name": "TIM-7 (CDN-GCORE)",
+      "Name": "TIM-7 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][split][crlf]",
+      "Payload": "[instant_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "81.28.12.12",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
