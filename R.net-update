@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.218",
+  "Version": "1.1.219",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -218,7 +218,7 @@
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Proxy"
     },
   {
       "Name": "TIM-7 (SERCURITY)",
