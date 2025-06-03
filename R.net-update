@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.224",
+  "Version": "1.1.225",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -226,7 +226,7 @@
       "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "br.r-neet.shop",
+      "ProxyIP": "149.78.186.180",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
