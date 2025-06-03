@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.221",
+  "Version": "1.1.222",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -223,12 +223,12 @@
   {
       "Name": "TIM-7 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "[split]HTTP/1.1 101 WebSocket[lf][lf]",
+      "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
+      "ProxyIP": "br.r-neet.shop",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Proxy"
     },
    {
       "Name": "CLARO-1 NGNIX 🆕",
