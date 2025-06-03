@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.223",
+  "Version": "1.1.224",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -162,7 +162,7 @@
    {
       "Name": "TIM-1 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "[split]HTTP/  [lf][lf]",
+      "Payload": "[delay_split]HTTP/  [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
@@ -213,7 +213,7 @@
   {
       "Name": "TIM-6 (SERCURITY)",
       "FLAG": "tim",
-      "Payload": "[split]HTTP/ 3 500 NO MERCADO LIVRE MY REBORN BABY [lf][lf]",
+      "Payload": "[delay_split]HTTP/ 3 500 NO MERCADO LIVRE MY REBORN BABY [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
