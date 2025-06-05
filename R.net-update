@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.229",
+  "Version": "1.1.230",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,12 +50,12 @@
  {
       "Name": "VIVO-2 (Websocket)",
       "FLAG": "vivo",
-      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Direct"
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "ipv4.google.com",
+      "TlsIP": "ipv4.google.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
 
 {
