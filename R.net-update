@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.227",
+  "Version": "1.1.228",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -174,8 +174,8 @@
       "Name": "TIM-2 (GCLOUD)",
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "www.c6bank.com.br",
-      "TlsIP": "172.217.28.72",
+      "SNI": "mulherespositivas.com.br",
+      "TlsIP": "172.217.29.65",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
