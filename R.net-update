@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.231",
+  "Version": "1.1.232",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -170,6 +170,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+   {
+      "Name": "TIM-2 (SERCURITY)",
+      "FLAG": "tim",
+      "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "149.78.186.180",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
   {
       "Name": "TIM-2 (G-CLOUD)",
       "FLAG": "tim",
@@ -181,14 +191,14 @@
       "Info": "Tlsws"
     },
   {
-      "Name": "TIM-3 (SERCURITY)",
+      "Name": "TIM-4 (G-CLOUD)",
       "FLAG": "tim",
-      "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "www.c6bank.com.br",
+      "TlsIP": "172.217.28.72#172.217.28.136#172.217.28.200#172.217.29.72#172.217.29.104#172.217.29.232#172.217.30.40",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
    {
       "Name": "CLARO-1 NGNIX 🆕",
