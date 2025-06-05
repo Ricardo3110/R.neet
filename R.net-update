@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.232",
+  "Version": "1.1.233",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -181,7 +181,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "TIM-2 (G-CLOUD)",
+      "Name": "TIM-3 (G-CLOUD)",
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "mulherespositivas.com.br",
