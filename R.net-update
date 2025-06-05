@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.233",
+  "Version": "1.1.234",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -195,7 +195,7 @@
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "www.c6bank.com.br",
-      "TlsIP": "172.217.28.72#172.217.28.136#172.217.28.200#172.217.29.72#172.217.29.104#172.217.29.232#172.217.30.40",
+      "TlsIP": "172.217.30.40",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
