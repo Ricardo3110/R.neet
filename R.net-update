@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.226",
+  "Version": "1.1.227",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -159,49 +159,9 @@
       "Info": "Proxy"
     },
 
-   {
-      "Name": "TIM-1 (SERCURITY)",
-      "FLAG": "tim",
-      "Payload": "[delay_split]HTTP/  [lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
- {
-      "Name": "TIM-2 (SERCURITY)",
-      "FLAG": "tim",
-      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-   }, 
-{
-      "Name": "TIM-3 (Proxy-Socks)",
-      "FLAG": "tim",
-      "Payload": "ACL HTTP/ [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-
-{
-      "Name": "TIM-4 (Proxy-Socks)",
-      "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[crlf]Host:br0.r-neet.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
+   
   {
-      "Name": "TIM-5 (CDN-FLARE)",
+      "Name": "TIM-1 (CDN-FLARE)",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br0.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -211,7 +171,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "TIM-6 (GCLOUD)",
+      "Name": "TIM-2 (GCLOUD)",
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "www.c6bank.com.br",
@@ -221,7 +181,7 @@
       "Info": "Tlsws"
     },
   {
-      "Name": "TIM-7 (SERCURITY)",
+      "Name": "TIM-3 (SERCURITY)",
       "FLAG": "tim",
       "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
       "SNI": "",
