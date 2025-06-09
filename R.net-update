@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.240",
+  "Version": "1.1.241",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -57,9 +57,29 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+{
+      "Name": "VIVO-3 (G-CLOUD)🟢",
+      "FLAG": "vivo",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "v2.lscache1.c.youtube.com",
+      "TlsIP": "142.251.134.142",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "VIVO-4 (G-CLOUD)🟢",
+      "FLAG": "vivo",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "www.zukunftswerkstatt.de",
+      "TlsIP": "142.250.219.14",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
 
 {
-      "Name": "VIVO-3 (CDN-GCORE)🟢",
+      "Name": "VIVO-5 (CDN-GCORE)🟢",
       "FLAG": "vivo",
       "Payload": "PATCH /[split] HTTP/1.1 [crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -69,7 +89,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-4 (Teste)🟢",
+      "Name": "VIVO-6 (Teste)🟢",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -79,7 +99,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-5 (CDN-FLARE)🟢",
+      "Name": "VIVO-7 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -89,7 +109,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-6 (CDN-FLARE)🟢",
+      "Name": "VIVO-8 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -99,7 +119,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-7 (CDN-FLARE)🟢",
+      "Name": "VIVO-9 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -109,7 +129,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-8 (CDN-FLARE)🟢",
+      "Name": "VIVO-10 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -119,7 +139,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9 (CDN-FLARE)🟢",
+      "Name": "VIVO-11 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -129,7 +149,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-10 (CDN-FRONT)🔴",
+      "Name": "VIVO-12 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -139,7 +159,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-11 (CDN-FRONT)🔴",
+      "Name": "VIVO-13 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -149,7 +169,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-12 (CDN-FRONT)🔴",
+      "Name": "VIVO-14 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
