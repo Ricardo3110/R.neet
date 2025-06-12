@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.243",
+  "Version": "1.1.244",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -214,8 +214,8 @@
       "Name": "TIM-4 (G-CLOUD)🟢",
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "c6bank.com.br",
-      "TlsIP": "172.217.28.72",
+      "SNI": "00px.net",
+      "TlsIP": "172.217.30.38",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
