@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.244",
+  "Version": "1.1.245",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -215,7 +215,7 @@
       "FLAG": "tim",
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "00px.net",
-      "TlsIP": "172.217.30.38",
+      "TlsIP": "142.251.129.230",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
