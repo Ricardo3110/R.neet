@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.249",
+  "Version": "1.1.250",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -181,7 +181,7 @@
 
    
   {
-      "Name": "TIM-1 (CDN-FLARE)🔴",
+      "Name": "TIM-1 (CDN-FLARE)🟢",
       "FLAG": "tim",
       "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
