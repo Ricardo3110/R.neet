@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.250",
+  "Version": "1.1.251",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -216,6 +216,16 @@
       "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "00px.net",
       "TlsIP": "142.251.129.230",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "TIM-5 (G-CLOUD)🟢",
+      "FLAG": "tim",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=canetaazul-606179434038.southamerica-east1.run.app;centraldacdn-287801461083.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "www.googletagmanager.com",
+      "TlsIP": "142.251.135.8",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
