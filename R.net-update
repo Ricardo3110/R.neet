@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.252",
+  "Version": "1.1.253",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -178,8 +178,6 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-
-   
   {
       "Name": "TIM-1 (CDN-FLARE)🟢",
       "FLAG": "tim",
