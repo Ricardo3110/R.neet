@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.253",
+  "Version": "1.1.254",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -50,7 +50,7 @@
  {
       "Name": "VIVO-2 (G-CLOUD)🟢",
       "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "ipv4.google.com",
       "TlsIP": "172.217.0.162",
       "ProxyIP": "",
@@ -60,7 +60,7 @@
 {
       "Name": "VIVO-3 (G-CLOUD)🟢",
       "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "v2.lscache1.c.youtube.com",
       "TlsIP": "142.251.134.142",
       "ProxyIP": "",
@@ -70,7 +70,7 @@
 {
       "Name": "VIVO-4 (G-CLOUD)🟢",
       "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "www.zukunftswerkstatt.de",
       "TlsIP": "142.250.219.14",
       "ProxyIP": "",
@@ -201,7 +201,7 @@
   {
       "Name": "TIM-3 (G-CLOUD)🟢",
       "FLAG": "tim",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "www.googletagmanager.com",
       "TlsIP": "142.250.219.8",
       "ProxyIP": "",
@@ -211,7 +211,7 @@
   {
       "Name": "TIM-4 (G-CLOUD)🟢",
       "FLAG": "tim",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "00px.net",
       "TlsIP": "142.251.129.230",
       "ProxyIP": "",
@@ -221,7 +221,7 @@
 {
       "Name": "TIM-5 (G-CLOUD)🟢",
       "FLAG": "tim",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=centraldacdn-287801461083.southamerica-east1.run.app;cdn-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [rotate=fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "www.googletagmanager.com",
       "TlsIP": "142.251.135.8",
       "ProxyIP": "",
