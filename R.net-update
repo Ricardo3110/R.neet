@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.257",
+  "Version": "1.1.258",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -331,12 +331,12 @@
   {
       "Name": "FLUKE (NOVA OPERADORA)",
       "FLAG": "OI",
-      "Payload": "POST HTTP/1.1[crlf]Host:www.google.com[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [random=cdn-707901100592.southamerica-east1.run.app;fastnet-707901100592.southamerica-east1.run.app;ultra3-707901100592.southamerica-east1.run.app;cloudfront-62562-707901100592.southamerica-east1.run.app;centraldacdn-908151312135.southamerica-east1.run.app;toppower-908151312135.southamerica-east1.run.app;celoconaocompesa-908151312135.southamerica-east1.run.app;piveteesal-908151312135.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "www-claro-com-br.cdn.ampproject.org",
+      "TlsIP": "www-claro-com-br.cdn.ampproject.org",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
   ]
 }
