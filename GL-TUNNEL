@@ -234,7 +234,7 @@
 "category_id": 2,
 "v2ray_uuid": "",
 "primary_dns_server": "8.8.8.8",
-"payload": "HTTP/1.0 [lf]Host: vivo.com.br[lf][lf]",
+"payload": "HTTP[split]/1.0 [lf][crlf]",
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": "",
