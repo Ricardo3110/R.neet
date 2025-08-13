@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.262",
+  "Version": "1.1.261",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -47,39 +47,10 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
- {
-      "Name": "VIVO-2 (G-CLOUD)🟢",
-      "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [random=cdn-602047310929.southamerica-east1.run.app;centraldacdn-908151312135.southamerica-east1.run.app;toppower-908151312135.southamerica-east1.run.app;celoconaocompesa-908151312135.southamerica-east1.run.app;piveteesal-908151312135.southamerica-east1.run.app;cdn-602047310929.southamerica-east1.run.app;fastnet-602047310929.southamerica-east1.run.app;ultra3-602047310929.southamerica-east1.run.app;cloudfront-62562-602047310929.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "ipv4.google.com",
-      "TlsIP": "172.217.0.162",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-{
-      "Name": "VIVO-3 (G-CLOUD)🟢",
-      "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [random=cdn-602047310929.southamerica-east1.run.app;centraldacdn-908151312135.southamerica-east1.run.app;toppower-908151312135.southamerica-east1.run.app;celoconaocompesa-908151312135.southamerica-east1.run.app;piveteesal-908151312135.southamerica-east1.run.app;cdn-602047310929.southamerica-east1.run.app;fastnet-602047310929.southamerica-east1.run.app;ultra3-602047310929.southamerica-east1.run.app;cloudfront-62562-602047310929.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "v2.lscache1.c.youtube.com",
-      "TlsIP": "142.251.134.142",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-{
-      "Name": "VIVO-4 (G-CLOUD)🟢",
-      "FLAG": "vivo",
-      "Payload": "GET /app174 HTTP/1.1[crlf]Host: [random=cdn-602047310929.southamerica-east1.run.app;centraldacdn-908151312135.southamerica-east1.run.app;toppower-908151312135.southamerica-east1.run.app;celoconaocompesa-908151312135.southamerica-east1.run.app;piveteesal-908151312135.southamerica-east1.run.app;cdn-602047310929.southamerica-east1.run.app;fastnet-602047310929.southamerica-east1.run.app;ultra3-602047310929.southamerica-east1.run.app;cloudfront-62562-602047310929.southamerica-east1.run.app][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "www.zukunftswerkstatt.de",
-      "TlsIP": "142.250.219.14",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+ 
 
 {
-      "Name": "VIVO-5 (CDN-GCORE)🟢",
+      "Name": "VIVO-2 (CDN-GCORE)🟢",
       "FLAG": "vivo",
       "Payload": "PATCH /[split] HTTP/1.1 [crlf]Host: br1.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -89,7 +60,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-6 (Teste)🟢",
+      "Name": "VIVO-3 (Teste)🟢",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -99,7 +70,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-7 (CDN-FLARE)🟢",
+      "Name": "VIVO-4 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -109,7 +80,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-8 (CDN-FLARE)🟢",
+      "Name": "VIVO-5 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -119,7 +90,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-9 (CDN-FLARE)🟢",
+      "Name": "VIVO-6 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -129,7 +100,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-10 (CDN-FLARE)🟢",
+      "Name": "VIVO-7 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -139,7 +110,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-11 (CDN-FLARE)🟢",
+      "Name": "VIVO-8 (CDN-FLARE)🟢",
       "FLAG": "vivo",
       "Payload": "ACL / HTTP/1.1[crlf]Host: br0.r-neet.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][split][crlf]",
       "SNI": "",
@@ -149,7 +120,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-12 (CDN-FRONT)🔴",
+      "Name": "VIVO-9 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -159,7 +130,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-13 (CDN-FRONT)🔴",
+      "Name": "VIVO-10 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
@@ -169,7 +140,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO-14 (CDN-FRONT)🔴",
+      "Name": "VIVO-11 (CDN-FRONT)🔴",
       "FLAG": "vivo",
       "Payload": "PATCH / HTTP/1.1[lf]Host: br0.r-neet.shop[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
