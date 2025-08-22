@@ -158,11 +158,11 @@
       "ProxyIP": "104.18.21.132",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },{
+    },
+    {
       "Name": "TIM-2 (VALIDO)🟢",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split][crlf]
-GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.11.131",
