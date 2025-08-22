@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.261",
+  "Version": "1.1.262",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -152,15 +152,25 @@
   {
       "Name": "TIM-1 (VALIDO)🟢",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.21.132",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },{
+      "Name": "TIM-2 (VALIDO)🟢",
+      "FLAG": "tim",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split][crlf]
+GET- / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.11.131",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
    {
-      "Name": "TIM-2 (EXPIRADO)🟢",
+      "Name": "TIM-3 (EXPIRADO)🟢",
       "FLAG": "tim",
       "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
       "SNI": "",
@@ -170,7 +180,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-3 (EXPIRADO)🟢",
+      "Name": "TIM-4 (EXPIRADO)🟢",
       "FLAG": "tim",
       "Payload": "HTTP[split]/1.0 [lf][crlf]",
       "SNI": "",
@@ -180,7 +190,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-4 (teste)🟢",
+      "Name": "TIM-5 (teste)🟢",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Backend: app287332[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googl/ebot/2.1 (+http://www.google.com/bot.html)[lf][lf][split]",
       "SNI": "",
