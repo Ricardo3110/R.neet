@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.264",
+  "Version": "1.1.265",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,10 +202,10 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: dashboard.timlive.tim.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: dashboard.timlive.tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Backend: app287332[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googl/ebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: timpromos.com.br[lf][crlf][split][lf][lf]- / HTTP/1.1[lf]Host: timpromos.com.br[lf][lf]GET /app287332 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "dashboard.timlive.tim.com.br",
+      "ProxyIP": "108.158.122.33",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
