@@ -304,7 +304,7 @@
 "category_id": 2,
 "v2ray_uuid": "",
 "primary_dns_server": "8.8.8.8",
-"payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;meuplano2.tim.com.br;auth.tim.com.br;meutim.com.br;auth2.tim.com.br;tim.com.br;www.tim.com.br;auth1.tim.com.br;auth3.tim.com.br][crlf][crlf][split]- / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /app287332 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Backend: app287332[lf]Connection: Upgrade[lf]Upgrade: websocket[lf][crlf]",
+"payload": "GET / HTTP/1.1[crlf]Host: [rotate=migracaodeplanos.tim.com.br;meutim.tim.com.br;meuplano2.tim.com.br;auth.tim.com.br;meutim.com.br;auth2.tim.com.br;tim.com.br;www.tim.com.br;auth1.tim.com.br;auth3.tim.com.br][crlf][crlf][split]- / HTTP/1.1[crlf]Host: www.tim.com.br[crlf][crlf]GET /app899357 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Backend: app899357[lf]Connection: Upgrade[lf]Upgrade: websocket[lf][crlf]",
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": "",
