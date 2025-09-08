@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.268",
+  "Version": "1.1.269",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,7 +202,7 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: tim.com.br[lf][crlf][instant_split][lf][lf]- / HTTP/1.1[lf]Host: timbrasil.br[lf][lf]GET /app899357 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: tim.com.br[lf][lf][instant_split][lf][lf]- / HTTP/1.1[lf]Host: timbrasil.br[lf][lf]GET /app899357 HTTP/1.1[lf]Host: centraldacdn-3.dns-theromshost.com[lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.122.33",
