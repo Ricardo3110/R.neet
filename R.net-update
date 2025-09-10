@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.274",
+  "Version": "1.1.275",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -207,7 +207,7 @@
       "TlsIP": "",
       "ProxyIP": "web.digipay.m4u.com.br",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Proxy"
     },
   {
       "Name": "CLARO-1 NGNIX 🆕",
