@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.272",
+  "Version": "1.1.273",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -17,7 +17,7 @@
       "Name": "BRASIL-VPN",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "149.78.186.180",
+      "ServerIP": "web.digipay.m4u.com.br",
 "CheckUser": "http://149.78.186.180:5001/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
@@ -207,7 +207,7 @@
       "TlsIP": "",
       "ProxyIP": "web.digipay.m4u.com.br",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
   {
       "Name": "CLARO-1 NGNIX 🆕",
