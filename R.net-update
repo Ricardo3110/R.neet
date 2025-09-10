@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.271",
+  "Version": "1.1.272",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,7 +202,7 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  web.digipay.m4u.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "web.digipay.m4u.com.br",
