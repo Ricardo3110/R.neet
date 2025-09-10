@@ -287,7 +287,7 @@
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
         "value": true,
         "type": "BOOLEAN",
-        "status": "ACTIVE",
+        "status": "false",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
     },
     {
@@ -352,7 +352,7 @@
         "name": "APP_SUPPORT_BUTTON",
         "value": null,
         "type": "HTML",
-        "status": "ACTIVE",
+        "status": "false",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
     },
     {
@@ -361,7 +361,7 @@
         "name": "APP_WEB_VIEW",
         "value": "<html>\n    <script>\n        window.location.href = 'https://fast.com';\n    </script>\n</html>",
         "type": "HTML",
-        "status": "ACTIVE",
+        "status": "false",
         "user_id": "47dd9f6b-aa94-43f4-9619-27b621d3f4d5"
     }
 ]
