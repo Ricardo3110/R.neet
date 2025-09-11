@@ -38,6 +38,25 @@
         "Atlantus_UdpPort": "7300",
         "Atlantus_SniHost": "protecao.vivo.com.br",
         "Atlantus_AwsUID": "588552"
+      },
+     {
+        "id": 28,
+        "Atlantus_Name": "TIM-1 (TESTE)",
+        "Atlantus_Flag": "2",
+        "Atlantus_Type": "0",
+        "Atlantus_Open": "1",
+        "Atlantus_Payload": "GET / HTTP/1.1[crlf]Host:  web.digipay.m4u.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: timpromos.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
+        "Atlantus_SshPort": "80",
+        "Atlantus_ProxyPort": "80",
+        "Atlantus_SshIp": "52.85.78.104",
+        "Atlantus_ProxyIp": "52.85.78.104",
+        "Atlantus_Dns1": "8.8.8.8",
+        "Atlantus_Dns2": "8.8.4.4",
+        "Atlantus_OpenKey": "",
+        "Atlantus_SslPort": "",
+        "Atlantus_UdpPort": "7300",
+        "Atlantus_SniHost": "",
+        "Atlantus_AwsUID": "589268"
       }
         ],
         "MiracleMisc": [
