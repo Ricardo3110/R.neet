@@ -57,7 +57,7 @@
         "Atlantus_UdpPort": "7300",
         "Atlantus_SniHost": "",
         "Atlantus_AwsUID": "3"
-      }
+      },
         ],
         "MiracleMisc": [
           {
