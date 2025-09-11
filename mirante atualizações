@@ -3,7 +3,7 @@
             
        {
         "id": 26,
-        "Atlantus_Name": "TIM-1 (TESTE)",
+        "Atlantus_Name": "TIM-1",
         "Atlantus_Flag": "2",
         "Atlantus_Type": "0",
         "Atlantus_Open": "1",
@@ -39,9 +39,9 @@
         "Atlantus_SniHost": "protecao.vivo.com.br",
         "Atlantus_AwsUID": "588552"
       },
-     {
+       {
         "id": 28,
-        "Atlantus_Name": "TIM-1 (TESTE)",
+        "Atlantus_Name": "TIM-3",
         "Atlantus_Flag": "2",
         "Atlantus_Type": "0",
         "Atlantus_Open": "1",
