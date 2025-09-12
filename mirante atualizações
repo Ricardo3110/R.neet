@@ -3,7 +3,7 @@
             
        {
         "id": 26,
-        "Atlantus_Name": "TIM",
+        "Atlantus_Name": "TIM 1",
         "Atlantus_Flag": "2",
         "Atlantus_Type": "0",
         "Atlantus_Open": "1",
@@ -22,15 +22,15 @@
       },
        {
         "id": 27,
-        "Atlantus_Name": "Security Server 2",
+        "Atlantus_Name": "TIM 2",
         "Atlantus_Flag": "2",
         "Atlantus_Type": "0",
         "Atlantus_Open": "1",
-        "Atlantus_Payload": "GET wss://protecao.vivo.com.br/ HTTP/1.1[crlf]Host: dev4tunnel.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+        "Atlantus_Payload": "GET / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:web.digipay.m4u.com.br[lf][lf]GET / HTTP/1.1[crlf]Host:[random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
         "Atlantus_SshPort": "80",
         "Atlantus_ProxyPort": "80",
-        "Atlantus_SshIp": "172.67.165.43",
-        "Atlantus_ProxyIp": "172.67.165.43",
+        "Atlantus_SshIp": "web.digipay.m4u.com.br",
+        "Atlantus_ProxyIp": "web.digipay.m4u.com.br",
         "Atlantus_Dns1": "8.8.8.8",
         "Atlantus_Dns2": "8.8.4.4",
         "Atlantus_OpenKey": "",
