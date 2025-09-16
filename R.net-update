@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.279",
+  "Version": "1.1.280",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,10 +202,10 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host:web.digipay.m4u.com.br[crlf][crlf]- / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf][delay_split][delay_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Expect: 100-continue[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: tim.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host:centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "52.85.78.104",
+      "ProxyIP": "108.139.113.2",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
