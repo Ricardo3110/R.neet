@@ -18,7 +18,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET / HTTP/1.1[crlf]Host: timpromos.com.br[lf][crlf][split][lf][lf]- / HTTP/1.1[lf]Host: timpromos.com.br[lf][lf]GET /app899357 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]#GET / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: tim.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host:centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
+      "payload": "GET / HTTP/1.1[crlf]Host: timpromos.com.br[lf][crlf][split][lf][lf]- / HTTP/1.1[lf]Host: timpromos.com.br[lf][lf]GET /app899357 HTTP/1.1[crlf]Host: [random=centraldacdn-2.dns-theromshost.com;centraldacdn-3.dns-theromshost.com;centraldacdn-4.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[lf][lf]#GET / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: tim.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host:centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]#GET / HTTP/1.1[crlf]Host:  web.digipay.m4u.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: timpromos.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -37,7 +37,7 @@
       "port": null
     },
     "server": {
-      "host": "108.158.122.33#108.139.113.2",
+      "host": "108.158.122.33#108.139.113.2#52.85.78.104",
       "port": "80"
     },
     "sorter": "2",
