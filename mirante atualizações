@@ -26,25 +26,6 @@
         "Atlantus_Flag": "2",
         "Atlantus_Type": "0",
         "Atlantus_Open": "1",
-        "Atlantus_Payload": "GET / HTTP/1.1[crlf]Host: tim.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: tim.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host:centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
-        "Atlantus_SshPort": "80",
-        "Atlantus_ProxyPort": "80",
-        "Atlantus_SshIp": "108.139.113.2",
-        "Atlantus_ProxyIp": "108.139.113.2",
-        "Atlantus_Dns1": "8.8.8.8",
-        "Atlantus_Dns2": "8.8.4.4",
-        "Atlantus_OpenKey": "",
-        "Atlantus_SslPort": "443",
-        "Atlantus_UdpPort": "7300",
-        "Atlantus_SniHost": "protecao.vivo.com.br",
-        "Atlantus_AwsUID": "588552"
-      },
-      {
-        "id": 27,
-        "Atlantus_Name": "TIM 3",
-        "Atlantus_Flag": "2",
-        "Atlantus_Type": "0",
-        "Atlantus_Open": "1",
         "Atlantus_Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: Websocket[crlf][crlf]",
         "Atlantus_SshPort": "80",
         "Atlantus_ProxyPort": "80",
@@ -56,7 +37,7 @@
         "Atlantus_SslPort": "443",
         "Atlantus_UdpPort": "7300",
         "Atlantus_SniHost": "protecao.vivo.com.br",
-        "Atlantus_AwsUID": "587552"
+        "Atlantus_AwsUID": "588552"
       }
         ],
         "MiracleMisc": [
