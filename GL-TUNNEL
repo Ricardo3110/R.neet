@@ -304,7 +304,7 @@
 "category_id": 2,
 "v2ray_uuid": "",
 "primary_dns_server": "8.8.8.8",
-"payload": "GET / HTTP/1.1[crlf]Host:  web.digipay.m4u.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: timpromos.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-4.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
+"payload": "GET / HTTP/1.1[crlf]Host:  web.digipay.m4u.com.br[crlf][crlf]GET / HTTP/1.1[crlf]Host: timpromos.com.br[crlf]Expect: 100-continue[lf][crlf][instant_split][crlf][crlf]- / HTTP/1.1[crlf]Host:tim.com.br[lf][lf]GET / HTTP/1.1[crlf]Host: centraldacdn-3.dns-theromshost.com[lf]Backend: app899357[lf]Connection:  Upgrade[lf]Upgrade: websocket[lf][lf]",
 "status": "ACTIVE",
 "secondary_dns_server": "8.8.4.4",
 "sni": "",
