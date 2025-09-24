@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.280",
+  "Version": "1.1.281",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -296,7 +296,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
-      "ProxyPort": "8799",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
 {
