@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.286",
+  "Version": "1.1.287",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,12 +202,12 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "GET wss://[random=centraldacdn-01.dns-theromshost.com;centraldacdn-02.dns-theromshost.com;centraldacdn-4.dns-theromshost.com] HTTP/1.1[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Backend: app899357[lf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][lf]",
-      "SNI": "web-timnegocia.stg.m4u.com.br",
-      "TlsIP": "52.1.137.23",
-      "ProxyIP": "52.1.137.23",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]ACL / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf]/[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "bancah.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
   {
       "Name": "CLARO-1 NGNIX 🆕",
