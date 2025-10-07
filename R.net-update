@@ -152,7 +152,7 @@
   {
       "Name": "TIM-1 (VALIDO)🟢",
       "FLAG": "tim",
-      "Payload": GET /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[lf][lf][split]ACL / HTTP/1.1[lf]Host: br.r-neet.store[lf]Upgrade: Websocket[lf][lf]GET / HTTP/1.1[lf]Host: ayabooks.com.br[lf]/[lf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[lf][lf][split]ACL / HTTP/1.1[lf]Host: br.r-neet.store[lf]Upgrade: Websocket[lf][lf]GET / HTTP/1.1[lf]Host: ayabooks.com.br[lf]/[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.21.132",
