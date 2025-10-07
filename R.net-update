@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.287",
+  "Version": "1.1.288",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -202,10 +202,10 @@
 {
       "Name": "TIM-6 (VALIDO-FRONT)🟢",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]ACL / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf]/[crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]ACL / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf]/[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "bancah.com.br",
+      "ProxyIP": "104.18.10.131",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
