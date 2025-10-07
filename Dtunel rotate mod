@@ -37,7 +37,7 @@
       "port": null
     },
     "server": {
-      "host": "bancah.com.br#ayabooks.com.br#connect.blackbean.cloud",
+      "host": "104.18.21.132",
       "port": "80"
     },
     "sorter": "2",
