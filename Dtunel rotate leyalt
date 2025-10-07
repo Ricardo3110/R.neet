@@ -1,23 +1,33 @@
 [
     {
+        "id": 37528,
         "label": "Nome do app",
         "name": "APP_NAME",
-        "value": null,
-        "type": "STRING"
+        "value": "DTunnel VPN",
+        "type": "STRING",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37529,
         "label": "Logo do app",
         "name": "APP_LOGO",
-        "value": "https://bafkreihqfce2j7olrlalh4oxlond5gpkbzodnhgkugyk3gkm3nn5c5nnry.ipfs.w3s.link",
-        "type": "IMAGE"
+        "value": null,
+        "type": "IMAGE",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37530,
         "label": "Imagem de fundo",
         "name": "APP_BACKGROUND_IMAGE",
-        "value": "https://bafkreiaqxcbiuwbxtmmu5wjhivuduj3mfrlncrn4dj3caecrpiui7pgste.ipfs.w3s.link",
-        "type": "IMAGE"
+        "value": null,
+        "type": "IMAGE",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37531,
         "label": "Tipo do fundo do app",
         "name": "APP_BACKGROUND_TYPE",
         "value": {
@@ -31,185 +41,275 @@
                     "value": "COLOR"
                 }
             ],
-            "selected": "IMAGE"
+            "selected": "COLOR"
         },
-        "type": "SELECT"
+        "type": "SELECT",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37532,
         "label": "Cor de fundo",
         "name": "APP_BACKGROUND_COLOR",
-        "value": "#7D7D7DFF",
-        "type": "COLOR"
+        "value": "#080e16c7",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37533,
         "label": "Cor do card inicial",
         "name": "APP_CARD_COLOR",
-        "value": "#00000089",
-        "type": "COLOR"
+        "value": "#1d242e73",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37534,
         "label": "Raio do card inicial",
         "name": "APP_CARD_RADIUS",
         "value": 20,
-        "type": "INTEGER"
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37535,
         "label": "Cor do card de status",
         "name": "APP_CARD_STATUS_COLOR",
         "value": "#1d242e73",
-        "type": "COLOR"
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37536,
         "label": "Raio do card de status",
         "name": "APP_CARD_STATUS_RADIUS",
         "value": 25,
-        "type": "INTEGER"
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37537,
         "label": "Cor do card de configurações",
         "name": "APP_CARD_CONFIG_COLOR",
-        "value": "#0000007B",
-        "type": "COLOR"
+        "value": "#226ea1ff",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37538,
         "label": "Cor do fundo dos dialogs",
         "name": "APP_DIALOG_BACKGROUND_COLOR",
-        "value": "#0000007B",
-        "type": "COLOR"
+        "value": "#226ea1ff",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37539,
         "label": "Cor do fundo do dialog de log",
         "name": "APP_DIALOG_LOGGER_COLOR",
-        "value": "#080e16c7",
-        "type": "COLOR"
+        "value": "#226ea1ff",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37540,
         "label": "Cor das bordas",
         "name": "APP_BORDER_COLOR",
-        "value": "#23E9D6FF",
-        "type": "COLOR"
+        "value": "#1d242e73",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37541,
         "label": "Cor dos inputs",
         "name": "APP_INPUT_COLOR",
         "value": "#1d242e73",
-        "type": "COLOR"
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37542,
         "label": "Raio dos inputs",
         "name": "APP_INPUT_RADIUS",
         "value": 25,
-        "type": "INTEGER"
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37543,
         "label": "Cor dos textos",
         "name": "APP_TEXT_COLOR",
         "value": "#FFFFFFFF",
-        "type": "COLOR"
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37544,
         "label": "Cor dos botões",
         "name": "APP_BUTTON_COLOR",
-        "value": "#80808094",
-        "type": "COLOR"
+        "value": "#1d242e73",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37545,
         "label": "Raio dos botões",
         "name": "APP_BUTTON_RADIUS",
         "value": 25,
-        "type": "INTEGER"
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37546,
         "label": "Cor dos icones",
         "name": "APP_ICON_COLOR",
-        "value": "#D5D5D5FF",
-        "type": "COLOR"
+        "value": "#FFFFFFFF",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37547,
         "label": "Exibir modo de conexão",
         "name": "APP_SHOW_CONNECTION_MODE",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37548,
         "label": "Atualizar automaticamente as configurações ao lançar uma atualização.",
         "name": "APP_CONFIG_AUTO_UPDATE",
         "value": false,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37549,
         "label": "Iniciar o app automaticamente ao reiniciar o dispositivo",
         "name": "APP_AUTO_START",
         "value": false,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37550,
         "label": "Usar limiter de conexão",
         "name": "APP_CONNECTION_LIMITER",
         "value": false,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37551,
         "label": "Usar botão de atualizações",
         "name": "APP_BTN_UPDATE_ENABLED",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37552,
         "label": "Usar botão de registros",
         "name": "APP_BTN_LOGGER_ENABLED",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37553,
         "label": "Usar botão de pagina webview",
         "name": "APP_BTN_PAGE_ENABLED",
-        "value": true,
-        "type": "BOOLEAN"
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37554,
         "label": "Ativar dialog de erros",
         "name": "APP_DIALOG_ERROR_ENABLED",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37555,
         "label": "Ativar dialog de checkuser",
         "name": "APP_CHECKUSER_DIALOG_ENABLED",
-        "value": true,
-        "type": "BOOLEAN"
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37556,
         "label": "Ativar toast de sucesso",
         "name": "APP_SUCCESS_TOAST_ENABLED",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37557,
         "label": "Ativar toast de erro",
         "name": "APP_ERROR_TOAST_ENABLED",
         "value": true,
-        "type": "BOOLEAN"
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37558,
         "label": "Usar layout webview",
         "name": "APP_LAYOUT_WEBVIEW_ENABLED",
-        "value": false,
-        "type": "BOOLEAN"
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37559,
         "label": "Mensagem",
         "name": "APP_MESSAGE",
-        "value": "Bem vindo ao CONECT-VELOOX ",
-        "type": "TEXT"
+        "value": null,
+        "type": "TEXT",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37560,
         "label": "URL de atualização do aplicativo",
         "name": "APP_UPDATE_URL",
         "value": null,
-        "type": "URL"
+        "type": "URL",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37561,
         "label": "Tipo de mensagem",
         "name": "APP_MESSAGE_TYPE",
         "value": {
@@ -231,26 +331,37 @@
                     "value": "NONE"
                 }
             ],
-            "selected": "WELCOME"
+            "selected": "NONE"
         },
-        "type": "SELECT"
+        "type": "SELECT",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37562,
         "label": "LAYOUT WEBVIEW (POR SUA CONTA E RISCO)",
         "name": "APP_LAYOUT_WEBVIEW",
-        "value": null,
-        "type": "HTML"
+        "value": "<html><head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta http-equiv=\"Expires\" content=\"Tue, 31 Dec 2030 23:59:59 GMT\">\n  <meta http-equiv=\"Cache-Control\" content=\"public, max-age=31536000\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <title>GUARDIAN</title>\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');\n\n    :root {\n      /*Editar o modal*/\n      --btn-modal: #0000003f;\n      --btn-border: 1px solid #4071FF;\n      --btn-modal-border: 50px;\n      --modal-shadow: #ffffff;\n      --modal-bg: #171e2e;\n      --modal-icon: #fff;\n      --config-color: #0000003f;\n      --category-color: #0000003f;\n      --text-color: #ffffff;\n      /*Editar Layout*/\n      --fundo: #2B2D2E;\n      --topo: #0000008f;\n      --icon: #0F140F;\n      --icon-bg: #E5EAFC;\n      --config: #F7F7FC;\n      --box-border: 1px solid #C0C6DE;\n      --box-bg: transparent;\n      --box-icon: black;\n      --info1: #C0C6DE;\n      --info2: #4071FF;\n    }\n\n    body {\n      font-family: 'Be Vietnam Pro', sans-serif;\n      background: var(--fundo);\n      height: 100vh;\n      width: 100vw;\n      justify-content: center;\n      align-items: center;\n    }\n\n    .container {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      background: var(--topo);\n      width: 100vw;\n      background: #4071ff;\n    }\n\n    button.power-icon {\n      background: #ccc;\n      border-radius: 80px;\n      display: flex;\n      -webkit-text-stroke: 3px;\n    }\n\n    .app-bg-gray-1 {\n      background: var(--config);\n    }\n\n    .app-bg-gray-2 {\n      background: #ffffff;\n      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n    .app-bg-gray-3 {\n      background: #fff;\n    }\n\n    .app-bg-4 {\n      background: linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd);\n      background-size: 400% 400%;\n      animation: gradient 5s ease infinite;\n    }\n\n    @keyframes gradient {\n      0% {\n        background-position: 0% 50%;\n      }\n\n      50% {\n        background-position: 100% 50%;\n      }\n\n      100% {\n        background-position: 0% 50%;\n      }\n    }\n\n    .app-bg-blue {\n      background: radial-gradient(circle at 83.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n      BORDER: 1PX SOLID #fff;\n      PADDING: 12PX 10PX !IMPORTANT;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n\t.app-bg-blue2 {\n      background: #62656a;\n      BORDER: 0PX SOLID #fff;\n      PADDING: 0PX 0PX !IMPORTANT;\n      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n    }\n\n    .app-color-blue {\n      color: #4071FF;\n    }\n\n\t.app-color-blue-escuro {\n      color: #00003f;\n    }\n\n    .app-color-gray-1 {\n      color: #fff;\n    }\n\n    .app-rounded {\n      border-bottom-left-radius: 50px;\n      border-bottom-right-radius: 50px;\n      background: radial-gradient(circle at 83.21% 88.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n\n    .status {\n      font-size: 1em;\n      color: #fff !important;\n    }\n\n    .put {\n      border-radius: 60px;\n    }\n\n    .icon {\n      font-size: 0.8em;\n      color: var(--box-icon);\n    }\n\n    input {\n      width: 100%;\n      background: transparent;\n      border: none;\n      outline: none;\n      color: var(--box-typing);\n      line-height: 1;\n      font-weight: 600;\n      font-size: 17.6px;\n    }\n\n    .box {\n      border: var(--box-border);\n      background: var(--box-bg);\n    }\n\n    .tool {\n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      border: none;\n    }\n\n    .tool-bt {\n      background: var(--btn-modal);\n      height: 50px;\n      width: 150px;\n    }\n\n    .info {\n      color: var(--info2);\n    }\n\n    .info1 {\n      color: var(--info1);\n    }\n\n    .info2 {\n      color: var(--modal-icon);\n    }\n\n    .info3 {\n      font-size: 1.2em;\n      color: #0000ff;\n    }\n\n    .modal {\n      backdrop-filter: blur(5px);\n      -webkit-backdrop-filter: blur(5px);\n    }\n\n    .modal-content {\n      border: none;\n      background: #00000000;\n      color: var(--text-color);\n      border: none !important;\n      box-shadow: none !important;\n      border: none !important;\n    }\n\n    .modal-dialog {\n      padding: 0 0.5rem;\n    }\n\n    .bg-category {\n      background: radial-gradient(circle at 63.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n\n    .bg-config {\n      background: linear-gradient(240deg, rgba(6,19,22,1) 10%, rgba(17,59,107,1) 90%, rgba(69,148,252,1) 100%);\n    }\n\n    .btn {\n      width: 150px;\n      background-color: #171e2e;\n      outline: none;\n      height: 49px;\n      border-radius: var(--btn-modal-border);\n      text-transform: uppercase;\n      font-weight: 600;\n      margin: 10px 0;\n      cursor: pointer;\n      BORDER: NONE;\n      transition: 0.5s;\n    }\n  </style>\n\n\n\n\n\n\n\n\n  \n<style>/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.relative{position:relative}.-top-32{top:-8rem}.-top-36{top:-9rem}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.mb-0{margin-bottom:0px}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-auto{margin-left:auto}.mr-2{margin-right:0.5rem}.ms-2{-webkit-margin-start:0.5rem;margin-inline-start:0.5rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.h-screen{height:100vh}.h-12{height:3rem}.h-44{height:11rem}.h-56{height:14rem}.w-12{width:3rem}.w-44{width:11rem}.w-56{width:14rem}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-nowrap{flex-wrap:nowrap}.place-items-center{place-items:center}.items-center{align-items:center}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border-0{border-width:0px}.border-2{border-width:2px}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-0{padding:0px}.p-1{padding:0.25rem}.p-10{padding:2.5rem}.p-2{padding:0.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-0{padding-bottom:0px}.pb-44{padding-bottom:11rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-start{text-align:start}.text-xs{font-size:0.75rem;line-height:1rem}.font-semibold{font-weight:600}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}</style><style>/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.relative{position:relative}.-top-32{top:-8rem}.-top-36{top:-9rem}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.mb-0{margin-bottom:0px}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-auto{margin-left:auto}.mr-2{margin-right:0.5rem}.ms-2{-webkit-margin-start:0.5rem;margin-inline-start:0.5rem}.mt-1{margin-top:0.25rem}.flex{display:flex}.h-12{height:3rem}.h-44{height:11rem}.h-56{height:14rem}.h-screen{height:100vh}.w-12{width:3rem}.w-44{width:11rem}.w-56{width:14rem}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-nowrap{flex-wrap:nowrap}.place-items-center{place-items:center}.items-center{align-items:center}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border-0{border-width:0px}.border-2{border-width:2px}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-0{padding:0px}.p-1{padding:0.25rem}.p-10{padding:2.5rem}.p-2{padding:0.5rem}.p-5{padding:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-0{padding-bottom:0px}.pb-44{padding-bottom:11rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.text-start{text-align:start}.font-semibold{font-weight:600}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}</style></head>\n\n<body style=\"\n    background: radial-gradient(circle at 63.21% 68.87%, #0d81aa 0, #1e6282 25%, #1f4459 50%, #192833 75%, #0b0e11 100%);\n    }\n    background-image: none;\n\" class=\"h-screen\">\n  <div class=\"container px-2 pt-10 pb-44 app-rounded\" id=\"backverde\" style=\"display: ;padding-bottom: 122px;padding-top: 38px;\">\n    <button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"ToolsModal.show()\"><i class=\"bi bi-list-nested mr-2\"></i>Menu</button>\n    <button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"DtStartAppUpdate.execute()\"><i class=\"bi bi-arrow-repeat mr-2\"></i>Atualizar</button>\n\t<button class=\"app-bg-blue h-12 rounded-2xl py-2 px-2 text-white\" onclick=\"loggerModal.show()\"><i class=\"bi bi-file-earmark-text mr-2\"></i>Registros</button>\n  </div>\n  <div class=\"flex flex-row items-center justify-center -top-32 relative\" style=\"justify-content: center;display: flex;margin-left: -1rem;margin-top: 16px;\">\n    <div class=\"welcome d-flex align-items-center\" style=\"font-family:inherit;font-size:21px;padding:0 0;height:70px;color:#fff;justify-items:normal;width:30pc;margin-top: -42px;justify-content:flex-start;margin-left: 37px;\">\n      <i class=\"bi bi-person\" style=\"font-size:41px;margin-right:10px;margin-bottom:11px;margin-left:7px\" id=\"usericon1\"></i>\n      <div class=\"d-flex flex-column\" style=\"display:flex!important\">\n        <div style=\"display:inline-grid;margin-top:11px;margin-top:10px\">\n          <span style=\"font-size:19px;font-family:inherit\" id=\"userinfo1\">Bem-vindo (a)</span>\n          <span style=\"font-size:13px;font-family:inherit\" id=\"userinfo2\">conecte-se primeiro</span>\n        </div>\n        <div style=\"display:inline-flex;margin-left:-47px;top:14px;left:19px;margin-bottom:-11px;margin-top:7px\">\n  \n          <a class=\"ml-auto\" onclick=\"DtStartWebViewActivity.execute('https://wa.me/qr/KNBIPHN5O4B4K1')\" style=\"display:block;background: rgba(0, 0, 0, 0.2);padding:4px 9px;color:#fff;border-radius:10px;margin-left:4px;font-family:inherit;font-size: 12px;display:block;border: 1px solid #fff;\">\n            CONEXÃO SSH BRASIL\n          </a>\n\n\n        </div>\n      </div>\n    </div>\n    <div class=\"w-56 h-56 app-bg-gray-3 rounded-full items-center justify-center flex\" style=\"display:block;width:auto;height:auto;margin-top:0;background-color: white;background-image: none;\">\n      <div class=\"w-44 h-44 app-bg-4 rounded-full flex justify-center items-center\" id=\"btnc\" style=\"width: 140px;height: 140px;align-items:center;background:linear-gradient(-45deg,#4071ff,#2b4089,#0098ff,#5995fd);border-radius:50em;border:6px solid #fff\">\n        <button id=\"icop\" class=\"bi bi-power bg-white app-color-blue rounded-full p-10 power-icon\" onclick=\"startStopVpn()\" style=\"color:#4071ff;width: 120px;height: 120px;font-size: 40px;justify-content:center;top:1px\"></button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"flex flex-col -top-36 relative\" style=\"\n    top: -130px;\n\">\n    <div class=\"py-3 flex flex-row justify-center items-center\">\n      <span class=\"app-color-gray-1 mr-2\">INSIRA SEUS DADOS</span>\n      <i class=\"bi bi-box-arrow-in-right\" style=\"color:#c0c6de\"></i>\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center mb-1 mt-1 flex flex-row items-center px-6 py-2.5 mx-6 rounded-xl app-bg-gray-1 border-2\" style=\"\n    color: #Fff;\n    border: 1px solid #c3c9e0;\n    border-radius: 10px;\n\">\n      <i class=\"bi bi-lightning-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"Escolha uma operadora\" disabled=\"\" id=\"config\">\n      <i class=\"bi bi-list\" style=\"color:#fff\"></i>\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center mb-2 mt-1 items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:flex!important;border: 1px solid #c3c9e0;border-radius: 10px;\">\n      <i class=\"bi bi-person-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"USUÁRIO \" id=\"username\">\n    </div>\n    <div class=\"box d-flex gap-2 justify-content-center items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:flex!important;border: 1px solid #c3c9e0;border-radius: 10px;\">\n      <i class=\"bi bi-key-fill\" style=\"color:#fff\"></i>\n      <input placeholder=\"SENHA\" id=\"password\" style=\"\n\">\n      <i class=\"bi bi-eye-fill\" style=\"color:#c0c6de\" onclick=\"password.type==`text`?password.type = `password`:password.type = `text`\"></i>\n    </div>\n    <div class=\"d-flex gap-2 justify-content-center mb-2 mt-1 flex flex-row items-center px-6 py-2 mx-6 rounded-xl border-slate-150 border-2\" style=\"display:none!important\">\n      <i class=\"icon fa fa-lock\" style=\"color:#c0c6de\"></i>\n      <input placeholder=\"V2ray UUID\" id=\"uuid\">\n      <i class=\"icon fa fa-eye\" onclick=\"uuid.type==`text`?uuid.type = `password`:uuid.type = `text`\"></i>\n    </div>\n\n\n    <div style=\"\n    padding: 0px 28px;\n    display: flex;\n    color: #00f;\n    justify-content: center;\n    align-items: center;\n    margin-top: -117px;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: wrap;\n    margin-top: 57px;\n    margin-bottom: 2px;\n\">\n\n\n\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 8px 10px;\n width: calc(48% - 5px);\n border-radius: 10px;\n text-align: center;\n display: flex;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n text-align: center;\n margin-bottom: 11px;\n margin-right: 5px;\n color: #C0C6DE;\n height: 145px;\n display: block;\n\">\n        <div>\n          <font color=\"#1AA200\">\n\t\t  <i class=\"bi bi-shield-fill-check\" style=\"\n         font-size: 44px;\n         margin-right: 0px;\n         padding: 0px;\n         text-align: center;\n         justify-content: center;\n     \"></i>\n\t  </font>\n          <div style=\"\n\">\n            <font color=\"#000000\"><a style=\"\n             font-size: 14px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">Rápido e Seguro</a></font>\n            <a style=\"\n             font-size: 10px;\n             display: block;\n             font-weight: 300;\n         \">Sua conexão é criptografada e segura</a>\n            <font color=\"#000000\">\n\t\t\t<i id=\"inter\" class=\"bi bi-toggle-off\" style=\"\n     font-size: 29px;\n     margin-left: 4px;\n \"></i>\n </font>\n          </div>\n        </div>\n\n      </item>\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 8px 10px;\n width: calc(48% - 5px);\n border-radius: 10px;\n text-align: center;\n display: block;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n text-align: center;\n margin-bottom: 11px;\n height: 145px;\n margin-right: 5px;\n color: #C0C6DE;\n margin-left: 9px;\n\">\n        <div>\n          <font color=\"#fcb503\">\n\t\t  <i class=\"bi bi-infinity\" style=\"\n         font-size: 44px;\n         margin-right: 0px;\n         padding: 0px;\n         text-align: center;\n         justify-content: center;\n     \"></i>\n</font>\n\n          <div style=\"\n\">\n            <font color=\"#000000\"><a style=\"\n             font-size: 14px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">Sem Limites</a></font>\n            <a style=\"\n             font-size: 10px;\n             display: block;\n             font-weight: 300;\n         \">Navegue na internet sem limite de dados.</a>\n            <font color=\"#000000\"><i id=\"inter2\" class=\"bi bi-toggle-off\" style=\"\n     font-size: 29px;\n     margin-left: 4px;\n \"></i></font>\n          </div>\n        </div>\n\n      </item>\n      <item style=\"\n background: transparent;\n border: 2px solid #C0C6DE;\n padding: 4px 4px;\n width: calc(97% - 0px);\n border-radius: 10px;\n text-align: start;\n flex-direction: row;\n justify-content: space-between;\n align-items: center;\n margin-bottom: 11px;\n height: 36px;\n display: block;\n margin-right: 5px;\n color: #C0C6DE;\n text-align: center;\n margin-left: -1px;\n\">\n        <div style=\"display: inline-flex;align-items: center;\">\n          <div style=\"\n    padding: 0px 5px;\n\">\n            <i class=\"bi bi-hdd-network\" style=\"\n             font-size: 19px;\n             margin-left: 2px;\n             margin-right: 9px;\n         \"></i>\n            <a style=\"\n             font-size: 12px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">IP:</a>\n            <a style=\"font-size: 12px;\" id=\"ip\">192.168.0.1</a>\n          </div>\n          <div style=\"\n    padding: 0px 5px;\n\">\n            <i class=\"bi bi-diagram-2\" style=\"\n             font-size: 19px;\n             margin-left: 2px;\n             margin-right: 9px;\n         \"></i>\n            <a style=\"\n             font-size: 12px;\n             margin-bottom: 0px;\n             font-weight: 600;\n         \">DNS:</a>\n            <a id=\"dns1\" style=\"font-size: 12px;\">Lento</a>\n          </div>\n        </div>\n      </item>\n\t  \n\n\n  </div>\n  </div>\n  <div onclick=\"loggerModal.show()\" class=\"teste\" id=\"footer1\" style=\"background:red;color:#fff;padding:10px;position:fixed;bottom:0;border-top-left-radius:20px;left:0;width:100%;text-align:center;z-index:9999;border-top-right-radius:20px\">\n    <i class=\"bi bi-broadcast-pin mr-2\"></i>\n    <a href=\"\">Status:</a>\n    <span class=\"status app-color-blue font-semibold\" style=\"color:red\" id=\"state\">LBL_STATE_DISCONNECTED</span>\n  </div>\n  <div class=\"modal fade\" id=\"configModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-header border-bottom-0 pb-0\">\n          <h1 class=\"modal-title fs-5\" style=\"color:var(--text-color)\">Selecione uma Conexão:</h1>\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\"></button>\n        </div>\n        <div class=\"modal-body p-1 text-center\">\n          <ul class=\"list-group app-bg-blue2 overflow-y-auto config-body\" style=\"max-height:600px\"></ul>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"modal fade\" id=\"loggerModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-body p-1 text-center\">\n          <ul class=\"list-group bg-transparent overflow-y-auto logger-content\" style=\"max-height:600px\"><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 0</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 1</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 2</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 3</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 4</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 5</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 6</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 7</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 8</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 9</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 10</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 11</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 12</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 13</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 14</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 15</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 16</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 17</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 18</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 19</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 20</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 21</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 22</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 23</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 24</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 25</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 26</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 27</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 28</li><li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">TIME MESSAGE 29</li></ul>\n        </div>\n        <div class=\"modal-footer flex-nowrap p-0\">\n          <button class=\"btn btn-primary w-100 clear-logger\" style=\"background-color:var(--btn-modal)\">LIMPAR</button>\n          <button type=\"button\" class=\"btn btn-primary w-100\" data-bs-dismiss=\"modal\" style=\"background-color:var(--btn-modal)\">FECHAR</button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"tool webm modal fade\" index=\"-1\" id=\"ToolsModal\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"tool modal-header\">\n          <h5 class=\"modal-title\" style=\"color:#fff\">FERRAMENTAS</h5>\n        </div>\n\n        <div class=\"modal-body\" style=\"display: flex; justify-content: center; align-items: center;\">\n          <button type=\"button\" class=\"rounded-2xl text-white\" id=\"hotspot-button\" style=\"background: rgba(0, 0, 0, 0.3); padding: 10px; outline: none; border: 0; display: flex; align-items: center; gap: 5px;\">\n            <i class=\"bi bi-router\"></i>\n\n            <span id=\"hotspot-value\">ATIVAR WI-FI</span>\n          </button>\n        </div>\n        \n    \n\t\t<div class=\"modal-body\">\n          <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartWebViewActivity.execute(&quot;https://www.speedtest.net/pt&quot;)\"><i class=\"info2 bi bi-speedometer mr-2\"></i> SPEEDTEST</button>\n        </div>\n        <div class=\"modal-body\">\n        <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartApnActivity.execute()\"><i class=\"bi bi-wrench-adjustable-circle\"></i> CONFIGURAR APN</button>\n      \n      <div class=\"modal-body\">\n\t\n\t  <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtStartWebViewActivity.execute('https://bit.ly/3MWk3Os')\"><i class=\"bi bi-file-earmark-text mr-2\"></i> TERMOS DE USO</button>\n\t  </div>\n\t        <div class=\"modal-body\">\n        <button class=\"tool-bt rounded-2xl text-white\" onclick=\"DtCleanApp.execute()\"><i class=\"info2 bi bi-trash3 mr-2\"></i> LIMPAR DADOS</button>\n        </div>\n\t\t<div class=\"modal-body\">\n\t\t\n\t\t  \n        </div>\n     <div class=\"tool modal-footer\">\n        <button type=\"button\" class=\"btn btn-primary\" data-bs-dismiss=\"modal\" style=\"background-color: var(--btn-modal);\">FECHAR</button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"modal fade\" id=\"checkUserModal\" index=\"1\">\n    <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content rounded-3 shadow\">\n        <div class=\"modal-header border-bottom-0 pb-0\">\n          <h1 class=\"modal-title fs-5 chk-title text-light\"></h1>\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\"></button>\n        </div>\n        <div class=\"modal-body text-center\">\n          <p class=\"fs-5 mb-0 chk-message text-light\"></p>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"md modal fade\" id=\"speedTestModal\">\n    <div class=\"md modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"md modal-content rounded-3 shadow\">\n        <div class=\"md modal-header border-bottom-0 py-3\">\n          <button class=\"btn-close btn-close-white\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>\n        </div>\n        <div class=\"modal-body ratio rounded-bottom-3\" style=\"height:600px\">\n          <div class=\"spinner d-flex w-100 h-100 align-items-center justify-content-center\">\n            <div class=\"spinner-border text-light p-5\" role=\"status\">\n              <span class=\"visually-hidden\">Loading...</span>\n            </div>\n          </div>\n          <iframe class=\"rounded-bottom-3\" id=\"speedFrame\"></iframe>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js\"></script>\n\n  <script>\n    const appGetStatusHotspot = () => DtGetStatusHotSpotService.execute()\n    const appStartHotspot = () => DtStartHotSpotService.execute()\n    const appStopHotspot = () => DtStopHotSpotService.execute()\n\n    const hotspotValue = document.querySelector('#hotspot-value')\n    const hotspotButton = document.querySelector('#hotspot-button')\n\n    const startHotspot = () => {\n      appStartHotspot()\n\n      hotspotValue.innerHTML = 'PARAR HOTSPOT'\n    }\n\n    const stopHotspot = () => {\n      appStopHotspot()\n\n      hotspotValue.innerHTML = 'INICIAR HOTSPOT'\n    }\n\n    const toggleHotspot = () => {\n      appGetStatusHotspot() === 'STOPPED' ? startHotspot() : stopHotspot()\n    }\n\n    const setStatusHotspot = () => {\n      if (appGetStatusHotspot() === 'STOPPED') {\n        hotspotValue.innerHTML = 'INICIAR HOTSPOT'\n      } else {\n        hotspotValue.innerHTML = 'PARAR HOTSPOT'\n      }\n    }\n    \n    hotspotButton.addEventListener('click', (e) => {\n      e.preventDefault()\n\n      toggleHotspot()\n    })\n\n    setStatusHotspot()\n\n\n  </script>\n\n  <script>\n    Object.defineProperty(String.prototype, 't', {\n      value: function t() {\n        return window?.DtTranslateText?.execute('' + this) ?? '' + this\n      },\n      writable: true,\n      configurable: true,\n    })\n\n    const config = document.querySelector('#config')\n    config.parentElement.onclick = () => showConfigsModal();\n\n    const username = document.querySelector('#username')\n    username.oninput = e => DtUsername.set(e.target.value)\n\n    const password = document.querySelector('#password')\n    password.oninput = e => DtPassword.set(e.target.value)\n\n    const uuid = document.querySelector('#uuid')\n    uuid.oninput = e => DtUuid.set(e.target.value)\n\n    const clearLogger = document.querySelector('.clear-logger')\n\n    const checkUserModal = new bootstrap.Modal(document.querySelector('#checkUserModal'))\n    const configModal = new bootstrap.Modal(document.querySelector('#configModal'))\n    const loggerModal = new bootstrap.Modal(document.querySelector('#loggerModal'))\n    const ToolsModal = new bootstrap.Modal(document.querySelector('#ToolsModal'))\n    const speedTestModal = new bootstrap.Modal(document.querySelector('#speedTestModal'))\n\n    const dtConfigClickListener = () => {\n      const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{ \"auth\": {\"username\": \"\"} }`)\n      const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');\n\n      config.placeholder = data.name ?? 'ESCOLHA UMA OPERADORA ';\n      username.parentElement.style.setProperty('display', !data?.auth?.username && !isV2ray ? 'flex' : 'none', 'important')\n      password.parentElement.style.setProperty('display', !data?.auth?.password && !isV2ray ? 'flex' : 'none', 'important')\n      uuid.parentElement.style.setProperty('display', !data?.auth?.v2ray_uuid && isV2ray ? 'flex' : 'none', 'important')\n    }\n\n    const startStopVpn = e => {\n      if (DtGetVpnState.execute() != 'DISCONNECTED') {\n\n        DtExecuteVpnStop.execute()\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd)\";\n        document.getElementById(\"btnc\").style.background = \"blue\";\n      } else {\n        DtExecuteVpnStart.execute()\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #4071ff, #2b4089, #0098ff, #5995fd)\";\n        document.getElementById(\"btnc\").style.background = \"blue\";\n      }\n\n    }\n\n    clearLogger.addEventListener('click', () => DtClearLogs.execute())\n\n    speedTestModal._element.addEventListener('shown.bs.modal', () => {\n      const iframe = document.querySelector('#speedFrame');\n      if (!iframe.src) {\n        iframe.src = 'https://fast.com/pt/'\n        iframe.addEventListener('load', () => {\n          mp3Modal._element.querySelector('.spinner').classList.add('d-none')\n        })\n      }\n    })\n    speedTestModal._element.addEventListener('hide.bs.modal', () => {\n      const iframe = document.querySelector('#speedFrame');\n      iframe.src = '';\n    })\n\n    const dtVpnStateListener = state => {\n      const isRunning = state != 'DISCONNECTED';\n      const isConnected = state == 'CONNECTED';\n      const isDesconnected = state == 'DISCONNECTED';\n      const status = document.querySelector('#state')\n\n      status.innerHTML = ('LBL_STATE_' + state).t()\n\n      if (isRunning) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #ffcc00, #d5de0a, #ebd138, #ffcc00)\";\n        document.getElementById(\"footer1\").style.background = \"#ffcc00\";\n        document.getElementById(\"icop\").style.color = \"#dce600\";\n        username.setAttribute('readonly', 'true')\n        password.setAttribute('readonly', 'true')\n        status.style.color = '#00ff15'\n      } else {\n        username.removeAttribute('readonly')\n        password.removeAttribute('readonly')\n        status.style.color = 'RED'\n      }\n      if (isConnected) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #64dd17, #00ce6e, #64dd17, #5ddf15)\";\n        document.getElementById(\"footer1\").style.background = \"#64dd17\";\n        document.getElementById(\"icop\").style.color = \"#64dd17\";\n\n        const inter = document.getElementById('inter');\n        const inter2 = document.getElementById('inter2');\n        inter.className = \"bi bi-toggle-on\";\n        inter2.className = \"bi bi-toggle-on\";\n\n        const elemento = document.getElementById('userinfo1');\n        elemento.innerHTML = username.value;\n\n        dns1.innerHTML = \"1.1.1.1\";\n        username.setAttribute('readonly', 'true')\n        password.setAttribute('readonly', 'true')\n        status.style.color = '#00ff15'\n        fetch('https://api.ipify.org/?format=json')\n          .then(response => response.json())\n          .then(data => {\n            const publicIP = data.ip;\n            document.getElementById('ip').textContent = publicIP;\n          })\n          .catch(error => {\n            console.log('Erro ao obter o endereço IP público:', error);\n          });\n\n      }\n      if (isDesconnected) {\n        document.getElementById(\"btnc\").style.background = \"linear-gradient(-45deg, #ff8764, #ff7463, #ff5c5f, #ff3858)\";\n        document.getElementById(\"footer1\").style.background = \"red\";\n        document.getElementById(\"icop\").style.color = \"#ff0000\";\n        const elemento3 = document.getElementById('usericon1');\n        const elemento2 = document.getElementById('userinfo2');\n        elemento3.className = \"bi bi-person\";\n\n        elemento2.innerHTML = \"conecte-se primeiro\";\n\t\t\n\t\t const inter3 = document.getElementById('inter');\n        const inter4 = document.getElementById('inter2');\n        inter3.className = \"bi bi-toggle-off\";\n        inter4.className = \"bi bi-toggle-off\";\n\n      }\n    }\n\n    const dtCheckUserStartedListener = () => {\n      const data = JSON.parse(window?.DtGetDefaultConfig?.execute() || `{}`)\n      const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');\n      if (isV2ray || !data.urlCheckUser)\n        return;\n\n      const html = `\n            <div class=\"d-flex justify-content-center\">\n                <div class=\"spinner-border p-4\" role=\"status\">\n                    <span class=\"visually-hidden\">Loading...</span>\n                </div>\n            </div>\n            `\n\n      checkUserModal._element.querySelector('.chk-title').textContent = 'CHECK USER'\n      checkUserModal._element.querySelector('.chk-message').innerHTML = html;\n      checkUserModal.show()\n    }\n\n    const dtCheckUserModelListener = model => {\n      const data = JSON.parse(model ?? `{\"username\": \"test\"}`)\n      const elemento2 = document.getElementById('userinfo2');\n      const elemento3 = document.getElementById('usericon1');\n      var dias = `${data.expiration_days}`;\n      var diasrestantes = \"dias restantes\";\n      var resultado = dias + \" \" + diasrestantes;\n      elemento2.innerHTML = resultado;\n      elemento3.className = \"bi bi-person-check\";\n\n    }\n\n    const showConfigsModal = () => {\n      const mock = '[{\"sorter\":6,\"color\":\"#6D08041C\",\"name\":\"CONFIG\",\"id\":1393,\"items\":[{\"mode\":\"V2RAY - VLESS\",\"sorter\":4,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":11803,\"status\":\"ACTIVE\"},{\"mode\":\"SSH_DIRECT\",\"sorter\":2,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 02\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":28627,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":23,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 03\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":30001,\"status\":\"ACTIVE\"}]},{\"sorter\":2,\"color\":\"#6D08041C\",\"name\":\"CONFIG 2\",\"id\":1846,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":26295,\"status\":\"ACTIVE\"}]},{\"sorter\":4,\"color\":\"#80000000\",\"name\":\"CONFIG 3\",\"id\":3310,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29997,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST 2\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29998,\"status\":\"ACTIVE\"}]}]'\n      const data = JSON.parse(window?.DtGetConfigs?.execute() || mock)\n\n      data.sort((a, b) => a.sorter - b.sorter)\n      data.forEach(item => item.items.sort((a, b) => a.sorter - b.sorter))\n\n      const body = configModal._element.querySelector('.config-body')\n      body.innerHTML = ''\n\n      data.forEach(category => {\n        const categoryElement = document.createElement('li')\n        categoryElement.className = 'list-group-item bg-transparent border-0 mb-1 rounded-1 px-1'\n        categoryElement.style.color = 'var(--text-color)'\n        categoryElement.innerHTML = `<span class=\"fw-bold w-100 d-block p-1 rounded-1 mb-1 bg-category\">${category.name}</span>`\n\n        const configUlElement = document.createElement('ul')\n        configUlElement.className = 'list-group overflow-y-auto'\n\n        category.items.forEach(item => {\n          const configElement = document.createElement('li')\n          configElement.className = 'list-group-item d-flex border-0 bg-config rounded-2 px-1 py-2 mb-1'\n          configElement.style.color = 'var(--text-color)'\n          configElement.innerHTML = `\n                            <img src=\"${item.icon}\" width=\"40\" height=\"35\">\n                            <div class=\"text-start d-flex flex-column ms-2 w-100 text-truncate\">\n                                <span class=\"fw-bold text-uppercase\" style=\"font-size: 0.8rem;\">${item.name}</span>\n                                <span class=\"fst-italic fw-bold text-uppercase\" style=\"font-size: 0.7rem;\">${item.description || ''}</span>\n                            </div>\n                            <div class=\"d-flex flex-column ms-2\">\n                                <span class=\"fst-italic fw-bold text-end text-uppercase text-nowrap\" style=\"font-size: 0.8rem;\">${item.mode}</span>\n                            </div>\n                        </li>\n                    `\n          configElement.addEventListener('click', e => {\n            window?.DtSetConfig?.execute(item.id)\n            configModal.hide()\n          })\n          configUlElement.appendChild(configElement)\n        })\n\n        categoryElement.appendChild(configUlElement)\n        body.appendChild(categoryElement)\n      })\n      configModal.show()\n    }\n\n    const dtOnNewLogListener = () => {\n      const mock = [];\n      for (let i = 0; i < 30; i++) {\n        mock.push({\n          'TIME': 'MESSAGE ' + i\n        })\n      }\n\n      const log = window?.DtGetLogs?.execute() || JSON.stringify(mock)\n      const data = JSON.parse(log)\n\n      let content = '';\n      data.forEach(item => {\n        content += '<li class=\"list-group-item bg-transparent p-0 border-0 text-start ms-2 text-wrap\" style=\"font-size: 12px; color: var(--text-color);\">';\n        content += Object.keys(item)[0] + \" \" + item[Object.keys(item)]\n        content += '</li>';\n      })\n\n      loggerModal._element.querySelector('.logger-content').innerHTML = content;\n      const listGroup = loggerModal._element.querySelector('.list-group')\n      listGroup.scrollTo(0, listGroup.scrollHeight)\n    }\n\n    username.value = window?.DtUsername?.get() ?? ''\n    password.value = window?.DtPassword?.get() ?? ''\n    uuid.value = window?.DtUuid?.get() ?? ''\n\n    dtOnNewLogListener()\n    dtConfigClickListener()\n    dtVpnStateListener(window?.DtGetVpnState?.execute() ?? 'DISCONNECTED')\n  </script>\n  <script>\n    const config = JSON.parse(DtGetAppConfig.execute());\n    const urlCheckUser = new URL(config.urlCheckUser);\n    urlCheckUser.protocol = 'http:';\n\n    const createConnection = () => new WebSocket(urlCheckUser);\n    const startActions = socket => {\n      socket.send(JSON.stringify({\n        action: 'all',\n        data: {}\n      }));\n    }\n    const parseResponseData = data => {\n      data = JSON.parse(data);\n      console.log(data)\n\n      if (data.total != undefined) {\n        const total = data.total;\n        document.getElementById('total').innerHTML = String(total).padStart(2, '0');\n      }\n    }\n\n    const startSocket = () => {\n      const socket = createConnection();\n      socket.onopen = e => startActions(socket);\n      socket.onmessage = e => parseResponseData(e.data);\n    }\n\n    const setVpnState = state => {\n      if (state == 'CONNECTED')\n        startSocket();\n\n    }\n    startSocket();\n  </script>\n  <script>\n    class AndroidMock {\n      static getLocalIP() {\n        return '192.168.0.1';\n      }\n\n      static getConfig() {\n        return JSON.stringify({\n          urlCheckUser: ''\n        });\n      }\n\n\n\n      static openRadioInfo() {\n        console.log('openRadioInfo');\n      }\n    }\n  </script>\n  <script>\n    function showLocalIP(android) {\n\n\n      document.getElementById('ip').innerHTML = android.getLocalIP();\n\n      setInterval(() => {\n\n        document.getElementById('ip').innerHTML = android.getLocalIP();\n      }, 2000000)\n    }\n\n    function showCheckUser(android) {\n      const config = JSON.parse(window?.DtGetDefaultConfig?.execute() ?? android.getConfig());\n\n      const urlCheckUser = new URL(config.urlCheckUser);\n      urlCheckUser.protocol = 'ws:';\n      const socket = new WebSocket(urlCheckUser);\n      socket.onopen = function(e) {\n        socket.send(JSON.stringify({\n          action: 'all',\n          data: {}\n        }));\n      };\n\n      socket.onmessage = function(event) {\n        const data = JSON.parse(event.data);\n        if (data.total === undefined)\n          return;\n\n        const total = data.total;\n        document.getElementById('total').innerHTML = ' ' + String(total).padStart(2, '0');\n        socket.close();\n      };\n    }\n\n    window.onload = function() {\n      const android = window.Android || AndroidMock;\n      showLocalIP(android);\n      showCheckUser(android);\n    }\n  </script>\n  \n</body></html>",
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37563,
         "label": "ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
         "name": "APP_SUPPORT_BUTTON",
-        "value": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Motocavip</title>\r\n    <style>\r\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');\r\n\r\n        html,\r\n        body {\r\n            font-family: 'Roboto', sans-serif;\r\n            margin: 0;\r\n            padding: 0;\r\n            box-sizing: border-box;\r\n        }\r\n\r\n        .continer {\r\n            justify-content: space-between;\r\n            display: flex;\r\n            align-items: center;\r\n            padding: 0.9rem;\r\n            padding-top: 30px;\r\n            color: #FFF;\r\n        }\r\n\r\n        .d-flex {\r\n            display: flex;\r\n            justify-content: flex-end;\r\n            align-items: center;\r\n        }\r\n\r\n        .btn {\r\n            margin-right: 5px;\r\n            border: none;\r\n            background: #000000;\r\n            padding: 0.4rem;\r\n            border-radius: 10px;\r\n            color: #FFF;\r\n        }\r\n\r\n        .ip-local {\r\n            margin-left: 20px;\r\n            color: #FFF;\r\n        }\r\n    </style>\r\n\r\n<body>\r\n\t</div>\r\n        </div>\r\n        <div class=\"continer\">\r\n            <p class=\"ms-2\" id=\"total\"></p>\r\n        <div class=\"d-flex\"\r\n                    <path\r\n                        d=\"M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z\" />\r\n                </svg>\r\n            </button>\r\n            <button class=\"btn\" class=\"btn\" onclick=\"Android.showCheckUser()\">\r\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\"\r\n                    class=\"bi bi-calendar-day\" viewBox=\"0 0 16 16\">\r\n                    <path\r\n                        d=\"M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z\" />\r\n                    <path\r\n                        d=\"M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z\" />\r\n                </svg>\r\n            </button>\r\n            <button class=\"btn\" onclick=\"document.location.href='https://t.me/LuccaVPN'\">\r\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\"\r\n                    class=\"bi bi-telegram\" viewBox=\"0 0 16 16\">\r\n                    <path\r\n                        d=\"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z\" />\r\n                </svg>\r\n            </button>\r\n        </div>\r\n    </div>\r\n    <script src=\"http://static.tumblr.com/8l2gpxb/lcllulgcn/snowstorm.js\"></script>\r\n    <script>\r\n        document.getElementById('ip').innerHTML = Android.getLocalIP();\r\n\r\n        const config = JSON.parse(Android.getConfig());\r\n        const urlCheckUser = new URL(config.urlCheckUser);\r\n        urlCheckUser.protocol = 'ws:';\r\n        const socket = new WebSocket(urlCheckUser);\r\n\r\n        socket.onopen = function (e) {\r\n            socket.send(JSON.stringify({\r\n                action: 'all',\r\n                data: {}\r\n            }));\r\n        };\r\n\r\n        socket.onmessage = function (event) {\r\n            const data = JSON.parse(event.data);\r\n            if (data.total === undefined)\r\n                return;\r\n\r\n            const total = data.total;\r\n            document.getElementById('total').innerHTML = String(total).padStart(2, '0');\r\n            socket.close();\r\n        };\r\n    </script>\r\n</body>\r\n\r\n</html>",
-        "type": "HTML"
+        "value": null,
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     },
     {
+        "id": 37564,
         "label": "PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
         "name": "APP_WEB_VIEW",
         "value": null,
-        "type": "HTML"
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "9f89f276-89c0-48e6-920c-ac1e03f8fab4"
     }
 ]
