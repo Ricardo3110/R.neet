@@ -18,7 +18,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]ACL / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: websocket[crlf][crlf]GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf]/[crlf]",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: [random=bancah.com.br;ayabooks.com.br][crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: vpn08.nulled.pp.ua[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: [random=bancah.com.br;ayabooks.com.br][crlf]Content-Length:9999999999999[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -37,7 +37,7 @@
       "port": null
     },
     "server": {
-      "host": "bancah.com.br",
+      "host": "104.18.11.131#104.18.21.132",
       "port": "80"
     },
     "sorter": "2",
