@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.292",
+  "Version": "1.1.293",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -169,8 +169,18 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+{
+      "Name": "TIM-3 (VALIDO)🟢",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf][lf]ACL / HTTP/1.1[lf]Host: www.tim.com.br[crlf][instant_split][lf][lf]CHECKOUT / HTTP/1.1[lf]Host:  www.tim.com.br[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: [random=centraldacdn-4.dns-theromshost.com;centraldacdn-1.dns-theromshost.com;centraldacdn-2.dns-theromshost.com][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]MOVE / HTTP/1.1[crlf]Host: www.tim.com.br[crlf]Content-Length: 9999999[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "web.digipay.m4u.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
    {
-      "Name": "TIM-3 (EXPIRADO)🟢",
+      "Name": "TIM-4 (EXPIRADO)🟢",
       "FLAG": "tim",
       "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
       "SNI": "",
@@ -180,7 +190,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "TIM-4 (EXPIRADO)🟢",
+      "Name": "TIM-5 (EXPIRADO)🟢",
       "FLAG": "tim",
       "Payload": "HTTP[split]/1.0 [lf][crlf]",
       "SNI": "",
