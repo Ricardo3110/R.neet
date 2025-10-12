@@ -18,7 +18,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "[rotate=GET;POST;PUT;HEAD;OPTIONS;PATCH;DELETE;CONNECT] / HTTP/1.1[crlf]Host: www.carrinho.tim.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: google.com [crlf][crlf]GET / HTTP/1.1[crlf]Host: centraldacdn-01.dns-theromshost.com[crlf]Backend: app551271[crlf]Connection:  Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "payload": "[rotate=GET;POST;PUT;HEAD;OPTIONS;PATCH;DELETE;CONNECT] / HTTP/1.1[crlf]Host: www.carrinho.tim.com.br[crlf][crlf][split][crlf][crlf]GET- / HTTP/1.1[crlf]Host: google.com [crlf][crlf]GET / HTTP/1.1[crlf]Host: centraldacdn-02.dns-theromshost.com[crlf]Backend: app551271[crlf]Connection:  Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
