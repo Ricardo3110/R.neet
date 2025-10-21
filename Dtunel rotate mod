@@ -18,7 +18,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET / HTTP/1.1[lf]Host: web.digipay.m4u.com.br[crlf]Expect: 100-continue[lf][lf]- / HTTP/1.1[lf]Host:  web.digipay.m4u.com.br[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: centraldacdn-02.dns-theromshost.com[lf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf]Content-Length:9999999999999[lf]",
+      "payload": "GET / HTTP/1.1[crlf]Host:www.timlive.tim.com.br[lf][lf]ACL / HTTP/1.1[lf]Host:www.timlive.tim.com.br[crlf][instant_split][lf][lf]- / HTTP/1.1[lf]Host:Google.com[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: centraldacdn-02.dns-theromshost.com[crlf]Connection: upgrade[crlf]Upgrade: websocket[lf][lf][split][protocol] 144[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -37,7 +37,7 @@
       "port": null
     },
     "server": {
-      "host": "web.digipay.m4u.com.br",
+      "host": "www.timlive.tim.com.br",
       "port": "80"
     },
     "sorter": "2",
