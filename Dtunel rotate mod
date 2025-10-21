@@ -18,7 +18,7 @@
     "category_id": 1002,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf]Expect: 100-continue[lf][lf]ACL / HTTP/1.1[lf]Host: www.tim.com.br[crlf]Expect: 100-continue[lf][instant_split][lf][lf]- / HTTP/1.1[lf]Host:  www.tim.com.br[lf]Expect: 100-continue[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: [random=centraldacdn-4.dns-theromshost.com;centraldacdn-01.dns-theromshost.com;centraldacdn-02.dns-theromshost.com][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]GET / HTTP/1.1[crlf]Host: www.tim.com.br[crlf]Expect: 100-continue[lf]Content-Length: 9999999[lf][lf]",
+      "payload": "GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf]Expect: 100-continue[lf][lf]ACL / HTTP/1.1[lf]Host: www.tim.com.br[crlf]Expect: 100-continue[lf][instant_split][lf][lf]- / HTTP/1.1[lf]Host:  www.tim.com.br[lf]Expect: 100-continue[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: [random=centraldacdn-4.dns-theromshost.com;centraldacdn-01.dns-theromshost.com;centraldacdn-02.dns-theromshost.com][crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]GET / HTTP/1.1[crlf]Host: www.tim.com.br[crlf]Expect: 100-continue[lf]-[lf]",
       "sni": null
     },
     "config_v2ray": null,
