@@ -15,7 +15,7 @@
       "updated_at": "2025-2-3 5:14:32",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
     },
-    "category_id": 1002,
+    "category_id": 1001,
     "config_openvpn": null,
     "config_payload": {
       "payload": "GET / HTTP/1.1[crlf]Host:timlive.tim.com.br[lf][lf][split]ACL / HTTP/1.1[lf]Host:timlive.tim.com.br[lf][lf]- / HTTP/1.1[lf]Host:timlive.tim.com.br[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: centraldacdn-[rotate=01;02;4].dns-theromshost.com[crlf]Connection: upgrade[crlf]Upgrade: websocket[lf][lf][split]HTTP/1.1 200[crlf][crlf]",
@@ -40,7 +40,7 @@
       "host": "www.timlive.tim.com.br",
       "port": "80"
     },
-    "sorter": "2",
+    "sorter": "1",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
@@ -59,9 +59,9 @@
     "category": {
       "color": "#FFFFFF",
       "created_at": "2025-2-3 5:14:32",
-      "id": 1001,
+      "id": 1002,
       "name": "SERVIDOR-BR",
-      "sorter": "1",
+      "sorter": "2",
       "status": "ACTIVE",
       "updated_at": "2025-2-3 5:14:32",
       "user_id": "961c3094-020a-486f-927e-b2bb4aec4871"
