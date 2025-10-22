@@ -120,7 +120,7 @@
     "category_id": 1001,
     "config_openvpn": null,
     "config_payload": {
-      "payload": "GET / HTTP/1.1[crlf]Host:timlive.tim.com.br[lf][lf][split]ACL / HTTP/1.1[lf]Host:timlive.tim.com.br[lf][lf]- / HTTP/1.1[lf]Host:timlive.tim.com.br[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: centraldacdn-[rotate=01;02;4].dns-theromshost.com[crlf]Connection: upgrade[crlf]Upgrade: websocket[lf][lf][split]HTTP/1.1 200[crlf][crlf]",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
       "sni": null
     },
     "config_v2ray": null,
@@ -139,7 +139,7 @@
       "port": null
     },
     "server": {
-      "host": "www.timlive.tim.com.br",
+      "host": "104.18.21.132",
       "port": "80"
     },
     "sorter": "1",
