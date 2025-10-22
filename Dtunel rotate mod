@@ -91,7 +91,7 @@
       "host": "www.timlive.tim.com.br",
       "port": "80"
     },
-    "sorter": "2",
+    "sorter": "1",
     "status": "ACTIVE",
     "tls_version": "TLSv1.2",
     "udp_ports": [
