@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.301",
+  "Version": "1.1.302",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -157,7 +157,7 @@
       "TlsIP": "162.247.241.4",
       "ProxyIP": "162.247.241.4",
       "ProxyPort": "443",
-      "Info": "Tlssl"
+      "Info": "TlsSl"
     },
     {
       "Name": "TIM-2 (VALIDO)🟢",
