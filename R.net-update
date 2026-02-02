@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.303",
+  "Version": "1.1.304",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -44,7 +44,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
  
@@ -52,11 +52,11 @@
 {
       "Name": "VIVO-2 (CDN-GCORE)🟢",
       "FLAG": "vivo",
-      "Payload": "PATCH /[split] HTTP/1.1 [crlf]Host: br.r-neet.store[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL [split][lf]ACL / HTTP/1.1[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "81.28.12.12",
-      "ProxyPort": "80",
+      "ProxyIP": "149.78.186.180",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
 {
