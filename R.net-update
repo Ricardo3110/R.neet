@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.311",
+  "Version": "1.1.312",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -153,7 +153,7 @@
       "Name": "TIM-1 (VALIDO)🟢",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[lf]Host: br.r-neet.shop[lf]Upgrade: websocket[lf][lf]",
-      "SNI": "br.r-neet.shop",
+      "SNI": "br1.r-neet.shop",
       "TlsIP": "162.247.241.4",
       "ProxyIP": "162.247.241.4",
       "ProxyPort": "443",
