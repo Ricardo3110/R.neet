@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.312",
+  "Version": "1.1.313",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -62,7 +62,7 @@
 {
       "Name": "VIVO-3 (Teste)🟢",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.67.74.152",
@@ -162,7 +162,7 @@
     {
       "Name": "TIM-2 (VALIDO)🟢",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: br.r-neet.store[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.21.132",
