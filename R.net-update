@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.313",
+  "Version": "1.1.314",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -160,44 +160,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM-2 (VALIDO)🟢",
+      "Name": "TIM-2 (Expirado)🟢",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: ayabooks.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: br.r-neet.shop[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: ayabooks.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.21.132",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-3 (VALIDO)🟢",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: web.digipay.m4u.com.br[crlf]Expect: 100-continue[lf][lf]- / HTTP/1.1[lf]Host:  web.digipay.m4u.com.br[lf][lf]GET /app551271 HTTP/1.1[crlf]Host: cloudfront-[rotate=4;5;6].centraldacdn.org[lf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]GET / HTTP/1.1[crlf]Host: web.digipay.m4u.com.br[lf]Content-Length:9999999999999[lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "web.digipay.m4u.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-   {
-      "Name": "TIM-4 (EXPIRADO)🟢",
-      "FLAG": "tim",
-      "Payload": "[delay_split]HTTP/1.1 101 WebSocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "TIM-5 (EXPIRADO)🟢",
-      "FLAG": "tim",
-      "Payload": "HTTP[split]/1.0 [lf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.186.180",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET / HTTP/1.1[crlf]Host: 3skz5p1pta7c.azion.app[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "pixtim.tim.com.br",
+      "TlsIP": "179.191.169.25",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
 
   {
