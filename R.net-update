@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.315",
+  "Version": "1.1.316",
   "ReleaseNotes": "BEM SUCEDIDA!!
 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Ricardo3110/R.neet/main/R.net-update",
@@ -159,8 +159,8 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-      "Name": "TIM-2 (Expirado)🟢",
+   {
+      "Name": "TIM-2 (EXPIRADO)🟢",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: 3skz5p1pta7c.azion.app[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "pixtim.tim.com.br",
@@ -169,8 +169,7 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-
-  {
+     {
       "Name": "CLARO-1 NGNIX 🆕",
       "FLAG": "claro",
       "Payload": "ACL / HTTP/1.1[crlf]Host: w.waze.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf] [crlf]",
