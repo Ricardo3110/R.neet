@@ -38,24 +38,6 @@
         "Atlantus_UdpPort": "7300",
         "Atlantus_SniHost": "br1.r-neet.shop",
         "Atlantus_AwsUID": "588552"
-      },{
-        "id": 20,
-        "Atlantus_Name": "TIM 3 CLOUDFLARE",
-        "Atlantus_Flag": "2",
-        "Atlantus_Type": "3",
-        "Atlantus_Open": "1",
-        "Atlantus_Payload": "GET / HTTP/1.1[lf]Host: br.r-neet.shop[lf]Upgrade: websocket[lf][lf]",
-        "Atlantus_SshPort": "443",
-        "Atlantus_ProxyPort": "443",
-        "Atlantus_SshIp": "162.247.241.4",
-        "Atlantus_ProxyIp": "162.247.241.4",
-        "Atlantus_Dns1": "8.8.8.8",
-        "Atlantus_Dns2": "8.8.4.4",
-        "Atlantus_OpenKey": "",
-        "Atlantus_SslPort": "443",
-        "Atlantus_UdpPort": "7300",
-        "Atlantus_SniHost": "br1.r-neet.shop",
-        "Atlantus_AwsUID": "688552"
       }
         ],
         "MiracleMisc": [
